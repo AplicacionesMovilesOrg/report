@@ -28,7 +28,7 @@ Producto:
 | Dayro Richard Rios Piñan     | U202315283 |
 | Vicente Quijandria Araneda   | U201822697 |
 | Renato Guillermo Calvo Yalan | U202217053 |
-| Antonio                      | -          |
+| Antonio Jhair Navarro Chinga | U202314101 |
 
 Septiembre 2025
 

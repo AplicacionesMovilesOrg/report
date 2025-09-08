@@ -167,8 +167,58 @@ En esta sección se presenta el análisis competitivo realizado por el equipo de
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
 En esta sección se examinarán las estrategias y tácticas que se implementarán para capitalizar las debilidades de la competencia y hacer frente a sus fortalezas. Asimismo, se abordarán las amenazas y oportunidades que presentan los competidores.
+
+1. Estrategias para Aprovechar las Fortalezas de EduSpace
+
+* **Especialización en el Sector Educativo**: Desarrollar contenido 
+  de marketing y estudios de caso específicos para instituciones 
+  educativas. Organizar webinars y eventos educativos que demuestren 
+  cómo EduSpace aborda los desafíos particulares del sector.
+
+* **Automatización de Cálculos Salariales y Control de Inventarios**:
+  Promocionar estas características en campañas de marketing y 
+  presentaciones a clientes potenciales. Crear tutoriales y 
+  demostraciones que muestren cómo estas funciones simplifican la 
+  gestión y ahorran tiempo.
+
+2. Estrategias para Enfrentar las Debilidades de EduSpace
+
+* **Foco Limitado en el Sector Educativo**: Explorar oportunidades para 
+  adaptar y expandir la plataforma a otros sectores que también 
+  requieran gestión de espacios y recursos, como el sector de 
+  servicios o el corporativo.
+
+* **Competencia con Soluciones Generales**: Resaltar la especialización de 
+  EduSpace en la gestión de espacios educativos en comparación con 
+  plataformas más generales. Enfatizar cómo las características 
+  específicas de EduSpace están diseñadas para resolver 
+  problemas únicos en instituciones educativas.
+
+3. Estrategias para Aprovechar las Oportunidades
+
+* **Expansión a Otras Áreas del Sector Educativo**: Investigar y desarrollar nuevas 
+  funcionalidades que puedan ser útiles para la gestión de recursos tecnológicos 
+  y de TI dentro de las instituciones educativas. Mantenerse actualizado con las 
+  tendencias en tecnología educativa para integrar nuevas características relevantes.
+
+* **Crecer en Mercados Emergentes**: Adaptar la plataforma a múltiples idiomas y
+  ajustarla a las necesidades locales de los mercados emergentes. Crear
+  estrategias de entrada específicas para estos mercados, incluyendo
+  asociaciones con proveedores locales y campañas de concienciación.
+
+4. Estrategias para Mitigar las Amenazas
+
+* **Competencia de Plataformas Generales y Económicas**: Diferenciarse mediante
+  una propuesta de valor clara que destaque la especialización y las
+  funcionalidades avanzadas de EduSpace. Ofrecer demostraciones personalizadas
+  para mostrar el valor añadido frente a nuestro plan premium.
   
+* **Rápido Avance Tecnológico**: Crear un ciclo de feedback continuo con los
+  usuarios para identificar áreas de mejora y priorizar actualizaciones
+  basadas en sus necesidades y en las últimas innovaciones tecnológicas. 
+
 ## 2.2. Entrevistas
 En esta sección se realiza la investigación y la recolección de información a traves de las entrevistas de los usuarios para cada segmento objetivo, con el fin de conocer mejor a nuestros segmentos.
 
@@ -201,5 +251,6 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 
 ## 2.4. Ubiquitous Language
+
 
 

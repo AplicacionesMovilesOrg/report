@@ -25,6 +25,147 @@ En esta sección tiene como objetivo, identificar cuales son los principales com
 ### 2.1.1. Análisis competitivo
 En esta sección se presenta el análisis competitivo realizado por el equipo de Vehix, en el cual se identifican y evalúan tres competidores principales. Este análisis permite establecer un marco de referencia para comprender el entorno del mercado y así formular estrategias que nos permitan posicionar mejor nuestra solución frente a la competencia.
 
+<table border="1" cellpadding="10" cellspacing="0" style="margin-left: auto; margin-right: auto;">
+  <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="4">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+  </tr>
+  <tr>
+    <td colspan="4">Texto</td>
+  </tr>
+  <tr>
+   <td colspan="2">(En la cabecera colocar por cada competidor nombre y logo)</td>
+    <td>EduSpace <img src="https://github.com/user-attachments/assets/aa72b842-fa31-4a24-b10b-7d3444705e3d" alt="logo-facilio" width="50"/>  </td>
+    <td>Facilio <img src="https://github.com/user-attachments/assets/1ff299ad-8e8f-4c1d-aa55-7c1ad7fd085c" alt="logo-facilio" width="50"/> </td>
+    <td>FMX <img src="https://github.com/user-attachments/assets/d0ed6004-fbc8-4252-8b82-0b329cd4e83a" alt="logo-facilio" width="50"/> </td>
+    <td>Archibus <img src="https://github.com/user-attachments/assets/a25810df-41e8-41f5-879c-5ebe228763c0" alt="logo-facilio" width="50"/> </td> 
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>EduSpace es una plataforma enfocada en la gestión integral de espacios educativos, 
+      mejorando la coordinación del personal, la comunicación interna y el control de 
+      inventarios y recursos.</td>
+    <td>Facilio es una solución para la operación y mantenimiento centralizado de edificios, 
+      optimizando la eficiencia y la sostenibilidad en la gestión de instalaciones.</td>
+    <td>FMX proporciona herramientas para la gestión de instalaciones educativas, facilitando 
+      la programación de espacios, mantenimiento, y la gestión de inventarios.</td>
+    <td>Archibus es una plataforma completa para la gestión de instalaciones, enfocada en la 
+      optimización del uso de espacios, activos y recursos.</td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td>Ofrece una solución integral específica para instituciones educativas, incluyendo 
+      la automatización de cálculos salariales y un control detallado de inventarios.</td>
+    <td>Enfoque en la sostenibilidad y eficiencia operativa, con capacidades avanzadas de 
+      análisis de datos en tiempo real.</td>
+    <td>Interfaz intuitiva y facilidad de uso, con un fuerte enfoque en la programación y 
+      mantenimiento de espacios educativos.</td>
+    <td>Capacidad de integrar múltiples aspectos de la gestión de instalaciones en una 
+      única plataforma, ampliamente utilizada por grandes instituciones.</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado objetivo</td>
+    <td>Instituciones educativas con grandes y pequeñas infraestructuras que buscan optimizar la 
+      gestión de sus espacios y recursos.</td>
+    <td>Grandes empresas e instituciones que buscan centralizar la gestión de sus 
+      instalaciones con un enfoque en sostenibilidad.</td>
+    <td>Instituciones educativas y organizaciones que requieren soluciones fáciles de 
+      usar para la gestión de instalaciones.</td>
+    <td>Grandes instituciones y empresas que necesitan una solución completa para la 
+      gestión de sus instalaciones y recursos.</td>
+  </tr>
+  <tr>
+    <td>Estrategias de marketing</td>
+    <td>Marketing dirigido a administradores de grandes y de pequeñas instituciones educativas, destacando 
+      la eficiencia y el control exhaustivo de recursos.</td>
+    <td>Enfoque en la sostenibilidad y la eficiencia, con campañas dirigidas a administradores 
+      de instalaciones y responsables de sostenibilidad.</td>
+    <td>Enfoque en la simplicidad y efectividad, con marketing dirigido a usuarios que buscan 
+      facilidad de uso en la gestión de instalaciones.</td>
+    <td>Campañas dirigidas a grandes organizaciones que necesitan una solución robusta y completa 
+      para la gestión de sus instalaciones.</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>Gestión de espacios educativos, automatización de cálculos salariales, control de 
+      inventarios, y comunicación interna.</td>
+    <td>Gestión de instalaciones, análisis de datos en tiempo real, monitoreo de energía, y 
+      mantenimiento preventivo.</td>
+    <td>Gestión de espacios, mantenimiento preventivo, seguimiento de órdenes de trabajo, y 
+      gestión de inventarios.</td>
+    <td>Gestión de espacios y activos, planificación de recursos, mantenimiento, y 
+      administración de servicios.</td>
+  </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td>Planes de suscripción, basados en la escala de la institución educativa y el 
+      número de funcionalidades utilizadas. </td>
+    <td>Precios basados en suscripciones, ajustados según la cantidad de instalaciones y 
+      funcionalidades requeridas.</td>
+    <td>Planes de suscripción con diferentes niveles de servicio, ajustados según el tamaño 
+      de la institución y sus necesidades.</td>
+    <td>Precios personalizados basados en la escala y complejidad de la implementación para 
+      grandes organizaciones.</td>
+  </tr>
+  <tr>
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td>Plataforma web</td>
+    <td>Plataforma web con soporte para aplicaciones móviles y monitoreo en tiempo real.</td>
+    <td>Plataforma web con una interfaz accesible desde dispositivos móviles.</td>
+    <td>Plataforma web con soluciones móviles para acceso y gestión remota.</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Analisis SWOT</td>
+    <td colspan="5">Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus
+    oportunidades y contribuir a lo que ustedes definen como su posible ventaja
+    competitiva. </td>
+  </tr>
+ <tr>
+    <td>Fortalezas</td>
+    <td>Especialización en la gestión de espacios educativos, con características adaptadas a 
+      las necesidades del sector.</td>
+    <td>Fuerte enfoque en sostenibilidad y eficiencia operativa, con capacidades avanzadas de 
+      monitoreo y análisis.</td>
+    <td>Facilidad de uso y enfoque claro en la gestión de instalaciones educativas, con una 
+      interfaz intuitiva.</td>
+    <td>Plataforma robusta y ampliamente reconocida, con una amplia gama de funcionalidades 
+      para grandes instituciones.</td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td>Foco limitado en el sector educativo, lo que podría restringir la expansión a otros mercados.</td>
+    <td>Puede ser percibido como complejo para pequeñas instituciones debido a su enfoque en 
+      grandes infraestructuras.</td>
+    <td>Limitaciones en la personalización avanzada para usuarios con necesidades muy específicas.</td>
+    <td>Costos elevados y complejidad de implementación, lo que puede ser una barrera para 
+      pequeñas y medianas instituciones.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Expansión a otras áreas dentro del sector educativo, como la gestión de recursos 
+      tecnológicos y de TI.</td>
+    <td>Crecer en mercados emergentes que buscan soluciones sostenibles y eficientes para 
+      la gestión de instalaciones.</td>
+    <td>Expandir la oferta a otras industrias que valoran la simplicidad y la eficiencia 
+      en la gestión de instalaciones.</td>
+    <td>Integración con nuevas tecnologías emergentes para mejorar aún más la eficiencia 
+      y la sostenibilidad en la gestión de instalaciones.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Competencia de plataformas más generales que podrían agregar funcionalidades educativas.</td>
+    <td>Riesgo de que otras soluciones más económicas capten el interés de pequeñas instituciones.</td>
+    <td>Competencia con plataformas que ofrecen soluciones más completas a precios competitivos.</td>
+    <td>Rápido avance tecnológico que podría hacer obsoleta parte de su oferta actual si no se actualiza con regularidad.</td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 En esta sección se examinarán las estrategias y tácticas que se implementarán para capitalizar las debilidades de la competencia y hacer frente a sus fortalezas. Asimismo, se abordarán las amenazas y oportunidades que presentan los competidores.
   
@@ -60,4 +201,5 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 
 ## 2.4. Ubiquitous Language
+
 

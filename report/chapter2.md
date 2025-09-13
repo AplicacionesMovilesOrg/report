@@ -723,6 +723,394 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 ### 2.4.3  Product Backlog
 
+En esta sección se presenta el Product Backlog de EduSpace, que contiene las historias de usuario priorizadas y sus respectivas estimaciones de esfuerzo en puntos de historia. Este backlog es una herramienta clave para la planificación y gestión del desarrollo del producto, permitiendo al equipo enfocarse en las funcionalidades más importantes y valiosas para los usuarios.
+
+<table>
+    <tr>
+        <td># Order</td>
+        <td>User Story ID</td>
+        <td>Título</td>
+        <td>Descripcion</td>
+        <td>Story Points</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>US-02</td>
+        <td>Encontrar información del propósito de la aplicación</td>
+        <td>Como visitante, quiero saber sobre el propósito de la aplicación para entender qué beneficios y funcionalidades ofrece y decidir si es adecuada para mis necesidades.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>US-03</td>
+        <td>Visualización de imágenes y gráficos relevantes</td>
+        <td>Como visitante, quiero que las imágenes y gráficos en la landing page sean de alta calidad y relevantes para captar mi interés.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>US-04</td>
+        <td>Tipografía cómoda y agradable estéticamente</td>
+        <td>Como visitante, quiero que la tipografía en la landing page sea legible y estéticamente agradable para facilitar la lectura y la navegación.</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>US-01</td>
+        <td>Accesibilidad de la aplicación en diferentes dispositivos</td>
+        <td>Como visitante, quiero que la aplicación se adapte a diferentes dispositivos para que pueda acceder a la plataforma desde cualquier lugar y en cualquier momento.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>US-08</td>
+        <td>Registro de información personal del docente</td>
+        <td>Como administrador, quiero registrar la información personal del docente, para tener una base de datos actualizada y poder gestionar al personal de manera eficiente.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>US-09</td>
+        <td>Registro de información de acceso del docente</td>
+        <td>Como administrador, quiero registrar la información de acceso del docente, para que puedan iniciar sesión en la plataforma web sin problemas.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>US-10</td>
+        <td>Registro de salones</td>
+        <td>Como administrador, quiero registrar los salones de la institución, para que puedan ser gestionados y asignados en la plataforma web de manera efectiva.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>US-11</td>
+        <td>Registro de espacios compartidos</td>
+        <td>Como administrador, quiero registrar los espacios compartidos, para que puedan ser gestionados y reservados en la plataforma mobile.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>US-12</td>
+        <td>Registro de recursos</td>
+        <td>Como administrador, quiero registrar los recursos de los ambientes, para mantener un inventario actualizado y optimizar la gestión de los recursos disponibles.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>US-13</td>
+        <td>Registro de horarios de espacios compartidos</td>
+        <td>Como administrador, quiero registrar los horarios en los que un espacio compartido está disponible, para gestionar su uso de manera eficiente y evitar conflictos.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>US-14</td>
+        <td>Registro de la hora y lugar de la reunión</td>
+        <td>Como administrador, quiero registrar la hora y lugar de la reunión, para asegurar que todos los participantes tengan la información correcta sobre la reunión.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>US-15</td>
+        <td>Registro de invitados de la reunión</td>
+        <td>Como administrador, quiero invitar a docentes a la reunión, para asegurarme de que los participantes necesarios estén presentes y puedan participar de manera efectiva.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>US-16</td>
+        <td>Visualización de espacios compartidos</td>
+        <td>Como docente, quiero visualizar los espacios disponibles para poder planificar actividades, reuniones o clases adicionales de manera eficiente.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>US-17</td>
+        <td>Reserva de espacios compartidos</td>
+        <td>Como docente, quiero reservar un espacio, para asegurar su disponibilidad y organizar actividades o reuniones de manera efectiva.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>US-18</td>
+        <td>Cancelación de reserva de espacios compartidos</td>
+        <td>Como docente, deseo cancelar la reserva que hice de un espacio, para liberar el espacio y permitir que otros lo utilicen.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>US-19</td>
+        <td>Registrar docente encargado de un ambiente</td>
+        <td>Como administrador, deseo registrar qué docente está encargado de cada ambiente, para asignar responsabilidades y mejorar la gestión de los espacios.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>US-20</td>
+        <td>Ingreso de salarios del docente</td>
+        <td>Como administrador, quiero ingresar el salario del docente, para que se calcule su salario neto después de las deducciones e impuestos.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>US-21</td>
+        <td>Envío de salarios a docentes</td>
+        <td>Como administrador, quiero enviar el salario neto a los docentes, para asegurar que reciban su compensación de manera oportuna y precisa.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>US-22</td>
+        <td>Recibir notificación de reporte</td>
+        <td>Como administrador, quiero recibir una notificación cuando el docente haga un reporte, para estar al tanto de los problemas o incidencias reportados por el personal.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>US-23</td>
+        <td>Recibir notificación de asistencia</td>
+        <td>Como administrador, quiero recibir notificaciones cuando el docente confirme su asistencia a la reunión, para tener un registro actualizado de los participantes.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>US-24</td>
+        <td>Notificación de reunión</td>
+        <td>Como docente, quiero recibir una notificación cuando haya una nueva reunión, para estar informado y poder asistir puntualmente.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>US-25</td>
+        <td>Notificación de actualización de reunión</td>
+        <td>Como docente, quiero recibir una notificación cuando haya un cambio en la reunión, para poder ajustar mi agenda y no perder información importante.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>US-26</td>
+        <td>Notificación de envío de salario</td>
+        <td>Como docente, quiero recibir una notificación cuando el administrador haya enviado la información de mi salario, para poder confirmar y verificar el monto recibido.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>US-27</td>
+        <td>Registro de reporte de avería</td>
+        <td>Como docente, deseo reportar una avería, para asegurar que sea informada y reparada a la brevedad.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>US-06</td>
+        <td>Inicio de sesión como profesor</td>
+        <td>Como profesor, quiero iniciar sesión en la aplicación, para acceder a las funcionalidades específicas para docentes.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>US-07</td>
+        <td>Inicio de sesión administrador</td>
+        <td>Como administrador, quiero iniciar sesión en la aplicación, para gestionar la administración de ambientes y recursos.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>US-05</td>
+        <td>Registro como Administrador</td>
+        <td>Como administrador, quiero registrarme en la aplicación mobile, para hacer uso de las características disponibles.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>US-28</td>
+        <td>Actualizar docente encargado de un ambiente</td>
+        <td>Como administrador, quiero actualizar qué docente está encargado de cada ambiente, para reflejar cambios en la asignación de responsabilidades.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>TS001</td>
+        <td>Añadir administrador a través de un RESTful API</td>
+        <td>Como desarrollador, quiero que se pueda añadir a un administrador a través de un API, para que el administrador registre a los docentes.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>TS002</td>
+        <td>Añadir un docente a través de un RESTful API</td>
+        <td>Como desarrollador, quiero que se pueda añadir a un docente a través de un API, para que este pueda interactuar con el administrador.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>TS003</td>
+        <td>Eliminar docente a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de eliminar un docente a través de una API RESTful, para gestionar correctamente la eliminación de registros de docentes según sea necesario.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>TS004</td>
+        <td>Eliminar administrador de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de eliminar un administrador a través de una API RESTful, de manera que el sistema pueda gestionar correctamente la eliminación de registros de administradores según sea necesario.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>TS005</td>
+        <td>Inicio de sesión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de inicio de sesión a través de una API RESTful, para que los usuarios puedan autenticarse y acceder a las funcionalidades del sistema de manera segura.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>TS006</td>
+        <td>Añadir información de acceso del docente a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de acceso del docente a través de un RESTful API PARA que este pueda hacer uso de las características de la aplicación Mobile.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>TS007</td>
+        <td>Añadir información de salones a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de los salones a través de un RESTful API PARA que los usuarios puedan interactuar con su información.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>TS008</td>
+        <td>	Añadir información de espacios compartidos través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de los espacios compartidos a través de un RESTful API PARA que los usuarios puedan interactuar con su información.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>TS009</td>
+        <td>Añadir información de horarios de los espacios compartidos través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de los horarios de los espacios compartidos a través de un RESTful API PARA que los usuarios puedan interactuar con su información.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>TS010</td>
+        <td>Añadir información de los recursos de un salón a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de los recursos de los salones a través de un RESTful API PARA que los docentes puedan puedan hacer reportes.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>TS011</td>
+        <td>Añadir información de hora y lugar de una reunión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de hora y lugar de una reunión a través de un RESTful API PARA que los docentes puedan recibir notificaciones acerca de la reunión.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>TS012</td>
+        <td>Añadir información de los invitados de una reunión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de los invitados de una reunión a través de un RESTful API PARA que los administradores puedan seleccionar a los participantes de la reunión.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>TS013</td>
+        <td>Obtener notificación de reporte a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la notificación de un reporte a través de una API RESTful, PARA que los administradores puedan visualizar los reportes de los docentes.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>TS014</td>
+        <td>Obtener notificación de asistencia a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la notificación de asistencia a la reunión a través de una API RESTful, PARA que los administradores puedan visualizar cuando un docente confirma su asistencia a la reunión.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>TS015</td>
+        <td>Obtener notificación de creación de reunión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la notificación de una nueva reunión a través de una API RESTful, PARA que los docentes puedan visualizar una notificación cuando un administrador crea una reunión.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>TS016</td>
+        <td>Añadir información del encargado del aula a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir al docente encargado del aula a través de un RESTful API PARA que los administradores puedan ver quien está a cargo de un aula específica.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>TS017</td>
+        <td>Actualizar información del encargado del aula a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de actualizar al docente encargado del aula a través de un RESTful API PARA que los administradores puedan cambiar al docente encargado del aula ante cualquier eventualidad.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>TS018</td>
+        <td>Añadir información del salario del docente través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir el salario del docente a través de un RESTful API PARA que los docentes puedan ver la información de su salario.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        <td>TS019</td>
+        <td>Actualizar información de la reunión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de actualizar la información de la reunión a través de un RESTful API PARA que los administradores puedan cambiar la información de la reunión ante cualquier eventualidad.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>TS020</td>
+        <td>Obtener notificación de actualización de una reunión a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la notificación de una actualización de una reunión a través de una API RESTful, PARA que los docentes puedan visualizar una notificación cuando un administrador actualice información de una reunión.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>TS021</td>
+        <td>Obtener notificación de actualización envío de salario a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la notificación de envío de salario a través de una API RESTful, PARA que los docentes puedan visualizar una notificación cuando un administrador les envie los datos de su salario.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>TS022</td>
+        <td>Obtener información de la disponibilidad de espacios compartidos a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para obtener la disponibilidad de espacios compartidos a través de una API RESTful, PARA que los docentes y administradores puedan visualizar si un espacio compartido se encuentra disponible en un momento específico.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>51</td>
+        <td>TS023</td>
+        <td>Añadir reserva a un espacios compartido a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para añadir una reserva a un espacio compartidos a través de una API RESTful, PARA que los docentes puedan reservar un espacio compartido que se encuentre disponible en un momento específico.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>52</td>
+        <td>TS024</td>
+        <td>	Eliminar reserva a un espacios compartido a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la opción para eliminar una reserva a un espacio compartido a través de una API RESTful, PARA que los docentes puedan reservar el espacio que ya no se usará.</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>53</td>
+        <td>TS025</td>
+        <td>Añadir información del reporte de avería a través de un RESTful API</td>
+        <td>Como desarrollador, quiero implementar la característica de añadir la información de un reporte a través de un RESTful API PARA que los administradores puedan ver la información del reporte que hizo el docente.</td>
+        <td>3</td>
+    </tr>
+</table>
+
+A continuación, se presenta una captura de pantalla de la elaboración del product backlog de historias de usuario utilizando la herramnienta Trello.
+
+Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace: <br>
+Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
+
 
 ## 2.5. Strategic-Level Domain-Driven Design
 
@@ -844,4 +1232,5 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
 

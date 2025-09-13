@@ -226,6 +226,77 @@ En esta sección se realiza la investigación y la recolección de información 
 En esta sección realizamos preguntas principales y complementarias para entrevistas dirigidas a cada uno de nuestros seegmentos objetivos, con el fin de recaudar la mayor cantidad de información necesaria.
 Después de un análisis exhaustivo, se realizaron las siguientes preguntas para entrevistar a los siguientes segmentos objetivos.
 
+<b> Segmento 1: Administradores de instituciones educativas</b>
+
+#### **Preguntas Objetivas:**
+##### **Características Demográficas:**
+1. ¿Cuántos años tienes?
+2. ¿En qué distrito o localidad resides?
+3. ¿Cuál es tu estado civil?
+4. ¿Cuál es tu ocupación específica dentro de la institución educativa?
+
+##### **Ocupación y Responsabilidades:**
+5. ¿Cuáles son tus principales responsabilidades en la institución?
+6. ¿Cuántas personas forman parte de tu equipo y qué roles desempeñan?
+7. ¿Con qué frecuencia necesitas gestionar el inventario de equipos y recursos?
+
+##### **Uso de Tecnología:**
+8. ¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo? ¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+9. ¿Qué aplicaciones o herramientas usas actualmente en tu móvil para organizar o gestionar tareas laborales?
+
+#### **Preguntas Subjetivas:**
+##### **Personalidad y Habilidades:**
+10. ¿Cuáles consideras que son tus principales habilidades en la administración de recursos y personal?
+
+##### **Objetivos y Frustraciones:**
+11. ¿Qué objetivos tienes al gestionar los recursos y personal en la institución?
+12. ¿Cuáles son los mayores desafíos que enfrentas en tu rol actual?
+13. ¿Qué aspectos de la gestión de equipos y recursos encuentras más frustrantes?
+
+##### **Preferencias y Canales Digitales:**
+14. Si tuvieras una aplicación móvil para tu trabajo, ¿qué tareas te gustaría que pudieras hacer de forma más rápida y sencilla, incluso cuando no estás en tu escritorio?
+
+##### **Visión del Futuro:**
+15. ¿Cómo te gustaría que evolucionara el sistema actual de gestión de ambientes y personal?
+16. ¿Qué cambios o mejoras te gustaría ver en la gestión administrativa?
+
+
+<b> Segmento 2: Docentes y auxiliares</b>
+
+#### **Preguntas Objetivas:**
+##### **Características Demográficas:**
+1. ¿Cuántos años tienes?
+2. ¿En qué distrito o localidad resides?
+3. ¿Cuál es tu estado civil?
+4. ¿Cuál es tu ocupación específica dentro de la institución educativa?
+
+##### **Ocupación y Responsabilidades:**
+5. ¿Qué materias o cursos enseñas?
+6. ¿Con qué frecuencia necesitas registrar reportes de averías o gestionar cambios de aula?
+7. ¿Qué tipo de recursos utilizas más frecuentemente en tu aula?
+   
+##### **Uso de Tecnología:**
+8. ¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo? ¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+9. ¿Qué aplicaciones o herramientas usas actualmente para gestionar tus clases o para comunicarte con la administración?
+
+#### **Preguntas Subjetivas:**
+##### **Personalidad y Habilidades:**
+10. ¿Cómo describirías tu estilo de enseñanza y gestión en el aula?
+11. ¿Qué habilidades consideras cruciales para tu rol como docente en relación con la gestión de recursos y espacios?
+
+##### **Objetivos y Frustraciones:**
+11. ¿Qué objetivos tienes en tu rol como docente en relación con la gestión de equipos y recursos?
+12. ¿Cuáles son los mayores desafíos que enfrentas en la gestión de equipos y recursos en el aula?
+13. ¿Qué aspectos de la administración y registro de recursos encuentras más frustrantes?
+
+##### **Preferencias y Canales Digitales:**
+14. ¿Cómo te gustaría que una aplicación móvil te ayudara a simplificar los procesos de solicitud de recursos o cambios de aula?
+
+##### **Visión del Futuro:**
+15. ¿Cómo te gustaría que evolucionara el sistema actual para facilitar tu trabajo?
+16. ¿Qué cambios o mejoras crees que serían más beneficiosos para ti en la gestión de recursos y espacios?
+
+
 ### 2.2.2. Registro de entrevistas
 En esta sección presentamos los registros de las entrevistas que realizamos para cada uno de nuestro segmento objectivo.
 
@@ -1232,5 +1303,6 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
+
 
 

@@ -1234,7 +1234,7 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 ## 2.6. Tactical-Level Domain-Driven Design
 
-### 2.6.1 Bounded Context: Teacher management
+### 2.6.1 Bounded Context: Reservation Scheduling
 
 #### 2.6.1.1 Domain Layer
 
@@ -1246,17 +1246,41 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 #### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
 
+![](../assets/chapter2/c4-models/component-diagram-reservation-scheduling.png)
+
 #### 2.6.1.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
-![](../assets/chapter2/class-diagram/class-diagram-teacher.png)
+![](../assets/chapter2/class-diagram/class-diagram-reservation-sheduling.png)
 
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
+![](../assets/chapter2/database-diagram/database-diagram-reservation-scheduling.png)
+
+### 2.6.2 Bounded Context: Teacher management
+
+#### 2.6.2.1 Domain Layer
+
+#### 2.6.2.2 Interface Layer
+
+#### 2.6.2.3 Application Layer
+
+#### 2.6.2.4 Infrastructure Layer
+
+#### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+#### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
+
+##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+![](../assets/chapter2/class-diagram/class-diagram-teacher.png)
+
+##### 2.6.2.6.2. Bounded Context Database Design Diagram
+
 ![](../assets/chapter2/database-diagram/database-diagram-teacher.png)
 
-### 2.6.3 Bounded Context: Reservation Scheduling
+### 2.6.3 Bounded Context: Space and resource management
 
 #### 2.6.3.1 Domain Layer
 
@@ -1268,45 +1292,21 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 
-![](../assets/chapter2/c4-models/component-diagram-reservation-scheduling.png)
+![](../assets/chapter2/c4-models/component-diagram-spaces-and-resources.png)
 
 #### 2.6.3.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
-![](../assets/chapter2/class-diagram/class-diagram-reservation-sheduling.png)
+![](../assets/chapter2/class-diagram/class-diagram-space-and-resource-management.png)
 
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
-![](../assets/chapter2/database-diagram/database-diagram-reservation-scheduling.png)
-
-### 2.6.4 Bounded Context: Space and resource management
-
-#### 2.6.4.1 Domain Layer
-
-#### 2.6.4.2 Interface Layer
-
-#### 2.6.4.3 Application Layer
-
-#### 2.6.4.4 Infrastructure Layer
-
-#### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
-
-![](../assets/chapter2/c4-models/component-diagram-spaces-and-resources.png)
-
-#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
-
-##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
-
-![](../assets/chapter2/class-diagram/class-diagram-space-and-resource-management.png)
-
-##### 2.6.4.6.2. Bounded Context Database Design Diagram
-
 ![](../assets/chapter2/database-diagram/database-diagram-spaces-and-resource-management.png)
 
-### 2.6.5 Bounded Context: Breakdown Management
+### 2.6.4 Bounded Context: Breakdown Management
 
-#### 2.6.5.1 Domain Layer
+#### 2.6.4.1 Domain Layer
 
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
@@ -1363,7 +1363,7 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
   - `GetAllReportsQuery`: Representa la intención de obtener todos los informes.
   - `GetAllReportsByResourceIdQuery`: Representa la intención de obtener informes para un recurso específico.
 
-#### 2.6.5.2 Interface Layer
+#### 2.6.4.2 Interface Layer
 
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
@@ -1387,7 +1387,7 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
   - `CreateReportCommandFromResourceAssembler`: Convierte un `CreateReportResource` (proveniente de la API) en un `CreateReportCommand` (que la capa de aplicación puede procesar).
   - `ReportResourceFromEntityAssembler`: Convierte una entidad de dominio `Report` en un `ReportResource` que puede ser serializado a JSON y enviado como respuesta al cliente.
 
-#### 2.6.5.3 Application Layer
+#### 2.6.4.3 Application Layer
 
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
@@ -1413,7 +1413,7 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
   - `Handle(GetAllReportsQuery query)`: Ejecuta el caso de uso de "Obtener todos los informes". Delega la llamada directamente al método `ListAsync()` del repositorio para recuperar la lista completa de informes.
   - `Handle(GetAllReportsByResourceIdQuery query)`: Ejecuta el caso de uso de "Obtener informes por ID de recurso". Pasa el `ResourceId` de la consulta al método `FindAllByResourceIdAsync()` del repositorio para obtener los informes filtrados.
 
-#### 2.6.5.4 Infrastructure Layer
+#### 2.6.4.4 Infrastructure Layer
 
 A continuación, se presenta y detalla la clase identificada en esta capa:
 
@@ -1427,16 +1427,16 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
   - `FindAllAsync()`: Recupera todos los registros de `Report` de la base de datos convirtiendo el `DbSet<Report>` en una lista.
   - `FindAllByResourceIdAsync(int resourceId)`: Construye y ejecuta una consulta a la base de datos utilizando LINQ (`.Where(...)`) para filtrar y devolver todos los informes que pertenecen a un `resourceId` específico.
 
-#### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
+#### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
 
 ![](../assets/chapter2/c4-models/component-diagram-breakdown.png)
 
-#### 2.6.5.6. Bounded Context Software Architecture Code Level Diagrams
+#### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
-##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
+##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
 ![](../assets/chapter2/class-diagram/class-diagram-breakdown-management.png)
 
-##### 2.6.5.6.2. Bounded Context Database Design Diagram
+##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)

@@ -1308,11 +1308,132 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 #### 2.6.5.1 Domain Layer
 
+#### **Clases Representativas (Diccionario de Clases)**
+
+A continuación, se presentan y detallan las clases identificadas en esta capa:
+
+**1. Aggregate Root & Entity: `Report`**
+
+- **Propósito:** Es la entidad principal y la raíz del agregado. Representa un informe de avería o incidencia en el sistema. Agrupa toda la información y el estado cohesivo de un reporte, asegurando que se mantengan las reglas de negocio y la consistencia de los datos en cada transacción.
+- **Atributos:**
+  - `Id` (int): El identificador único del informe.
+  - `KindOfReport` (string): Describe el tipo de informe (ej. "Falla Eléctrica", "Fuga de Agua").
+  - `Description` (string): Una descripción detallada de la avería.
+  - `ResourceId` (ResourceId): Un objeto de valor que representa el identificador del recurso afectado.
+  - `CreatedAt` (DateTime): La fecha y hora en que se creó el informe.
+  - `Status` (ReportStatus): Un objeto de valor que indica el estado actual del informe (ej. "en proceso", "completado").
+- **Métodos Clave:**
+  - `Report(CreateReportCommand command)`: Un constructor que funciona como una fábrica, permitiendo crear una instancia válida de `Report` a partir de un comando, garantizando que el objeto se cree en un estado consistente y con un estado inicial de "En Proceso".
+
+**2. Value Object: `ReportStatus`**
+
+- **Propósito:** Es un objeto de valor inmutable que representa los posibles estados de un `Report` (En Proceso, Completado, Cancelado). Al ser un objeto de valor, se enfoca en _qué es_ en lugar de _quién es_, y se compara por su valor (`Value`) y no por su identidad.
+- **Atributos:**
+  - `Value` (string): El valor textual del estado.
+- **Métodos Clave:**
+  - `EnProceso`, `Completado`, `Cancelado`: Propiedades estáticas que actúan como fábricas para obtener instancias predefinidas y seguras del estado, evitando el uso de "magic strings" en el código.
+
+**3. Value Object: `ResourceId`**
+
+- **Propósito:** Es un objeto de valor que encapsula el identificador de un recurso externo. Asegura que el ID sea siempre un número positivo, conteniendo así una regla de validación intrínseca.
+- **Atributos:**
+  - `Id` (int): El valor numérico del identificador del recurso.
+
+**4. Repository (Interface): `IReportRepository`**
+
+- **Propósito:** Define el contrato (la abstracción) para las operaciones de persistencia del agregado `Report`. Dicta qué métodos deben existir para guardar, buscar y recuperar informes, pero no se preocupa por la tecnología subyacente (SQL, NoSQL, etc.). Esto desacopla completamente el dominio de la infraestructura.
+- **Métodos Clave:**
+  - `FindByIdAsync(int id)`: Define cómo buscar un `Report` por su identificador único.
+  - `FindAllAsync()`: Define cómo obtener todos los informes.
+  - `FindAllByResourceIdAsync(int resourceId)`: Define cómo buscar todos los informes asociados a un recurso específico.
+
+**5. Domain Services (Interfaces): `IReportCommandService` y `IReportQueryService`**
+
+- **Propósito:** Estas interfaces definen operaciones de dominio que no pertenecen naturalmente a la entidad `Report`. Siguen el patrón de **Separación de Comandos y Consultas (CQS)**.
+  - `IReportCommandService`: Define operaciones que cambian el estado del sistema, como la creación de un nuevo informe. Su único método recibe un `Command`.
+  - `IReportQueryService`: Define operaciones que solo leen el estado del sistema sin modificarlo. Sus métodos reciben objetos `Query` y devuelven datos.
+- **Métodos Clave (`IReportCommandService`):**
+  - `Handle(CreateReportCommand command)`: Orquesta la creación de un nuevo `Report`.
+- **Métodos Clave (`IReportQueryService`):**
+  - `Handle(GetAllReportsQuery query)`: Orquesta la recuperación de todos los informes.
+  - `Handle(GetAllReportsByResourceIdQuery query)`: Orquesta la recuperación de informes filtrados por `ResourceId`.
+
+**6. Commands & Queries (Data Structures):**
+
+- **Propósito:** Son objetos inmutables y de transferencia de datos (DTOs) que representan una intención (comando) o una solicitud de información (consulta). No contienen lógica de negocio.
+  - `CreateReportCommand`: Encapsula todos los datos necesarios para crear un nuevo `Report`.
+  - `GetAllReportsQuery`: Representa la intención de obtener todos los informes.
+  - `GetAllReportsByResourceIdQuery`: Representa la intención de obtener informes para un recurso específico.
+
 #### 2.6.5.2 Interface Layer
+
+#### **Clases Representativas (Diccionario de Clases)**
+
+A continuación, se presentan y detallan las clases identificadas en esta capa:
+
+**1. Controller: `ReportsController`**
+
+- **Propósito:** Es el componente central de esta capa. Actúa como el manejador de las solicitudes HTTP entrantes para la ruta `/api/v1/Reports`. Se encarga de recibir las peticiones, invocar los servicios de la capa de aplicación correspondientes (`IReportCommandService` y `IReportQueryService`) y devolver una respuesta HTTP adecuada al cliente.
+- **Métodos Clave (Endpoints):**
+  - `POST /`: Recibe un `CreateReportResource` en el cuerpo de la petición para crear un nuevo informe. Utiliza el `CreateReportCommandFromResourceAssembler` para convertir el recurso en un comando y lo envía al `reportCommandService`.
+  - `GET /`: Maneja la solicitud para obtener todos los informes existentes. Invoca al `reportQueryService` y utiliza el `ReportResourceFromEntityAssembler` para transformar la lista de entidades de dominio en una lista de recursos para el cliente.
+  - `GET /resources/{resourceId}`: Maneja la solicitud para obtener todos los informes asociados a un `resourceId` específico, filtrando los resultados a través del `reportQueryService`.
+
+**2. Resources (DTOs): `CreateReportResource` y `ReportResource`**
+
+- **Propósito:** Son objetos de transferencia de datos (Data Transfer Objects) que definen el "contrato" público de la API. Su estructura determina cómo debe ser el JSON que el cliente envía o recibe.
+  - `CreateReportResource`: Modela los datos requeridos para crear un nuevo informe: `KindOfReport`, `Description`, `ResourceId` y `CreatedAt`.
+  - `ReportResource`: Modela los datos de un informe que se devuelven al cliente, incluyendo su `Id` y `Status`.
+
+**3. Assemblers (Transformadores): `CreateReportCommandFromResourceAssembler` y `ReportResourceFromEntityAssembler`**
+
+- **Propósito:** Son clases de utilidad estáticas responsables de la traducción entre los objetos de la capa de Interfaz (Resources) y los objetos de la capa de Dominio (Commands y Entities). Esta traducción es fundamental para mantener el desacoplamiento entre las capas.
+  - `CreateReportCommandFromResourceAssembler`: Convierte un `CreateReportResource` (proveniente de la API) en un `CreateReportCommand` (que la capa de aplicación puede procesar).
+  - `ReportResourceFromEntityAssembler`: Convierte una entidad de dominio `Report` en un `ReportResource` que puede ser serializado a JSON y enviado como respuesta al cliente.
 
 #### 2.6.5.3 Application Layer
 
+#### **Clases Representativas (Diccionario de Clases)**
+
+A continuación, se presentan y detallan las clases identificadas en esta capa:
+
+**1. Command Handler: `ReportCommandService`**
+
+- **Propósito:** Implementa la interfaz `IReportCommandService` y gestiona los comandos que modifican el estado del sistema. Su función es recibir un `Command`, utilizar los objetos de dominio para ejecutar la acción y coordinar la persistencia de los cambios a través del repositorio y la unidad de trabajo (Unit of Work).
+- **Dependencias:**
+  - `IReportRepository`: Para acceder a los métodos de persistencia y añadir el nuevo agregado `Report` a la base de datos.
+  - `IUnitOfWork`: Para asegurar que todas las operaciones de escritura se completen de manera atómica en una única transacción. Llama a `CompleteAsync()` para confirmar los cambios.
+- **Métodos Clave:**
+  - `Handle(CreateReportCommand command)`: Orquesta el caso de uso de "Crear un Informe". Los pasos que sigue son:
+    1.  Crea una nueva instancia del agregado `Report` a partir de los datos del comando.
+    2.  Utiliza el `_reportRepository` para registrar el nuevo informe para su adición.
+    3.  Invoca al `_unitOfWork` para guardar todos los cambios en la base de datos de forma transaccional.
+    4.  Devuelve el informe recién creado.
+
+**2. Query Handler: `ReportQueryService`**
+
+- **Propósito:** Implementa la interfaz `IReportQueryService` y se encarga de manejar las consultas que solicitan información del sistema sin alterarlo. Su única responsabilidad es recuperar datos utilizando el repositorio y devolverlos a la capa de interfaz.
+- **Dependencias:**
+  - `IReportRepository`: Para acceder a los métodos de lectura de datos.
+- **Métodos Clave:**
+  - `Handle(GetAllReportsQuery query)`: Ejecuta el caso de uso de "Obtener todos los informes". Delega la llamada directamente al método `ListAsync()` del repositorio para recuperar la lista completa de informes.
+  - `Handle(GetAllReportsByResourceIdQuery query)`: Ejecuta el caso de uso de "Obtener informes por ID de recurso". Pasa el `ResourceId` de la consulta al método `FindAllByResourceIdAsync()` del repositorio para obtener los informes filtrados.
+
 #### 2.6.5.4 Infrastructure Layer
+
+#### **Clases Representativas (Diccionario de Clases)**
+
+A continuación, se presenta y detalla la clase identificada en esta capa:
+
+**1. Repository Implementation: `ReportRepository`**
+
+- **Propósito:** Es la implementación concreta de la interfaz `IReportRepository` definida en la capa de dominio. Esta clase se encarga de la persistencia y recuperación de los agregados `Report` utilizando una base de datos relacional a través del Object-Relational Mapper (ORM) **Entity Framework Core (EFC)**. Traduce las operaciones definidas en la interfaz a consultas de base de datos reales.
+- **Dependencias:**
+  - `AppDbContext`: Recibe una instancia del contexto de la base de datos de Entity Framework, que representa la sesión con la base de datos y permite consultar y guardar instancias de las entidades.
+- **Métodos Clave:**
+  - `FindByIdAsync(int id)`: Implementa la búsqueda de un `Report` por su clave primaria utilizando el método `FindAsync` de EFC.
+  - `FindAllAsync()`: Recupera todos los registros de `Report` de la base de datos convirtiendo el `DbSet<Report>` en una lista.
+  - `FindAllByResourceIdAsync(int resourceId)`: Construye y ejecuta una consulta a la base de datos utilizando LINQ (`.Where(...)`) para filtrar y devolver todos los informes que pertenecen a un `resourceId` específico.
 
 #### 2.6.5.5 Bounded Context Software Architecture Component Level Diagrams
 

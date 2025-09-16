@@ -1308,8 +1308,6 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 #### 2.6.5.1 Domain Layer
 
-#### **Clases Representativas (Diccionario de Clases)**
-
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
 **1. Aggregate Root & Entity: `Report`**
@@ -1367,8 +1365,6 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
 
 #### 2.6.5.2 Interface Layer
 
-#### **Clases Representativas (Diccionario de Clases)**
-
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
 **1. Controller: `ReportsController`**
@@ -1392,8 +1388,6 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
   - `ReportResourceFromEntityAssembler`: Convierte una entidad de dominio `Report` en un `ReportResource` que puede ser serializado a JSON y enviado como respuesta al cliente.
 
 #### 2.6.5.3 Application Layer
-
-#### **Clases Representativas (Diccionario de Clases)**
 
 A continuación, se presentan y detallan las clases identificadas en esta capa:
 
@@ -1420,8 +1414,6 @@ A continuación, se presentan y detallan las clases identificadas en esta capa:
   - `Handle(GetAllReportsByResourceIdQuery query)`: Ejecuta el caso de uso de "Obtener informes por ID de recurso". Pasa el `ResourceId` de la consulta al método `FindAllByResourceIdAsync()` del repositorio para obtener los informes filtrados.
 
 #### 2.6.5.4 Infrastructure Layer
-
-#### **Clases Representativas (Diccionario de Clases)**
 
 A continuación, se presenta y detalla la clase identificada en esta capa:
 

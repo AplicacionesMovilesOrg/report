@@ -1,28 +1,29 @@
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
+
 En esta sección tiene como objetivo, identificar cuales son los principales competidores directos con modelos de negocios fundamentados en productos digitales afines, o en su caso, competidores indirectos que ofrecen soluciones parcialmente comparables.
 
-* **Facilio**: Es una plataforma de gestión de instalaciones que centraliza la
+- **Facilio**: Es una plataforma de gestión de instalaciones que centraliza la
   operación y mantenimiento de edificios en una única interfaz. Ofrece soluciones
   para la gestión de activos, mantenimiento preventivo, monitoreo de energía y
   análisis de datos en tiempo real. Facilio se distingue por su enfoque en la
   eficiencia operativa y la sostenibilidad, lo que lo convierte en un
   competidor directo en la gestión integral de infraestructuras educativas.
   https://facilio.com/
-  
-* **FMX (Facilities Management eXpress)**: Es un software de gestión de instalaciones que proporciona herramientas
+- **FMX (Facilities Management eXpress)**: Es un software de gestión de instalaciones que proporciona herramientas
   para la programación de espacios, gestión de mantenimiento, inventarios, y órdenes
   de trabajo. Su interfaz intuitiva y su enfoque en la facilidad de uso lo hacen
   atractivo para instituciones educativas que buscan optimizar la administración de
   sus recursos y mejorar la coordinación del personal.https://www.gofmx.com/
-  
-* **Archibus**: es una plataforma completa de gestión de instalaciones que abarca desde 
-  la gestión de espacios y activos hasta el mantenimiento y la planificación de recursos. 
-  Es utilizada por grandes instituciones para mejorar la eficiencia en la gestión de 
-  infraestructuras, optimizando tanto el uso de espacios como la administración de inventarios 
+- **Archibus**: es una plataforma completa de gestión de instalaciones que abarca desde
+  la gestión de espacios y activos hasta el mantenimiento y la planificación de recursos.
+  Es utilizada por grandes instituciones para mejorar la eficiencia en la gestión de
+  infraestructuras, optimizando tanto el uso de espacios como la administración de inventarios
   y servicios. https://archibus.com/
 
 ### 2.1.1. Análisis competitivo
+
 En esta sección se presenta el análisis competitivo realizado por el equipo de Vehix, en el cual se identifican y evalúan tres competidores principales. Este análisis permite establecer un marco de referencia para comprender el entorno del mercado y así formular estrategias que nos permitan posicionar mejor nuestra solución frente a la competencia.
 
 <table border="1" cellpadding="10" cellspacing="0" style="margin-left: auto; margin-right: auto;">
@@ -115,7 +116,7 @@ En esta sección se presenta el análisis competitivo realizado por el equipo de
   </tr>
   <tr>
     <td>Canales de distribución (Web y/o Móvil)</td>
-    <td>Plataforma web</td>
+    <td>Plataforma web y móvil.</td>
     <td>Plataforma web con soporte para aplicaciones móviles y monitoreo en tiempo real.</td>
     <td>Plataforma web con una interfaz accesible desde dispositivos móviles.</td>
     <td>Plataforma web con soluciones móviles para acceso y gestión remota.</td>
@@ -172,132 +173,150 @@ En esta sección se examinarán las estrategias y tácticas que se implementará
 
 1. Estrategias para Aprovechar las Fortalezas de EduSpace
 
-* **Especialización en el Sector Educativo**: Desarrollar contenido 
-  de marketing y estudios de caso específicos para instituciones 
-  educativas. Organizar webinars y eventos educativos que demuestren 
+- **Especialización en el Sector Educativo**: Desarrollar contenido
+  de marketing y estudios de caso específicos para instituciones
+  educativas. Organizar webinars y eventos educativos que demuestren
   cómo EduSpace aborda los desafíos particulares del sector.
 
-* **Automatización de Cálculos Salariales y Control de Inventarios**:
-  Promocionar estas características en campañas de marketing y 
-  presentaciones a clientes potenciales. Crear tutoriales y 
-  demostraciones que muestren cómo estas funciones simplifican la 
+- **Automatización de Cálculos Salariales y Control de Inventarios**:
+  Promocionar estas características en campañas de marketing y
+  presentaciones a clientes potenciales. Crear tutoriales y
+  demostraciones que muestren cómo estas funciones simplifican la
   gestión y ahorran tiempo.
 
 2. Estrategias para Enfrentar las Debilidades de EduSpace
 
-* **Foco Limitado en el Sector Educativo**: Explorar oportunidades para 
-  adaptar y expandir la plataforma a otros sectores que también 
-  requieran gestión de espacios y recursos, como el sector de 
+- **Foco Limitado en el Sector Educativo**: Explorar oportunidades para
+  adaptar y expandir la plataforma a otros sectores que también
+  requieran gestión de espacios y recursos, como el sector de
   servicios o el corporativo.
 
-* **Competencia con Soluciones Generales**: Resaltar la especialización de 
-  EduSpace en la gestión de espacios educativos en comparación con 
-  plataformas más generales. Enfatizar cómo las características 
-  específicas de EduSpace están diseñadas para resolver 
+- **Competencia con Soluciones Generales**: Resaltar la especialización de
+  EduSpace en la gestión de espacios educativos en comparación con
+  plataformas más generales. Enfatizar cómo las características
+  específicas de EduSpace están diseñadas para resolver
   problemas únicos en instituciones educativas.
 
 3. Estrategias para Aprovechar las Oportunidades
 
-* **Expansión a Otras Áreas del Sector Educativo**: Investigar y desarrollar nuevas 
-  funcionalidades que puedan ser útiles para la gestión de recursos tecnológicos 
-  y de TI dentro de las instituciones educativas. Mantenerse actualizado con las 
+- **Expansión a Otras Áreas del Sector Educativo**: Investigar y desarrollar nuevas
+  funcionalidades que puedan ser útiles para la gestión de recursos tecnológicos
+  y de TI dentro de las instituciones educativas. Mantenerse actualizado con las
   tendencias en tecnología educativa para integrar nuevas características relevantes.
 
-* **Crecer en Mercados Emergentes**: Adaptar la plataforma a múltiples idiomas y
+- **Crecer en Mercados Emergentes**: Adaptar la plataforma a múltiples idiomas y
   ajustarla a las necesidades locales de los mercados emergentes. Crear
   estrategias de entrada específicas para estos mercados, incluyendo
   asociaciones con proveedores locales y campañas de concienciación.
 
 4. Estrategias para Mitigar las Amenazas
 
-* **Competencia de Plataformas Generales y Económicas**: Diferenciarse mediante
+- **Competencia de Plataformas Generales y Económicas**: Diferenciarse mediante
   una propuesta de valor clara que destaque la especialización y las
   funcionalidades avanzadas de EduSpace. Ofrecer demostraciones personalizadas
   para mostrar el valor añadido frente a nuestro plan premium.
-  
-* **Rápido Avance Tecnológico**: Crear un ciclo de feedback continuo con los
+- **Rápido Avance Tecnológico**: Crear un ciclo de feedback continuo con los
   usuarios para identificar áreas de mejora y priorizar actualizaciones
-  basadas en sus necesidades y en las últimas innovaciones tecnológicas. 
+  basadas en sus necesidades y en las últimas innovaciones tecnológicas.
 
 ## 2.2. Entrevistas
+
 En esta sección se realiza la investigación y la recolección de información a traves de las entrevistas de los usuarios para cada segmento objetivo, con el fin de conocer mejor a nuestros segmentos.
 
 ### 2.2.1. Diseño de entrevistas
+
 En esta sección realizamos preguntas principales y complementarias para entrevistas dirigidas a cada uno de nuestros seegmentos objetivos, con el fin de recaudar la mayor cantidad de información necesaria.
 Después de un análisis exhaustivo, se realizaron las siguientes preguntas para entrevistar a los siguientes segmentos objetivos.
 
 <b> Segmento 1: Administradores de instituciones educativas</b>
 
 #### **Preguntas Objetivas:**
+
 ##### **Características Demográficas:**
+
 1. ¿Cuántos años tienes?
 2. ¿En qué distrito o localidad resides?
 3. ¿Cuál es tu estado civil?
 4. ¿Cuál es tu ocupación específica dentro de la institución educativa?
 
 ##### **Ocupación y Responsabilidades:**
+
 5. ¿Cuáles son tus principales responsabilidades en la institución?
 6. ¿Cuántas personas forman parte de tu equipo y qué roles desempeñan?
 7. ¿Con qué frecuencia necesitas gestionar el inventario de equipos y recursos?
 
 ##### **Uso de Tecnología:**
+
 8. ¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo? ¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
 9. ¿Qué aplicaciones o herramientas usas actualmente en tu móvil para organizar o gestionar tareas laborales?
 
 #### **Preguntas Subjetivas:**
+
 ##### **Personalidad y Habilidades:**
+
 10. ¿Cuáles consideras que son tus principales habilidades en la administración de recursos y personal?
 
 ##### **Objetivos y Frustraciones:**
+
 11. ¿Qué objetivos tienes al gestionar los recursos y personal en la institución?
 12. ¿Cuáles son los mayores desafíos que enfrentas en tu rol actual?
 13. ¿Qué aspectos de la gestión de equipos y recursos encuentras más frustrantes?
 
 ##### **Preferencias y Canales Digitales:**
+
 14. Si tuvieras una aplicación móvil para tu trabajo, ¿qué tareas te gustaría que pudieras hacer de forma más rápida y sencilla, incluso cuando no estás en tu escritorio?
 
 ##### **Visión del Futuro:**
+
 15. ¿Cómo te gustaría que evolucionara el sistema actual de gestión de ambientes y personal?
 16. ¿Qué cambios o mejoras te gustaría ver en la gestión administrativa?
-
 
 <b> Segmento 2: Docentes y auxiliares</b>
 
 #### **Preguntas Objetivas:**
+
 ##### **Características Demográficas:**
+
 1. ¿Cuántos años tienes?
 2. ¿En qué distrito o localidad resides?
 3. ¿Cuál es tu estado civil?
 4. ¿Cuál es tu ocupación específica dentro de la institución educativa?
 
 ##### **Ocupación y Responsabilidades:**
+
 5. ¿Qué materias o cursos enseñas?
 6. ¿Con qué frecuencia necesitas registrar reportes de averías o gestionar cambios de aula?
 7. ¿Qué tipo de recursos utilizas más frecuentemente en tu aula?
-   
+
 ##### **Uso de Tecnología:**
+
 8. ¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo? ¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
 9. ¿Qué aplicaciones o herramientas usas actualmente para gestionar tus clases o para comunicarte con la administración?
 
 #### **Preguntas Subjetivas:**
+
 ##### **Personalidad y Habilidades:**
+
 10. ¿Cómo describirías tu estilo de enseñanza y gestión en el aula?
 11. ¿Qué habilidades consideras cruciales para tu rol como docente en relación con la gestión de recursos y espacios?
 
 ##### **Objetivos y Frustraciones:**
+
 11. ¿Qué objetivos tienes en tu rol como docente en relación con la gestión de equipos y recursos?
 12. ¿Cuáles son los mayores desafíos que enfrentas en la gestión de equipos y recursos en el aula?
 13. ¿Qué aspectos de la administración y registro de recursos encuentras más frustrantes?
 
 ##### **Preferencias y Canales Digitales:**
+
 14. ¿Cómo te gustaría que una aplicación móvil te ayudara a simplificar los procesos de solicitud de recursos o cambios de aula?
 
 ##### **Visión del Futuro:**
+
 15. ¿Cómo te gustaría que evolucionara el sistema actual para facilitar tu trabajo?
 16. ¿Qué cambios o mejoras crees que serían más beneficiosos para ti en la gestión de recursos y espacios?
 
-
 ### 2.2.2. Registro de entrevistas
+
 En esta sección presentamos los registros de las entrevistas que realizamos para cada uno de nuestro segmento objectivo.
 
 A continuación, se presentarán las entrevistas realizadas, desarrollando un resumen de cada una, extrayendo las respuestas e identificando las características objetivas y subjetivas.
@@ -319,7 +338,6 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. Ubiquitous Language
-
 
 ## 2.4. Requirements specification
 
@@ -792,7 +810,7 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 ### 2.4.2 Impact Mapping
 
-### 2.4.3  Product Backlog
+### 2.4.3 Product Backlog
 
 En esta sección se presenta el Product Backlog de EduSpace, que contiene las historias de usuario priorizadas y sus respectivas estimaciones de esfuerzo en puntos de historia. Este backlog es una herramienta clave para la planificación y gestión del desarrollo del producto, permitiendo al equipo enfocarse en las funcionalidades más importantes y valiosas para los usuarios.
 
@@ -1182,9 +1200,7 @@ A continuación, se presenta una captura de pantalla de la elaboración del prod
 Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace: <br>
 Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
 
-
 ## 2.5. Strategic-Level Domain-Driven Design
-
 
 ### 2.5.1 EventStorming
 
@@ -1194,20 +1210,29 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 #### 2.5.1.3 Bounded Context Canvases
 
-
 ### 2.5.2 Context Mapping
 
 ### 2.5.3. Software Architecture
 
 #### 2.5.3.1 Software Architecture Context Level Diagrams
 
+El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software EduSpace, los usuarios, y otros sistemas externos.
+
+![Software Architecture Context Level Diagram](../assets/chapter2/c4-models/context-mobile.png)
+
 #### 2.5.3.2. Software Architecture Container Level Diagrams
+
+El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones, fuentes de datos, y construcción de la Aplicación Mobile EduSpace.
+
+![Software Architecture Container Level Diagram](../assets/chapter2/c4-models/containers-mobile.png)
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
+El diagrama de despliegue muestra una vista de alto nivel de la infraestructura tecnológica que soporta la Aplicación Mobile EduSpace y sus relaciones con otros sistemas externos.
+
+![Software Architecture Deployment Diagram](../assets/chapter2/c4-models/deployment-mobile.png)
 
 ## 2.6. Tactical-Level Domain-Driven Design
-
 
 ### 2.6.1 Bounded Context: Teacher management
 
@@ -1225,8 +1250,11 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 ##### 2.6.1.6.1. Bounded Context Domain Layer Class Diagrams
 
+![](../assets/chapter2/class-diagram/class-diagram-teacher.png)
+
 ##### 2.6.1.6.2. Bounded Context Database Design Diagram
 
+![](../assets/chapter2/database-diagram/database-diagram-teacher.png)
 
 ### 2.6.2 Bounded Context: Payroll management
 
@@ -1244,8 +1272,11 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+![](../assets/chapter2/class-diagram/class-diagram-payroll.png)
+
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
+![](../assets/chapter2/database-diagram/database-diagram-payroll.png)
 
 ### 2.6.3 Bounded Context: Reservation Scheduling
 
@@ -1263,8 +1294,11 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 ##### 2.6.3.6.1. Bounded Context Domain Layer Class Diagrams
 
+![](../assets/chapter2/class-diagram/class-diagram-reservation-sheduling.png)
+
 ##### 2.6.3.6.2. Bounded Context Database Design Diagram
 
+![](../assets/chapter2/database-diagram/database-diagram-reservation-scheduling.png)
 
 ### 2.6.4 Bounded Context: Space and resource management
 
@@ -1276,15 +1310,17 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 #### 2.6.4.4 Infrastructure Layer
 
-#### 2.6.4.5 Bounded Context Software Architecture Component Level Dia
+#### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
+![](../assets/chapter2/class-diagram/class-diagram-space-and-resource-management.png)
+
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
-
+![](../assets/chapter2/database-diagram/database-diagram-spaces-and-resource-management.png)
 
 ### 2.6.5 Bounded Context: Breakdown Management
 
@@ -1302,7 +1338,8 @@ Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr
 
 ##### 2.6.5.6.1. Bounded Context Domain Layer Class Diagrams
 
+![](../assets/chapter2/class-diagram/class-diagram-breakdown-management.png)
+
 ##### 2.6.5.6.2. Bounded Context Database Design Diagram
 
-
-
+![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)

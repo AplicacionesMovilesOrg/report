@@ -341,6 +341,113 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 ### 2.3.2. User Task Matrix
 
+n esta sección, se presentan las tareas principales que los User Personas (Nombre, segmento, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+<h2>User Task Matrix : Nombre Apellido (Administrador)</h2>
+<table>
+    <thead>
+        <tr>
+            <th>User Task</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Controlar la calidad de la uva en la cosecha</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Supervisar el proceso de fermentación</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Verificar el estado de las barricas</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Coordinar el transporte del producto</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Participar en ferias y eventos de vino</td>
+            <td>Baja</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Contratar y supervisar personal de campo</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar las ventas locales</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Coordinar actividades de marketing local</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>User Task Matrix : Renzo Calvo (Docente Universitario)</h2>
+<table>
+    <thead>
+        <tr>
+            <th>User Task</th>
+            <th>Frecuencia</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Reserva de espacios/aulas</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Registro y solicitud de cambio de aula</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Acceso a recursos del salón (equipos, materiales)</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Recepción de notificaciones inmediatas</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Planificación de clases</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Reportar fallas de equipos</td>
+            <td>Media</td>
+            <td>Media</td>
+        </tr>
+        <tr>
+            <td>Consulta de disponibilidad de aulas/espacios</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Equilibrar gestión de aulas con carga laboral</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ### 2.3.3. User Journey Mapping
 

@@ -321,6 +321,129 @@ En esta sección presentamos los registros de las entrevistas que realizamos par
 
 A continuación, se presentarán las entrevistas realizadas, desarrollando un resumen de cada una, extrayendo las respuestas e identificando las características objetivas y subjetivas.
 
+link del video: 
+
+**Segmento 1: Administradores de instituciones educativas**
+
+Entrevista 1:
+
+![paola img](/assets/chapter2/interviews/interview-1.png)
+
+[00:00 - 04:48]
+
+Duración: 4 minutos 48 segundos
+
+Link de la entrevista:
+
+Nombre: Paola
+
+Apellidos: Alejandra Schmidt
+
+Edad: 55 años
+
+Distrito: Magdalena
+
+
+Entrevista 2:
+
+![jaime img](/assets/chapter2/interviews/interview-2.png)
+
+[04:48 - 10:04]
+
+Duración: 5 minutos 14 segundos
+
+Link de la entrevista:
+
+Nombre: Jaime
+
+Apellidos: Rafael Fernandez
+
+Edad: 58 años
+
+Distrito: Chorrillos
+
+Entrevista 3:
+
+![ariana img](/assets/chapter2/interviews/interview-3.png)
+
+[10:03 - 14:15]
+
+Duración: 4 minutos 12 segundos
+
+Link de la entrevista: 
+
+Nombre: Ariana
+
+Apellidos: Yasan Laredo
+
+Edad: 23 años
+
+Distrito: San Juan de Miraflores
+
+Resumen:
+
+**Segmento 2: Docentes y auxiliares**
+
+Entrevista 4:
+
+![renzo img](/assets/chapter2/interviews/interview-4.png)
+
+[14:15 - 19:40]
+
+Duración: 5 minutos 25 segundos
+
+Link de la entrevista: 
+
+Nombre: Manuel Alejandro
+
+Apellidos: Molina Vasquez
+
+Edad: 22 años
+
+Distrito: San Martin de Porres
+
+Resumen:
+
+Entrevista 5:
+
+![renzo img](/assets/chapter2/interviews/interview-5.png)
+
+[19:40 - 26:40]
+
+Duración: 7 minutos
+
+Link de la entrevista: 
+
+Nombre:
+
+Apellidos: 
+
+Edad: 25 años
+
+Distrito: Surco
+
+Resumen:
+
+Entrevista 6:
+
+![renzo img](/assets/chapter2/interviews/interview-6.png)
+
+[26:40 - 35:54]
+
+Duración: 7 minutos
+
+Link de la entrevista: 
+
+Nombre: Renzo 
+
+Apellidos: Calvo Yalan
+
+Edad: 32 años
+
+Distrito: Barranco
+
+Resumen:
+
 ### 2.2.3. Análisis de entrevistas
 
 En esta sección se realiza el análisis de cada entrevista para cada segmento objetivo. Con el fin de obtener información para el desarrollo de nuestra aplicación. A continuación, se presenarán los análisis de entrevistas, los cuáles han sido hechos recaudando la información de las entrevistas previamente realizadas.

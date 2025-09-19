@@ -333,6 +333,8 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 A partir del análisis de entrevistas y la recolección de información sobre las dinámicasen las instituciones educativas, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra.EduSpace Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como en tiempo real . La construcción de los User Persona permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
 ##  Segmento 1:
+<img src="../assets/chapter2/userPerson/1.png" alt="User Persona 1" width="auto" height="480"/>
+
 
 ##  Segmento 2:
 <img src="../assets/chapter2/userPerson/2.png" alt="User Persona 1" width="auto" height="480"/>

@@ -331,7 +331,16 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 
 ### 2.3.1. User Personas
 
+A partir del análisis de entrevistas y la recolección de información sobre las dinámicasen las instituciones educativas, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra.EduSpace Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como en tiempo real . La construcción de los User Persona permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
+##  Segmento 1:
+
+##  Segmento 2:
+<img src="../assets/chapter2/userPerson/2.png" alt="User Persona 1" width="auto" height="480"/>
+
+
+
 ### 2.3.2. User Task Matrix
+
 
 ### 2.3.3. User Journey Mapping
 

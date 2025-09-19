@@ -341,7 +341,7 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 ### 2.3.2. User Task Matrix
 
-n esta sección, se presentan las tareas principales que los User Personas (Nombre, segmento, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+En esta sección, se presentan las tareas principales que los User Personas (Nombre, segmento, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
 <h2>User Task Matrix : Nombre Apellido (Administrador)</h2>
 <table>
     <thead>

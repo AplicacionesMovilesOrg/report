@@ -343,8 +343,8 @@ A partir del análisis de entrevistas y la recolección de información sobre la
 
 ### 2.3.2. User Task Matrix
 
-En esta sección, se presentan las tareas principales que los User Personas (Nombre, segmento, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
-<h2>User Task Matrix : Nombre Apellido (Administrador)</h2>
+En esta sección, se presentan las tareas principales que los User Personas (Aria Yasan, Administradora de Universidad, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+<h2>User Task Matrix : Ariana Yasan (Administradora)</h2>
 <table>
     <thead>
         <tr>
@@ -355,42 +355,42 @@ En esta sección, se presentan las tareas principales que los User Personas (Nom
     </thead>
     <tbody>
         <tr>
-            <td>Controlar la calidad de la uva en la cosecha</td>
+            <td>Monitorear el inventario en tiempo real</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Supervisar el proceso de fermentación</td>
+            <td>Recibir notificaciones inmediatas</td>
             <td>Alta</td>
             <td>Alta</td>
         </tr>
         <tr>
-            <td>Verificar el estado de las barricas</td>
+            <td>Coordinar recursos y áreas desde el celular</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Aprobar solicitudes de recursos</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Gestionar presupuesto de aulas y materiales</td>
+            <td>Media</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Supervisar entrega de materiales</td>
+            <td>Alta</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Organizar horarios y disponibilidad de espacios</td>
             <td>Media</td>
             <td>Media</td>
         </tr>
         <tr>
-            <td>Coordinar el transporte del producto</td>
-            <td>Baja</td>
-            <td>Media</td>
-        </tr>
-        <tr>
-            <td>Participar en ferias y eventos de vino</td>
-            <td>Baja</td>
-            <td>Media</td>
-        </tr>
-        <tr>
-            <td>Contratar y supervisar personal de campo</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Gestionar las ventas locales</td>
-            <td>Alta</td>
-            <td>Alta</td>
-        </tr>
-        <tr>
-            <td>Coordinar actividades de marketing local</td>
+            <td>Reportar incidencias de equipos o aulas</td>
             <td>Media</td>
             <td>Media</td>
         </tr>

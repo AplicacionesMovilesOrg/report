@@ -1238,11 +1238,123 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 #### 2.6.1.1 Domain Layer
 
+Esta capa modela todos los conceptos y reglas de negocio necesarios para gestionar la reserva de reuniones o espacios. Su principal responsabilidad es garantizar que cualquier reserva sea siempre válida y consistente.
+
+**1. Aggregate Root & Entities**
+
+- **Aggregate Root: `Meeting`**
+
+  - **Propósito:** Es la entidad central que representa una reserva. Controla todo el ciclo de vida y la consistencia de los datos de una reunión, incluyendo sus participantes.
+  - **Estructura:** Se utiliza una clase `partial` para separar la gestión de los datos principales de la reunión (título, fecha, etc.) de la gestión de los participantes, lo que mejora la organización del código.
+  - **Atributos Clave:**
+    - `Title`, `Description`, `Date`, `StartTime`, `EndTime`: Propiedades que definen la reunión.
+    - `AdministratorId`, `ClassroomId`: Value Objects que vinculan la reunión con un administrador y un aula.
+    - `MeetingParticipants`: Colección de entidades `MeetingSession`.
+
+- **Entity: `MeetingSession`**
+  - **Propósito:** Es una entidad que modela la relación entre una `Meeting` y un `Teacher`, representando la asistencia de un profesor a una reunión. Su ciclo de vida es gestionado por el agregado `Meeting`.
+
+**2. Value Objects**
+
+- **Propósito:** Este dominio hace un uso ejemplar de los Value Objects para crear un modelo más robusto y expresivo.
+- **Value Objects Identificados:**
+  - **`AdministratorId`**, **`ClassroomId`**, **`TeacherId`**: Encapsulan los identificadores como `records`, proporcionando seguridad de tipos y evitando el uso de enteros simples (primitivos).
+  - **`MeetingDate`**: Este es un Value Object particularmente bien diseñado.
+    - **Encapsula Reglas de Negocio:** Dentro de su constructor, contiene toda la lógica de validación para una reserva:
+      - No puede durar más de 2 horas.
+      - No puede ser en el pasado.
+      - Debe estar dentro del horario permitido (7 am a 8 pm).
+      - La fecha de inicio no puede ser posterior a la de fin.
+    - **Garantía de Validez:** Al concentrar estas reglas aquí, el modelo garantiza que es **imposible** crear un objeto `MeetingDate` inválido. Cualquier `Meeting` que tenga un `MeetingDate` es, por definición, una reserva que cumple con las reglas de negocio de tiempo.
+
+**3. Repository (Interfaces)** - _Implícitas_
+
+Para la persistencia, se infiere la necesidad de las siguientes interfaces:
+
+- **`IMeetingRepository`**: Definiría el contrato para guardar, buscar y eliminar agregados `Meeting`.
+- **`IMeetingSessionRepository`**: Podría existir para gestionar específicamente a los participantes si las operaciones fueran complejas, aunque lo más común es que se gestionen a través del `IMeetingRepository`.
+
+**4. Domain Services (Interfaces)** - _Implícitas_
+
+Para la orquestación, se necesitarían las interfaces de servicio CQS:
+
+- **`IMeetingCommandService` y `IMeetingQueryService`**: Manejarían la lógica de aplicación para los comandos (crear, actualizar) y consultas (obtener reuniones).
+
+**5. Commands & Queries (Data Structures)**
+
+Se ha definido un conjunto completo de DTOs que representan todas las operaciones posibles sobre las reuniones.
+
+- **Ejemplos de Comandos:** `CreateMeetingCommand`, `UpdateMeetingCommand`, `AddTeacherToMeetingCommand`.
+- **Ejemplos de Consultas:** `GetMeetingByIdQuery`, `GetAllMeetingByAdminIdQuery`, `GetAllMeetingByTeacherIdQuery`.
+
 #### 2.6.1.2 Interface Layer
+
+Esta capa expone una API REST bien definida para interactuar con el dominio de reservas. Su diseño se centra en rutas claras y DTOs específicos para cada operación, lo que facilita su uso por parte de los clientes.
+
+**1. Controllers**
+
+- **Propósito:** Son los responsables de manejar las peticiones HTTP. Se han separado las responsabilidades en dos controladores distintos, lo cual es una excelente práctica para mantener la cohesión.
+- **Clases Identificadas:**
+  - `MeetingsController`: Gestiona el ciclo de vida principal del agregado `Meeting` (Crear, Leer, Actualizar, Borrar). La ruta para la creación (`POST /administrators/{administratorId}/classrooms/{classroomId}/meetings`) es un buen ejemplo de diseño RESTful, ya que establece claramente el contexto en el que se crea la nueva reunión.
+  - `MeetingParticipantsController`: Se dedica exclusivamente a gestionar las relaciones entre una reunión y sus participantes. La ruta (`POST /meetings/{meetingId}/teachers/{teacherId}`) es muy intuitiva y sigue las convenciones REST para añadir un recurso secundario (un profesor) a un recurso principal (una reunión).
+
+**2. Resources (DTOs)**
+
+- **Propósito:** Definen el contrato de datos (el formato JSON) para la API. Hay DTOs específicos para cada tipo de interacción (creación, actualización, respuesta), lo que asegura que solo se expongan o se soliciten los datos necesarios para cada operación.
+- **Recursos Identificados:**
+  - `CreateMeetingResource`: Contiene los campos necesarios para crear una nueva reunión.
+  - `UpdateMeetingResource`: Define los datos que se pueden modificar en una reunión existente.
+  - `MeetingResource`: Representa la vista completa de una reunión que se devuelve al cliente.
+  - `AddTeacherToMeetingResource`: Un DTO simple para la operación de añadir un profesor a una reunión.
+
+**3. Assemblers (Transformadores)**
+
+- **Propósito:** Son clases estáticas que actúan como traductores entre la capa de Interfaz y la capa de Dominio. Su función es crucial para mantener el desacoplamiento, asegurando que los `Resources` de la API no se filtren a las capas internas y viceversa.
+- **Flujos de Traducción:**
+  - **De Resource a Command:** Convierten los DTOs de la API (ej. `CreateMeetingResource`) en comandos que la capa de aplicación puede procesar (ej. `CreateMeetingCommand`).
+  - **De Entity a Resource:** Transforman las entidades del dominio (ej. `Meeting`) en los DTOs que se serializan como JSON para el cliente (ej. `MeetingResource`).
 
 #### 2.6.1.3 Application Layer
 
+La principal responsabilidad de esta capa es orquestar los flujos de trabajo de la aplicación. No implementa reglas de negocio complejas, sino que dirige a los objetos de dominio y coordina con servicios externos para asegurar que todas las precondiciones de un caso de uso se cumplan.
+
+**1. Command Handlers (Internal Command Services)**
+
+- **Propósito:** La clase `MeetingCommandService` maneja todos los comandos que modifican el estado de las reservas. Su función principal es la **orquestación y validación** antes de ejecutar una acción.
+- **Flujo de Trabajo Típico (ej. `CreateMeetingCommand`):**
+  1.  Recibe el comando desde la capa de Interfaz.
+  2.  **Coordina con otros Bounded Contexts:** Antes de intentar crear la reunión, utiliza los servicios de ACL (`IRExternalProfileService` y `IExternalClassroomService`) para validar que el administrador y el aula especificados realmente existen en sus respectivos contextos.
+  3.  **Delega al Dominio:** Si las validaciones son exitosas, crea el agregado `Meeting`, pasándole el comando. El agregado se encarga de aplicar sus propias reglas de negocio internas (como las validaciones de fecha y hora).
+  4.  **Persiste los Cambios:** Utiliza el `IMeetingRepository` para registrar el nuevo agregado y el `IUnitOfWork` para confirmar la transacción en la base de datos.
+- **Clase Identificada:**
+  - `MeetingCommandService`: Implementa la lógica para crear, actualizar, eliminar y añadir participantes a una reunión, siempre validando las dependencias externas primero.
+
+**2. Query Handlers (Internal Query Services)**
+
+- **Propósito:** La clase `MeetingQueryService` se encarga de los casos de uso de solo lectura, siguiendo el principio de CQS.
+- **Responsabilidades:** Su única función es recibir una `Query`, llamar al método correspondiente en `IMeetingRepository` para recuperar los datos y devolverlos.
+- **Clase Identificada:**
+  - `MeetingQueryService`: Provee la lógica para obtener todas las reuniones, una por ID o filtradas por administrador.
+
+**3. Outbound Services (ACL - Anti-Corruption Layer)**
+
+- **Propósito:** Esta es una de las partes más importantes de este Bounded Context. Actúa como cliente de las fachadas (Facades) de otros contextos para obtener la información que necesita.
+- **Componentes Identificados:**
+  - `RExternalProfileServices`: Se comunica con el Bounded Context de **Profile Management** (a través de `IProfilesContextFacade`) para validar la existencia de administradores y profesores.
+  - `ExternalClassroomServices`: Se comunica con el Bounded Context de **Space and Resource Management** (a través de `ISpacesAndResourceManagementFacade`) para validar la existencia de las aulas.
+- **Importancia:** Estas clases (ACLs) son cruciales porque aíslan a **Reservation Scheduling** de los detalles internos de los otros contextos. Si el contexto de perfiles cambia su forma de validar, solo habría que actualizar `RExternalProfileServices`, sin tocar la lógica de `MeetingCommandService`.
+
 #### 2.6.1.4 Infrastructure Layer
+
+Esta capa es la implementación concreta de las abstracciones de persistencia. Se encarga de la comunicación directa con la base de datos, traduciendo las solicitudes del dominio a un lenguaje que el motor de base de datos entiende.
+
+**1. Repository Implementation**
+
+- **Propósito:** La clase `MeetingRepository` implementa la interfaz `IMeetingRepository` definida en el dominio. Es la responsable de todas las operaciones de acceso a datos para el agregado `Meeting`.
+- **Tecnología:** Utiliza **Entity Framework Core** a través del `AppDbContext` para ejecutar las operaciones contra la base de datos.
+- **Implementación:**
+  - Hereda de una clase `BaseRepository<Meeting>` para reutilizar la lógica CRUD básica.
+  - Implementa métodos de consulta específicos, como `FindAllByAdminIdAsync`, utilizando **LINQ**. Esta consulta (`.Where(f =>f.AdministratorId.AdministratorIdentifier == adminId)`) es un ejemplo claro de cómo la capa de infraestructura traduce una necesidad del dominio a una consulta de base de datos concreta.
 
 #### 2.6.1.5 Bounded Context Software Architecture Component Level Diagrams
 
@@ -1258,37 +1370,297 @@ El diagrama de despliegue muestra una vista de alto nivel de la infraestructura 
 
 ![](../assets/chapter2/database-diagram/database-diagram-reservation-scheduling.png)
 
-### 2.6.2 Bounded Context: Teacher management
+### 2.6.2 Bounded Context: Profile management
 
 #### 2.6.2.1 Domain Layer
 
+Esta capa modela los conceptos de negocio relacionados con la identidad y los datos de los usuarios del sistema. Una característica clave de este dominio es el uso de **herencia** para diferenciar los tipos de perfiles.
+
+**1. Aggregate Root & Entities**
+
+- **Aggregate Root (Base): `Profile`**
+
+  - **Propósito:** Actúa como la entidad raíz y la clase base para todos los perfiles en el sistema. Agrupa la información fundamental y común a cualquier tipo de usuario.
+  - **Atributos Clave:**
+    - `Id` (int): Identificador único.
+    - `ProfileName` (ProfileName): Un objeto de valor que encapsula el nombre y apellido.
+    - `ProfilePrivateInformation` (ProfilePrivateInformation): Un objeto de valor que agrupa la información de contacto privada.
+    - `AccountId` (AccountId): Un objeto de valor que vincula el perfil con una cuenta de usuario.
+  - **Observación:** La clase `Profile` no es abstracta, lo que podría permitir la creación de perfiles genéricos si fuera necesario.
+
+- **Entidades Especializadas:**
+  - **`AdminProfile`**: Hereda de `Profile` y representa a un usuario administrador. No añade propiedades adicionales, pero su tipo lo distingue en el sistema.
+  - **`TeacherProfile`**: Hereda de `Profile` y representa a un profesor.
+    - **Atributos Adicionales:**
+      - `AdministratorId` (int): Almacena el ID del administrador que creó o gestiona a este profesor, estableciendo una relación jerárquica.
+
+**2. Value Objects**
+
+- **Propósito:** El dominio hace un uso extensivo de objetos de valor (`record`) para agrupar atributos relacionados, mejorar la semántica y garantizar la inmutabilidad de ciertos datos.
+- **Value Objects Identificados:**
+  - **`ProfileName`**: Encapsula `FirstName` y `LastName`. Proporciona lógica derivada, como la propiedad `FullName`, garantizando un formato consistente.
+  - **`ProfilePrivateInformation`**: Agrupa datos sensibles como `Email`, `Dni`, `Address` y `Phone`. Tratar esta información como una unidad cohesiva simplifica el modelo y el manejo de datos privados.
+  - **`AccountId`**: Representa el identificador de una cuenta de manera explícita, evitando el uso de un `int` simple (primitivo) y añadiendo significado al dominio.
+
+**3. Repository (Interfaces)** - _Implícitas_
+
+Basado en los agregados, podemos inferir la necesidad de las siguientes interfaces de repositorio:
+
+- **`IAdminProfileRepository` y `ITeacherProfileRepository`**: Definirían los contratos para las operaciones de persistencia de cada tipo de perfil. Podrían incluir métodos como `FindByIdAsync`, `FindByEmailAsync`, `AddAsync`, etc. O podría existir una única `IProfileRepository` que maneje la lógica para los diferentes tipos.
+
+**4. Domain Services (Interfaces)** - _Implícitas_
+
+Siguiendo el patrón CQS, se necesitarían interfaces de servicio para orquestar las operaciones:
+
+- **`IProfileCommandService` y `IProfileQueryService`**: Interfaces que manejarían los comandos y consultas para los perfiles.
+
+**5. Commands & Queries (Data Structures)**
+
+Se proporcionó un conjunto claro de DTOs para la comunicación con el dominio:
+
+- **Propósito:** Representan las intenciones de realizar acciones o solicitar datos de manera formal y desacoplada.
+- **Ejemplos de Comandos:**
+  - `CreateAdministratorProfileCommand(...)`
+  - `CreateTeacherProfileCommand(...)`
+- **Ejemplos de Consultas:**
+  - `GetTeacherProfileByIdQuery(int ProfileId)`
+  - `GetAllTeachersProfileQuery()`
+
 #### 2.6.2.2 Interface Layer
+
+Esta capa expone las funcionalidades del Bounded Context al mundo exterior a través de una API REST. Se encarga de la presentación, la recepción de solicitudes y la delegación de tareas a las capas internas, asegurando que la comunicación sea clara y desacoplada del dominio.
+
+**1. Controllers**
+
+- **Propósito:** Actúan como los puntos de entrada para las solicitudes HTTP. Se ha adoptado un enfoque de un controlador por tipo de perfil, lo que organiza de manera muy efectiva las responsabilidades de la API.
+- **Clases Identificadas:**
+  - `AdministratorProfilesController`: Gestiona exclusivamente los endpoints para crear y consultar perfiles de **administradores**.
+  - `TeachersProfilesController`: Maneja las rutas y operaciones específicas para los perfiles de **profesores**.
+
+**2. Resources (DTOs)**
+
+- **Propósito:** Son los Objetos de Transferencia de Datos que definen el contrato público de la API (el formato del JSON). Se utilizan para modelar tanto los datos de entrada (`Create...`) como los de salida.
+- **Recursos Identificados:**
+  - `CreateAdminProfileResource` / `CreateTeacherProfileResource`: Definen los datos necesarios que un cliente debe enviar en el cuerpo de una petición `POST` para crear un nuevo perfil. Notablemente, incluyen datos de autenticación (`Username`, `Password`) que probablemente serán manejados por una capa de aplicación o un servicio de identidad.
+  - `AdminProfileResource` / `TeacherProfileResource`: Modelan la estructura de los datos de un perfil que se devuelve al cliente, excluyendo información sensible como la contraseña.
+
+**3. Assemblers (Transformadores)**
+
+- **Propósito:** Son clases estáticas de utilidad que realizan la traducción crucial entre las capas. Aíslan la capa de Interfaz del Dominio, permitiendo que cada una evolucione de forma independiente.
+- **Flujos de Traducción:**
+  - **Resource a Command:** Convierten los DTOs de creación (ej. `CreateAdminProfileResource`) en comandos que la capa de aplicación puede entender (ej. `CreateAdministratorProfileCommand`).
+  - **Entity a Resource:** Transforman las entidades del dominio (ej. `AdminProfile`) en los DTOs de respuesta que se enviarán al cliente como JSON (ej. `AdminProfileResource`).
+
+**4. ACL (Anti-Corruption Layer) Facade**
+
+- **Propósito:** La `IProfilesContextFacade` y su implementación `ProfilesContextFacade` son el punto de entrada formal y controlado para que **otros Bounded Contexts** puedan interactuar con Profile Management.
+- **Funcionalidad Clave:** Expone métodos de validación (`ValidateTeacherProfileIdExistence`, `ValidateAdminProfileIdExistence`) que permiten a otros contextos (como el de _Space and Resource Management_ que vimos antes) verificar la existencia de perfiles sin necesidad de conocer la estructura interna de este dominio.
 
 #### 2.6.2.3 Application Layer
 
+La función de esta capa es implementar los casos de uso específicos del Bounded Context. Actúa como mediadora, recibiendo solicitudes (en forma de Comandos y Consultas), utilizando las entidades de dominio para ejecutar la lógica de negocio y coordinando con servicios externos, como un sistema de gestión de identidades (IAM).
+
+**1. Command Handlers (Internal Command Services)**
+
+- **Propósito:** Estas clases manejan los comandos que alteran el estado del sistema, como la creación de nuevos perfiles. Una responsabilidad clave aquí es la **orquestación de servicios**.
+- **Clases Identificadas:**
+  - `AdminProfileCommandService`: Orquesta el caso de uso "Crear Perfil de Administrador". Su flujo de trabajo es un excelente ejemplo de coordinación entre Bounded Contexts:
+    1.  Recibe el `CreateAdministratorProfileCommand`.
+    2.  Llama al `IExternalIamService` para delegar la creación de una cuenta de usuario (usuario y contraseña) en el Bounded Context de IAM.
+    3.  Si la creación de la cuenta es exitosa, recibe un `AccountId`.
+    4.  Crea la entidad `AdminProfile` en su propio dominio, asociándola con el `AccountId` recién creado.
+    5.  Utiliza el `IUnitOfWork` para persistir el nuevo perfil en su propia base de datos.
+  - `TeacherProfileCommandService`: Sigue exactamente el mismo patrón que el servicio de administrador, pero para la creación de perfiles de profesores.
+
+**2. Query Handlers (Internal Query Services)**
+
+- **Propósito:** Implementan los casos de uso de solo lectura. Su única tarea es procesar una `Query`, solicitar los datos al repositorio correspondiente y devolver las entidades a la capa de Interfaz.
+- **Clases Identificadas:**
+  - `AdminProfileQueryService`: Maneja las solicitudes para obtener perfiles de administrador, ya sea todos o uno por su ID.
+  - `TeacherProfileQueryService`: Se encarga de las consultas para recuperar los perfiles de los profesores.
+
+**3. Outbound Services (ACL - Anti-Corruption Layer)**
+
+- **Propósito:** Esta es la parte de la capa de aplicación que se comunica con otros Bounded Contexts. Encapsula la lógica necesaria para interactuar con sistemas externos, protegiendo el dominio de detalles de implementación ajenos.
+- **Componentes Identificados:**
+  - `IExternalIamService` (Interfaz): Define un contrato claro para las operaciones que el Bounded Context de perfiles necesita del Bounded Context de IAM, en este caso, `CreateAccount`.
+  - `ExternalIamService` (Implementación): Es la clase concreta que implementa la interfaz. Utiliza la fachada expuesta por el Bounded Context de IAM (`IIamContextFacade`) para realizar la llamada. Esta clase traduce la solicitud y la respuesta, aislando al resto de la capa de aplicación de cómo funciona internamente la creación de cuentas.
+
 #### 2.6.2.4 Infrastructure Layer
 
+**1. Repository Implementations**
+
+- **Propósito:** Son las clases que implementan los contratos de persistencia (`IAdminProfileRepository`, `ITeacherProfileRepository`). Su función es interactuar directamente con la base de datos a través de un ORM (Object-Relational Mapper), en este caso, **Entity Framework Core**.
+- **Clases Identificadas:**
+  - `AdminProfileRepository`: Proporciona la lógica de acceso a datos para la entidad `AdminProfile`. Implementa métodos específicos como `ExistsByAdminProfileId` utilizando consultas **LINQ** (`.Any(...)`) que EFC traducirá a SQL eficiente.
+  - `TeacherProfileRepository`: Implementa las operaciones de persistencia para `TeacherProfile`. Contiene lógica de consulta más compleja, como `FindAllTeachersByAdministratorIdAsync`, que demuestra cómo esta capa se encarga de filtrar los datos según las necesidades del dominio.
+- **Patrón Clave:** Al igual que en el contexto anterior, se hereda de una clase `BaseRepository<T>` para centralizar la lógica CRUD común, manteniendo estas implementaciones limpias y enfocadas en sus consultas especializadas.
+
 #### 2.6.2.5 Bounded Context Software Architecture Component Level Diagrams
+
+![](../assets/chapter2/c4-models/component-diagram-profile.png)
 
 #### 2.6.2.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-![](../assets/chapter2/class-diagram/class-diagram-teacher.png)
+![](../assets/chapter2/class-diagram/class-diagram-profile.png)
 
 ##### 2.6.2.6.2. Bounded Context Database Design Diagram
 
-![](../assets/chapter2/database-diagram/database-diagram-teacher.png)
+![](../assets/chapter2/database-diagram/database-diagram-profile.png)
 
 ### 2.6.3 Bounded Context: Space and resource management
 
 #### 2.6.3.1 Domain Layer
 
+**1. Aggregate Roots & Entities**
+
+A continuación, se presentan y detallan las clases identificadas en esta capa:
+
+- **Aggregate Root: `Classroom`**
+
+  - **Propósito:** Es la entidad principal que representa un aula. Agrupa y gestiona la información y el ciclo de vida de los recursos (`Resource`) que contiene, asegurando la consistencia del modelo.
+  - **Atributos:**
+    - `Id` (int): Identificador único.
+    - `Name` (string): Nombre del aula.
+    - `Description` (string): Descripción detallada.
+    - `TeacherId` (TeacherId): Objeto de valor que representa al profesor responsable.
+    - `Resources` (ICollection\<Resource\>): Colección de las entidades `Resource` que pertenecen a esta aula.
+  - **Métodos Clave:**
+    - Constructores que aceptan comandos (`CreateClassroomCommand`, `UpdateClassroomCommand`) para crear o modificar el agregado de forma controlada.
+    - Métodos como `UpdateName`, `UpdateDescription`, y `UpdateTeacherId` para realizar cambios de estado específicos.
+
+- **Entity: `Resource`**
+
+  - **Propósito:** Representa un recurso físico o digital (ej. proyector, pizarra, software) que pertenece a un `Classroom`. Su existencia y ciclo de vida dependen del aula.
+  - **Atributos:**
+    - `Id` (int): Identificador único.
+    - `Name` (string): Nombre del recurso.
+    - `KindOfResource` (string): Tipo de recurso.
+    - `ClassroomId` (int): Clave foránea que lo asocia a su `Classroom`.
+  - **Métodos Clave:** Constructores y métodos de actualización (`UpdateName`, `UpdateKindOfResource`) derivados de los comandos correspondientes.
+
+- **Aggregate Root: `SharedArea`**
+
+  - **Propósito:** Es una entidad principal que representa un espacio común o compartido que no es un aula (ej. biblioteca, laboratorio). Funciona como un agregado independiente.
+  - **Atributos:**
+    - `Id` (int): Identificador único.
+    - `Name` (string): Nombre del área.
+    - `Capacity` (int): Capacidad máxima de personas.
+    - `Description` (string): Descripción del área.
+  - **Métodos Clave:** Constructores y métodos de actualización que toman comandos (`CreateSharedAreaCommand`, `UpdateSharedAreaCommand`) para gestionar su estado.
+
+**2. Value Objects**
+
+- **`TeacherId`**
+  - **Propósito:** Encapsula el identificador de un profesor. Al ser un objeto de valor (`record`), garantiza la inmutabilidad y se compara por su valor (`TeacherIdentifier`) y no por su referencia. Esto evita el uso de tipos primitivos (como `int`) directamente en el modelo de dominio, aportando más significado.
+  - **Atributos:**
+    - `TeacherIdentifier` (int): El valor del identificador.
+
+**3. Repository (Interfaces)** - _Implícitas_
+
+Aunque no se proporcionaron los archivos de las interfaces, basándonos en los agregados, podemos inferir que el contrato de persistencia se definirá a través de interfaces como:
+
+- **`IClassroomRepository`**: Definirá métodos para persistir y recuperar agregados `Classroom` (ej. `FindByIdAsync`, `FindByTeacherIdAsync`, `AddAsync`, `Remove`).
+- **`ISharedAreaRepository`**: Definirá métodos para las operaciones de persistencia de `SharedArea`.
+- **`IResourceRepository`**: Definirá métodos para la persistencia de entidades `Resource`.
+
+**4. Domain Services (Interfaces)** - _Implícitas_
+
+De manera similar, para orquestar la lógica de negocio se necesitarán interfaces de servicio que sigan el patrón CQS:
+
+- **`IClassroomCommandService` y `IClassroomQueryService`**: Para manejar los comandos y consultas relacionados con `Classroom`.
+- **`ISharedAreaCommandService` y `ISharedAreaQueryService`**: Para las operaciones de `SharedArea`.
+- **`IResourceCommandService` y `IResourceQueryService`**: Para la lógica de `Resource`.
+
+**5. Commands & Queries (Data Structures)**
+
+Se proporcionó un conjunto completo de DTOs inmutables (`record`) que representan todas las intenciones y solicitudes de datos para este Bounded Context:
+
+- **Propósito:** Sirven como el lenguaje formal para comunicarse con el dominio. Los **Commands** (`Create...`, `Update...`, `Delete...`) expresan la intención de cambiar el estado, mientras que las **Queries** (`Get...`, `GetAll...`) solicitan información sin producir efectos secundarios.
+- **Ejemplos de Comandos:**
+  - `CreateClassroomCommand(string Name, string Description, int TeacherId)`
+  - `UpdateResourceCommand(int Id, string Name, ...)`
+  - `DeleteSharedAreaCommand(int SharedAreaId)`
+- **Ejemplos de Consultas:**
+  - `GetAllClassroomsQuery()`
+  - `GetResourceByIdQuery(int ResourceId)`
+  - `GetAllClassroomsByTeacherIdQuery(int TeacherId)`
+
 #### 2.6.3.2 Interface Layer
+
+Esta capa actúa como la puerta de entrada al Bounded Context. Es responsable de manejar las interacciones externas (en este caso, a través de una API REST), traducir las solicitudes entrantes en comandos y consultas que el dominio pueda entender, y transformar los resultados del dominio en un formato adecuado para el cliente.
+
+**1. Controllers**
+
+- **Propósito:** Son los componentes centrales que manejan las solicitudes HTTP. Cada controlador expone una serie de _endpoints_ (rutas) que se corresponden con las operaciones sobre los agregados. Utilizan inyección de dependencias para recibir las implementaciones de los servicios de comando y consulta (`I...CommandService`, `I...QueryService`).
+- **Clases Identificadas:**
+  - `ClassroomsController`: Gestiona las operaciones CRUD para las aulas y las consultas específicas, como buscar aulas por profesor (`/api/v1/classrooms`).
+  - `ResourceController`: Maneja las operaciones CRUD para los recursos (`/api/v1/classrooms/resources` y `/api/v1/classrooms/{classroomId}/resources`).
+  - `SharedAreaController`: Expone los endpoints para crear, leer, actualizar y eliminar las áreas compartidas (`/api/v1/shared-area`).
+  - `ClassroomResourcesController`: Un controlador específico que sigue las convenciones REST para recursos anidados, permitiendo obtener todos los recursos de un aula específica a través de la ruta `/api/v1/classrooms/{id}/resources`.
+
+**2. Resources (DTOs)**
+
+- **Propósito:** Son los Objetos de Transferencia de Datos (Data Transfer Objects) que definen el "contrato" público de la API. Su estructura determina cómo debe ser el JSON que el cliente envía (ej. `Create...Resource`) o recibe (ej. `...Resource`). Esto es clave para desacoplar la representación externa de los modelos internos del dominio.
+- **Tipos de Resources:**
+  - **Para Creación (`Create...Resource`):** Contienen solo los datos necesarios para crear una nueva entidad. Ejemplo: `CreateClassroomResource(string Name, string Description)`.
+  - **Para Actualización (`Update...Resource`):** Incluyen los campos que se pueden modificar en una entidad existente.
+  - **Para Respuesta (`...Resource`):** Representan la vista completa de una entidad que se devuelve al cliente, incluyendo su `Id`. Ejemplo: `ClassroomResource(int Id, string Name, ...)`.
+
+**3. Assemblers (Transformadores)**
+
+- **Propósito:** Son clases de utilidad, estáticas y sin estado, cuya única responsabilidad es la **traducción** entre las capas. Son fundamentales para mantener el aislamiento entre la capa de Interfaz y la de Dominio.
+- **Flujos de Traducción:**
+  - **De Resource a Command:** Convierten un DTO de la API (ej. `CreateClassroomResource`) en un objeto de comando que la capa de aplicación puede procesar (ej. `CreateClassroomCommand`). Ejemplo: `CreateClassroomCommandFromResourceAssembler`.
+  - **De Entity a Resource:** Convierten una entidad de dominio (ej. `Classroom`) en un DTO que puede ser serializado a JSON y enviado como respuesta al cliente (ej. `ClassroomResource`). Ejemplo: `ClassroomResourceFromEntityAssembler`.
+
+**4. ACL (Anti-Corruption Layer) Facade**
+
+- **Propósito:** La interfaz `ISpacesAndResourceManagementFacade` actúa como una "fachada" (Facade) que expone capacidades específicas y simplificadas de este Bounded Context para que otros Bounded Contexts puedan consumirlas de forma segura y controlada, sin necesidad de conocer los detalles internos.
+- **Métodos Clave:**
+  - `ValidateClassroomIdExistence(int classroomId)`: Un ejemplo perfecto donde otro contexto (como uno de "Reservas") podría necesitar verificar si un aula es válida antes de crear una reserva para ella.
 
 #### 2.6.3.3 Application Layer
 
+Esta capa contiene la lógica de aplicación que orquesta las operaciones del dominio. Se divide en tres secciones principales: Command Handlers, Query Handlers y Outbound Services (ACL).
+
+**1. Command Handlers (Internal Command Services)**
+
+- **Propósito:** Estas clases implementan los casos de uso que **modifican el estado** del sistema. Reciben un objeto `Command` desde la capa de Interfaz, utilizan los repositorios para obtener los agregados de dominio, ejecutan las operaciones correspondientes sobre dichos agregados y, finalmente, utilizan la Unidad de Trabajo (`IUnitOfWork`) para persistir todos los cambios de forma atómica y transaccional.
+- **Clases Identificadas:**
+  - `ClassroomCommandService`: Orquesta la creación, actualización y eliminación de aulas. Es un excelente ejemplo de un servicio de aplicación, ya que no solo interactúa con su propio repositorio, sino que también **coordina con un servicio externo** (`IExternalProfileService`) para validar la existencia de un profesor antes de crear o actualizar un aula.
+  - `ResourceCommandService`: Gestiona el ciclo de vida de los recursos. Antes de crear un recurso, verifica que el `Classroom` al que pertenecerá exista, manteniendo así la consistencia del sistema.
+  - `SharedAreaCommandService`: Maneja los comandos para las áreas compartidas, aplicando validaciones como la no existencia de un área con el mismo nombre.
+
+**2. Query Handlers (Internal Query Services)**
+
+- **Propósito:** Implementan los casos de uso de **solo lectura**. Su responsabilidad es simple y directa: recibir un objeto `Query`, utilizar el método apropiado del repositorio para recuperar los datos solicitados y devolverlos a la capa de Interfaz. Siguen estrictamente el principio de Separación de Comandos y Consultas (CQS).
+- **Clases Identificadas:**
+  - `ClassroomQueryService`: Provee la lógica para obtener aulas por ID, obtener todas las aulas o filtrarlas por el ID del profesor.
+  - `ResourceQueryService`: Se encarga de manejar las consultas para obtener recursos por ID, por aula o todos en general.
+  - `SharedAreaQueryService`: Gestiona la recuperación de datos para las áreas compartidas.
+
+**3. Outbound Services (ACL - Anti-Corruption Layer)**
+
+- **Propósito:** Esta sección de la capa de aplicación gestiona la comunicación con otros Bounded Contexts. Actúa como un cliente para las fachadas (Facades) expuestas por otros contextos.
+- **Componentes Identificados:**
+  - `IExternalProfileService` (Interfaz): Define el contrato para los servicios que necesitan verificar perfiles en un contexto externo.
+  - `ExternalProfileService` (Implementación): Es la implementación concreta que consume la fachada del Bounded Context de "Profiles" (`IProfilesContextFacade`). Esta clase encapsula y aísla por completo la complejidad de la comunicación entre contextos, permitiendo que el `ClassroomCommandService` simplemente pregunte `profileService.VerifyProfile(...)` sin saber cómo se realiza esa verificación.
+
 #### 2.6.3.4 Infrastructure Layer
+
+Esta capa es donde las abstracciones definidas en la capa de Dominio (como las interfaces de los repositorios) se convierten en código concreto y funcional. Se encarga de todas las preocupaciones técnicas externas, como el acceso a la base de datos, el sistema de archivos o la comunicación por red.
+
+**1. Repository Implementations**
+
+- **Propósito:** Son las clases que implementan los contratos (`I...Repository`) definidos en la capa de Dominio. Su responsabilidad es traducir las operaciones de negocio (ej. "buscar un aula por ID") a consultas y comandos específicos de la tecnología de persistencia utilizada, en este caso, **Entity Framework Core (EFC)**.
+- **Clases Identificadas:**
+  - `ClassroomRepository`: Implementa `IClassroomRepository`. Utiliza el `AppDbContext` de EFC para construir consultas LINQ que se traducen a SQL, permitiendo buscar, listar y verificar la existencia de aulas en la base de datos.
+  - `ResourceRepository`: Implementa `IResourceRepository`. Además de las operaciones básicas, utiliza el método `.Include(resource => resource.Classroom)` de EFC. Esto es un detalle técnico importante de esta capa, ya que se encarga de la carga ansiosa (_eager loading_) de entidades relacionadas para asegurar que los datos necesarios estén disponibles.
+  - `SharedAreaRepository`: Implementa `ISharedAreaRepository`, encargándose de la persistencia del agregado `SharedArea`.
+- **Patrón Clave:** Todas las implementaciones heredan de una clase genérica `BaseRepository<T>`, lo cual es una excelente práctica para reutilizar el código común de las operaciones CRUD (Crear, Leer, Actualizar, Borrar) y mantener el código de los repositorios específicos más limpio y enfocado en sus consultas particulares.
 
 #### 2.6.3.5 Bounded Context Software Architecture Component Level Diagrams
 

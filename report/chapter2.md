@@ -3172,9 +3172,64 @@ Los Domain Message Flows representan cómo se comunican nuestros bounded context
 
 Estos flujos son cruciales para entender la interacción entre los componentes del sistema. Nos ayudan a encontrar y solucionar problemas de comunicación, además de asegurar que la arquitectura funcione bien para los casos más importantes.
 
+
 #### 2.5.1.3 Bounded Context Canvases
 
+Los Bounded Context Canvases son herramientas visuales que nos ayudan a documentar los aspectos clave de cada contexto delimitado, incluyendo su propósito estratégico, modelo de dominio, lenguaje ubicuo, políticas y las interacciones con otros contextos. A continuación, se presentan los canvases de nuestros cuatro bounded contexts identificados, los cuales nos permitieron definir de manera clara las responsabilidades y límites de cada uno.
+
+##### Bounded context canvas IAM:
+
+![Bounded Context Canvas IAM](../assets/chapter2/bounded-context-canvases/iam-canvas.png)
+
+##### Bounded context canvas profile:
+
+![Bounded Context Canvas Profile](../assets/chapter2/bounded-context-canvases/profile-canvas.png)
+
+##### Bounded context canvas reservation scheduling:
+
+![Bounded Context Canvas Reservation Scheduling](../assets/chapter2/bounded-context-canvases/reservation-canvas.png)
+
+##### Bounded context canvas breakdown management:
+
+![Bounded Context Canvas Breakdown Management](../assets/chapter2/bounded-context-canvases/breakdown-canvas.png)
+
+##### Bounded context space and resource management:
+
+![Bounded Context Canvas Space and Resource Management](../assets/chapter2/bounded-context-canvases/sarm-canvas.png)
+
 ### 2.5.2 Context Mapping
+
+Una vez que identificamos nuestros bounded contexts mediante EventStorming, comenzamos a analizar las relaciones entre ellos para crear un context mapping efectivo. Este paso fue fundamental para comprender cómo interactúan los distintos contextos y para establecer de manera clara sus responsabilidades y límites.
+
+
+- Primera alternativa: Conetext map inicial
+
+El primer context map que se realizó se basó en los bounded context identificados previamente en el event storming.
+
+![Context Map Initial](../assets/chapter2/context-mapping/cm-1.png)
+
+IAM -> Todos | Patrón Shared Kernel, Todos los contexts se comunican con IAM ya que es necesario la autenticación del usuario para que se puedan acceder a los otros contexts.
+
+Profile: Proporciona al administrador la edición y manejo del perfil de los profesores
+
+Breakdown Management -> Space and Resource Management | Patrón Anti-Corruption Layer, donde breakdown management envía reportes de averías o fallas y space and resource management asigna o inhabilita los ambientes reportados
+
+Space and Resource Management -> Reservation Scheduling | Patrón Customer/Supplier, donde space and resource management (Supplier) brinda los datos a Reservation Scheduing(customer) para la programación de la reserva
+
+- Segunda alternativa: Separación de Contextos
+
+¿Que pasaría si tomamos el capability de notificaciones de los bounded context de breakdown management, space and resource management y reservation scheduling para formar un nuevo context?
+
+![Context Map Alternative](../assets/chapter2/context-mapping/cm-2.png)
+
+- Tercera alternativa: 
+
+¿Qué pasaría si consideramos un nuevo contexto compuesto por la integración de las capacidades de gestión de reservas, gestión de espacio y recursos, y notificaciones? Este nuevo contexto formaría una unidad para la asignación y programación optimizada, con notificaciones asociadas al evento de la reserva
+
+
+![Context Map Alternative 2](../assets/chapter2/context-mapping/cm-3.png)
+
+Esta alternativa busca integrar las capacidades de gestión de recursos y reservas con un sistema de notificaciones. De esta forma, el flujo de información se optimiza, permitiendo que la programación de reservas y la gestión de recursos estén más coordinadas, mientras que las notificaciones ayudan a la interacción dinámica con el usuario (en este caso, los profesores o administradores) sin que se interfiera con los contextos ya establecidos.
 
 ### 2.5.3. Software Architecture
 

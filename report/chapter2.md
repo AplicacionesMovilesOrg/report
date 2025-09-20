@@ -604,6 +604,13 @@ En esta sección, se presentan las tareas principales que los User Personas (Ari
 
 
 ### 2.3.3. User Journey Mapping
+En esta sección se elaboró el user Journey Mapping, el caul su objetivo es identificar las necesidades, los puntos conflictivos y las oportunidades de mejora. Por eso, cada mapa refleja las etapas de interacción, las acciones, los canales de comunicación, las emociones, los obstáculos y las posibles mejoras.
+
+**Ariana Yasan**
+
+A continuacion se presenta el User Journey Map de Ariana Yasan
+
+<img src="../assets/chapter2/userPerson/Ariana-journey.png" alt="Ariana Yasan Journey Mapping" width="auto" height="auto"/>
 
 ### 2.3.4. Empathy Mapping
 En esta sección se presenta el Empathy Mapping de nuestros 2 segmentos objetivos. Esta herramienta se utilizó porque permite identificar nuestro público objetivo, conocer su entorno y sus necesidades, lo cual nos permite ver el mundo a través de su perspectiva.
@@ -3864,6 +3871,7 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 
 

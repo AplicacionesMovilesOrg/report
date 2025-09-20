@@ -453,6 +453,30 @@ El entrevistado nos indica su perpectiva que es la de un docente universitario .
 
 En esta sección se realiza el análisis de cada entrevista para cada segmento objetivo. Con el fin de obtener información para el desarrollo de nuestra aplicación. A continuación, se presenarán los análisis de entrevistas, los cuáles han sido hechos recaudando la información de las entrevistas previamente realizadas.
 
+Segmento 1: Administradores de instituciones educativas
+
+¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+
+![sistema operativo](/assets/chapter2/interview-analysis/analysis-1.png)
+
+¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo?
+
+![dispositivos](/assets/chapter2/interview-analysis/analysis-2.png)
+
+¿Cuáles son los mayores desafíos que enfrentas en tu rol actual?
+
+![desafios](/assets/chapter2/interview-analysis/analysis-3.png)
+
+Segmento 2: Docentes y auxiliares
+
+¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+
+![sistema operativo](/assets/chapter2/interview-analysis/analysis-4.png)
+
+¿Cuáles son los mayores desafíos que enfrentas en la gestión de equipos y recursos en el aula?
+
+![desafios](/assets/chapter2/interview-analysis/analysis-5.png)
+
 ## 2.3. Needfinding
 
 Con el fin de desarrollar un producto alineado con las necesidades específicas del cliente, nos hemos enfocado e identificar los User Persona, la User Task Matrix, los User Journey Maps y el Empathy Mapping.

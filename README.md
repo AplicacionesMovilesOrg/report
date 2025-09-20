@@ -52,6 +52,25 @@ Septiembre 2025
 
 # **Project Report Collaboration Insights**
 
+GitHub Collaboration Insights ofrece un cronograma que muestra las principales ramas y los procesos de fusión realizados. Todas las ramas se han creado siguiendo los principios de GitFlow, lo que asegura una organización eficiente al utilizar el sistema de control de versiones.
+
+Andrés Alberto Torres García (andrest04)
+
+Dayro Richard Rios Piñan (addicted2u)
+
+Vicente Quijandria Araneda (vquijandria)
+
+Renato Guillermo Calvo Yalan (RenatoCY)
+
+Antonio Jhair Navarro Chinga (AntonioNavarro24)
+
+
+Entregable TB1:
+
+A continuación se muestran los gráficos de colaboración de los miembros del equipo en el repositorio durante nuestro primer sprint. Estos gráficos proporcionan una representación visual de las contribuciones realizadas por cada integrante, junto con las fechas correspondientes. También se incluye información sobre la cantidad de líneas de código modificadas en cada uno de los commits.
+
+![insights](./assets/chapter1/insight-tb1.png)
+
 # **Student Outcome**
 
 <p align ="justify">

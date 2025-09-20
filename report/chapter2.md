@@ -606,6 +606,15 @@ En esta sección, se presentan las tareas principales que los User Personas (Ari
 ### 2.3.3. User Journey Mapping
 
 ### 2.3.4. Empathy Mapping
+En esta sección se presenta el Empathy Mapping de nuestros 2 segmentos objetivos. Esta herramienta se utilizó porque permite identificar nuestro público objetivo, conocer su entorno y sus necesidades, lo cual nos permite ver el mundo a través de su perspectiva.
+
+Segmento 1: Administrador
+
+<img src="../assets/chapter2/userPerson/Ariana Yasan.png" alt="Ariana Yasan" width="auto" height="auto"/>
+
+Segmento 1: Docente
+
+<img src="../assets/chapter2/userPerson/Renzo Calvo.png" alt="Renzo Calvo" width="auto" height="auto"/>
 
 ### 2.3.5. Ubiquitous Language
 <dl>
@@ -3855,6 +3864,7 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 
 

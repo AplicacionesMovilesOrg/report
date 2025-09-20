@@ -3035,8 +3035,74 @@ Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace:
 Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
 
 ## 2.5. Strategic-Level Domain-Driven Design
+Esta sección explica cómo dividimos nuestro software en bounded contexts usando las herramientas EventStorming y Bounded Context Canvas.
+
 
 ### 2.5.1 EventStorming
+Para la elaboración del EventStorming, el equipo organizó una primera aproximación al modelo del dominmio de nuestro proyecto. Durante este proceso se realizaron una serie de 9 pasos.
+<br>
+
+**Paso 1: Collect Domain Events** 
+<br>
+En este primer paso, se identificó todos los eventos relevantes para el dominio para nuestro sistema. Estos eventos representan hechos importantes que suceden en el proceso de negocio y los recopilamos con pos-its de color naranja.
+
+<img src="../assets/chapter2/eventstorming/domain-event.png" alt="Domain Event" width="auto" height="480"/>
+
+<br>
+
+**Paso 2: Timeline** 
+<br>
+En este paso organizamos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
+<img src="../assets/chapter2/eventstorming/timeline.png" alt="Timeline" width="auto" height="480"/>
+
+<br>
+
+**Paso 3:  Pain and Pivotal points** 
+<br>
+En este paso se identificaron los pain points y los pivotal points del proceso. Esto significa que se encontraron las partes que necesitan mayor atención o que son cruciales para que el sistema funcione correctamente.
+<img src="../assets/chapter2/eventstorming/pain-and-pivotal-points.png" alt="Pain and Pivotal points" width="auto" height="480"/>
+
+<br>
+
+**Paso 4: Commands** 
+<br>
+En este paso se agregaron comandos (los post-its azules) para representar las acciones de los usuarios o sistemas que inician un cambio en el sistema.
+<img src="../assets/chapter2/eventstorming/commands.png" alt="Commands" width="auto" height="480"/>
+
+<br>
+
+**Paso 5: Policies** 
+<br>
+En este paso se definieron reglas de negocio (los post-its morados) que responden a ciertos eventos y generan nuevos eventos. Básicamente, estas reglas automatizan decisiones basadas en lo que sucedió antes.
+<img src="../assets/chapter2/eventstorming/policies.png" alt="Policies" width="auto" height="480"/>
+
+<br>
+
+**Paso 6: Read models** 
+<br>
+En este paso se identificaron las vistas o modelos de lectura que los usuarios necesitan. Esto se refiere a la información específica que debe estar accesible en ciertos momentos para que los usuarios puedan tomar decisiones.
+<img src="../assets/chapter2/eventstorming/read-models.png" alt="Read Models" width="auto" height="480"/>
+
+<br>
+
+**Paso 7: External System** 
+<br>
+En este paso se identificaron los sistemas externos (post-its rosados) que se conectan con nuestra solución. Estos son elementos que no controlamos directamente, pero que influyen en el proceso.
+<img src="../assets/chapter2/eventstorming/external-systems.png" alt="External Systems" width="auto" height="480"/>
+
+<br>
+
+**Paso 8: Aggregates** 
+<br>
+En este paso se organizaron los comandos y eventos relacionados en grupos lógicos llamados agregados (los post-its amarillos). Cada grupo reúne un conjunto de funciones que trabajan juntas de manera coherente.
+<img src="../assets/chapter2/eventstorming/aggregates.png" alt="Aggregates" width="auto" height="480"/>
+
+<br>
+
+**Paso 9: Bounded Context** 
+<br>
+Al final, definimos las áreas de responsabilidad del sistema, también conocidas como bounded contexts.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
 
 #### 2.5.1.1 Candidate Context Discovery
 
@@ -3646,6 +3712,7 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 
 

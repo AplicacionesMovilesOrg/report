@@ -584,7 +584,56 @@ En esta sección, se presentan las tareas principales que los User Personas (Ari
 ### 2.3.4. Empathy Mapping
 
 ### 2.3.5. Ubiquitous Language
-
+<dl>
+    <dt><span class="term">Classroom</span> <span class="spanish">(Aula)</span></dt>
+    <dd>Espacio destinado a la realización de clases presenciales o actividades académicas; incluye atributos como nombre, capacidad y equipamiento asociado.</dd>
+    <dt><span class="term">Shared Area</span> <span class="spanish">(Área compartida)</span></dt>
+    <dd>Espacio común utilizado por varios grupos o departamentos (por ejemplo biblioteca, laboratorio, sala polivalente) que puede reservarse o gestionarse centralmente.</dd>
+    <dt><span class="term">Resource</span> <span class="spanish">(Recurso)</span></dt>
+    <dd>Elemento físico o material disponible para uso en un espacio (proyector, computador, impresora, mobiliario) o recurso digital vinculado al uso educativo.</dd>
+    <dt><span class="term">Teacher</span> <span class="spanish">(Profesor)</span></dt>
+    <dd>Persona responsable de impartir una asignatura o actividad en un aula; su rol puede asociarse a horarios, asignaciones y permisos sobre espacios.</dd>
+    <dt><span class="term">Student</span> <span class="spanish">(Estudiante)</span></dt>
+    <dd>Usuario final del servicio educativo que asiste a actividades académicas; su presencia puede influir en la ocupación de espacios y en la demanda de recursos.</dd>
+    <dt><span class="term">Reservation</span> <span class="spanish">(Reserva)</span></dt>
+    <dd>Acción por la cual un usuario o responsable solicita y bloquea el uso de un espacio o recurso para una franja horaria específica.</dd>
+    <dt><span class="term">Booking</span> <span class="spanish">(Reserva / Reserva de espacio)</span></dt>
+    <dd>Término equivalente a "Reservation" usado para indicar la confirmación formal de uso de un espacio o recurso en una fecha y hora determinadas.</dd>
+    <dt><span class="term">Schedule</span> <span class="spanish">(Horario / Programación)</span></dt>
+    <dd>Conjunto de franjas temporales asignadas a actividades, clases o reservas que determinan cuándo un espacio o recurso está ocupado o disponible.</dd>
+    <dt><span class="term">Capacity</span> <span class="spanish">(Capacidad)</span></dt>
+    <dd>Número máximo de personas que un espacio puede alojar de forma segura y funcional, considerado para asignación de aulas y planificación.</dd>
+    <dt><span class="term">Availability</span> <span class="spanish">(Disponibilidad)</span></dt>
+    <dd>Estado que indica si un espacio o recurso puede ser usado en una franja horaria concreta; depende de reservas previas, mantenimiento u otras restricciones.</dd>
+    <dt><span class="term">Inventory</span> <span class="spanish">(Inventario)</span></dt>
+    <dd>Listado y registro de activos y recursos físicos disponibles en la institución, incluyendo cantidades, ubicaciones y estado general.</dd>
+    <dt><span class="term">Asset</span> <span class="spanish">(Activo)</span></dt>
+    <dd>Bien tangible propiedad de la institución (equipos, muebles, máquinas) que forma parte del inventario y requiere gestión de ciclo de vida.</dd>
+    <dt><span class="term">Maintenance</span> <span class="spanish">(Mantenimiento)</span></dt>
+    <dd>Conjunto de actividades para conservar, reparar o restaurar el funcionamiento de un activo o recurso, buscando minimizar fallas y prolongar vida útil.</dd>
+    <dt><span class="term">Preventive Maintenance</span> <span class="spanish">(Mantenimiento preventivo)</span></dt>
+    <dd>Acciones programadas y planificadas realizadas periódicamente para prevenir fallos antes de que ocurran (inspecciones, limpieza, calibraciones).</dd>
+    <dt><span class="term">Incident</span> <span class="spanish">(Incidente)</span></dt>
+    <dd>Evento no planificado que altera el funcionamiento normal de un espacio o recurso (avería, daño, fallo operativo) y requiere atención o reparación.</dd>
+    <dt><span class="term">Report</span> <span class="spanish">(Reporte / Informe)</span></dt>
+    <dd>Documento o registro que describe un incidente, su contexto y datos relevantes (fecha, recurso afectado, descripción) para su gestión y seguimiento.</dd>
+    <dt><span class="term">Work Order</span> <span class="spanish">(Orden de trabajo)</span></dt>
+    <dd>Solicitud formal para ejecutar una tarea de mantenimiento o reparación; incluye instrucciones, prioridad y responsable asignado.</dd>
+    <dt><span class="term">Downtime</span> <span class="spanish">(Tiempo de inactividad)</span></dt>
+    <dd>Período durante el cual un recurso o espacio no está operativo o disponible debido a fallas, mantenimiento o restricción de uso.</dd>
+    <dt><span class="term">Occupancy</span> <span class="spanish">(Ocupación)</span></dt>
+    <dd>Métrica o condición que indica cuántas personas están presentes en un espacio en un momento determinado, útil para control y planificación.</dd>
+    <dt><span class="term">Accessibility</span> <span class="spanish">(Accesibilidad)</span></dt>
+    <dd>Condición que asegura que un espacio o recurso pueda ser utilizado por personas con distintas capacidades, incluyendo cumplimiento de normativas y facilidades físicas.</dd>
+    <dt><span class="term">Service Request</span> <span class="spanish">(Solicitud de servicio)</span></dt>
+    <dd>Petición realizada por un usuario para recibir soporte, mantenimiento o atención sobre un recurso o espacio (por ejemplo: limpieza, reparación menor).</dd>
+    <dt><span class="term">Lifecycle</span> <span class="spanish">(Ciclo de vida)</span></dt>
+    <dd>Conjunto de etapas por las que pasa un activo o recurso desde su adquisición hasta su disposición final (compra, uso, mantenimiento, baja).</dd>
+    <dt><span class="term">Stakeholder</span> <span class="spanish">(Parte interesada)</span></dt>
+    <dd>Persona o grupo con interés directo en la gestión de espacios y recursos (administración, docentes, estudiantes, personal de mantenimiento, proveedores).</dd>
+    <dt><span class="term">Compliance</span> <span class="spanish">(Cumplimiento)</span></dt>
+    <dd>Conformidad con normativas, políticas internas y requisitos legales aplicables a instalaciones, seguridad y accesibilidad.</dd>
+  </dl>
 ## 2.4. Requirements specification
 
 ### 2.4.1 User Stories
@@ -3597,5 +3646,6 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 

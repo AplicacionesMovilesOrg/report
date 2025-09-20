@@ -18,9 +18,9 @@ Profesor: Mayta Guillermo, Jorge Luis
 
 “Informe de TB1”
 
-Startup:
+Startup: Eduspace
 
-Producto:
+Producto: Eduspace
 
 | Integrantes                  | Código     |
 | ---------------------------- | ---------- |
@@ -48,9 +48,28 @@ Septiembre 2025
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | ------- | ----- | ----- | --------------------------- |
-| 1.0     |       |       |                             |
+| 1.0     |  19/09     | Andrés Torres      |  Se realizó la primera versión del informe. Capítulos 1 y dos realizados  |
 
 # **Project Report Collaboration Insights**
+
+GitHub Collaboration Insights ofrece un cronograma que muestra las principales ramas y los procesos de fusión realizados. Todas las ramas se han creado siguiendo los principios de GitFlow, lo que asegura una organización eficiente al utilizar el sistema de control de versiones.
+
+Andrés Alberto Torres García (andrest04)
+
+Dayro Richard Rios Piñan (addicted2u)
+
+Vicente Quijandria Araneda (vquijandria)
+
+Renato Guillermo Calvo Yalan (RenatoCY)
+
+Antonio Jhair Navarro Chinga (AntonioNavarro24)
+
+
+Entregable TB1:
+
+A continuación se muestran los gráficos de colaboración de los miembros del equipo en el repositorio durante nuestro primer sprint. Estos gráficos proporcionan una representación visual de las contribuciones realizadas por cada integrante, junto con las fechas correspondientes. También se incluye información sobre la cantidad de líneas de código modificadas en cada uno de los commits.
+
+![insights](./assets/chapter1/insight-tb1.png)
 
 # **Student Outcome**
 
@@ -62,17 +81,49 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 7.</p>
 
-<table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
-  <thead>
-    <tr style="border-bottom: 1px solid black;">
-      <th style="border-right: 1px solid black;">Criterio Específico</th>
-      <th style="border-right: 1px solid black;">Acciones Realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Contenido eliminado para nuevo proyecto -->
-  </tbody>
+
+<table>
+  <tr>
+    <th>Criterio Específico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+    <td> Calvo Yalan, Renato Guillermo: <br>TB1: Reforzó los conocimientos asociados a la realización del needfinding para reunir informaición necesaria para los arquetipos del mismo.</td>
+    <td rowspan="5">TB1:El equipo demuestra un compromiso constante con la actualización y fortalecimiento de sus conocimientos, reconociendo la importancia de este proceso para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se refuerzan competencias vinculadas al needfinding para levantar información clave en la construcción de arquetipos, así como la profundización en arquitectura de software y diseño orientado a dominios que permiten crear soluciones escalables y alineadas al negocio. De igual forma, se aplican prácticas de refactorización y herramientas como el User Task Matrix, complementadas con entrevistas, que aseguran la pertinencia y mejora continua de las soluciones. También se incorporan metodologías como Empathy Mapping, event storming, domain message flow, context mapping y User Stories, que fortalecen la comprensión del usuario y la transformación de necesidades en requerimientos claros. Finalmente, se destaca el análisis de entrevistas y el modelado de dominios como medios para generar un entendimiento compartido y garantizar coherencia en el diseño. En conjunto, se evidencia una clara orientación hacia el aprendizaje permanente y la construcción de soluciones efectivas y centradas en el usuario <br>
+</td>
+  </tr>
+  <tr>
+    <td> Torres García, Andrés Alberto: Se enfoca en profundizar en arquitectura de software con énfasis en el nivel táctico de Domain-Driven Design (DDD). Esto le permite fortalecer la base conceptual y práctica para diseñar soluciones escalables, alineadas con la lógica del negocio, contribuyendo de manera estratégica al proyecto.<br>TB1: Reforzó <br></td>
+  </tr>
+  <tr>
+    <td> Quijandria Araneda, Vicente: <br>TB1: Orienta su actualización hacia la práctica aplicada en refactorización y ajuste de landing pages, así como en la utilización de herramientas como el User Task Matrix. Esto, complementado con la realización de entrevistas, le permite no solo mantener sus conocimientos actualizados, sino también validar con usuarios reales la pertinencia de las soluciones, asegurando un desarrollo orientado a la experiencia de usuario y a la mejora continua.</td>
+  </tr>
+  <tr>
+    <td> Navarro Chinga, Antonio Jhair: <br>TB1: Actualiza sus conocimientos mediante el uso de Empathy Mapping, event storming, domain message flow, context mapping y User Stories, fortaleciendo su capacidad para comprender al usuario, modelar dominios de negocio y transformar necesidades en requerimientos claros. Con ello, asegura tanto su desarrollo profesional como la calidad de las soluciones de software en el proyecto.</td>
+  </tr>
+  <tr>
+    <td> Rios Piñan, Dayro Richard: <br>TB1: Actualiza sus competencias en metodologías de descubrimiento y modelado como event storming, domain message flow y context mapping. Estas prácticas le otorgan la capacidad de identificar con claridad los dominios de negocio, mapear interacciones clave y generar un entendimiento compartido que asegura coherencia en el diseño de las soluciones. Además de la realización del análisis de entrevistas. </td>
+  </tr>
+  <tr>
+    <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+    <td>Calvo Yalan, Renato Guillermo: <br>TB1: Reconoce que el aprendizaje continuo es fundamental para fortalecer sus competencias y aportar soluciones innovadoras en el desarrollo de proyectos de software</td>
+    <td rowspan="5">TB1:El equipo en su conjunto reconoce la importancia del aprendizaje permanente como base para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se valora la formación continua como medio para innovar y fortalecer aportes, la actualización en arquitectura y diseño para garantizar calidad, el aprendizaje constante como motor para refactorizar y mejorar soluciones, la formación en metodologías ágiles y centradas en el usuario para aportar eficacia, así como la actualización en prácticas de modelado de dominio como elemento esencial para un desempeño sólido. En conjunto, se evidencia un compromiso claro con la mejora continua y la construcción de soluciones relevantes y efectivas..<br>
+</td>
+  </tr>
+  <tr>
+    <td>Torres García, Andrés Alberto: <br>TB1: Identifica la actualización constante en arquitectura de software y diseño táctico como clave para su crecimiento profesional y para garantizar proyectos de calidad.</td>
+  </tr>
+  <tr>
+    <td>Quijandria Araneda, Vicente: <br>TB1:Entiende la importancia de aprender permanentemente para refactorizar y ajustar soluciones, asegurando mejoras continuas y mayor valor para el usuario.</td>
+  </tr>
+  <tr>
+    <td>Navarro Chinga, Antonio Jhair: <br>TB1:Reconoce que la formación continua en metodologías ágiles y centradas en el usuario es esencial para su desarrollo profesional y la eficacia del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br>TB1:Valora la actualización constante en prácticas de modelado de dominio como base para un mejor desempeño y para aportar al éxito de los proyectos de software.</td>
+  </tr>
 </table>
 
 # **Contenido**

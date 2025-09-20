@@ -333,7 +333,7 @@ Entrevista 1:
 
 Duración: 4 minutos 48 segundos
 
-Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/bdek6avs
 
 Nombre: Paola
 
@@ -355,7 +355,7 @@ Entrevista 2:
 
 Duración: 5 minutos 14 segundos
 
-Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/4dh4cya5
 
 Nombre: Jaime
 
@@ -374,7 +374,7 @@ Entrevista 3:
 
 Duración: 4 minutos 12 segundos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/2vwhk4vs
 
 Nombre: Ariana
 
@@ -396,7 +396,7 @@ Entrevista 4:
 
 Duración: 5 minutos 25 segundos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/3dnu5hhn
 
 Nombre: Manuel Alejandro
 
@@ -416,7 +416,7 @@ Entrevista 5:
 
 Duración: 7 minutos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/ywb9xw8x
 
 Nombre:Fabrizio
 
@@ -436,7 +436,7 @@ Entrevista 6:
 
 Duración: 7 minutos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/3cxtp9aj
 
 Nombre: Renzo 
 
@@ -452,6 +452,30 @@ El entrevistado nos indica su perpectiva que es la de un docente universitario .
 ### 2.2.3. Análisis de entrevistas
 
 En esta sección se realiza el análisis de cada entrevista para cada segmento objetivo. Con el fin de obtener información para el desarrollo de nuestra aplicación. A continuación, se presenarán los análisis de entrevistas, los cuáles han sido hechos recaudando la información de las entrevistas previamente realizadas.
+
+Segmento 1: Administradores de instituciones educativas
+
+¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+
+![sistema operativo](/assets/chapter2/interview-analysis/analysis-1.png)
+
+¿Qué dispositivos móviles (smartphone, tablet) utilizas más para tu trabajo?
+
+![dispositivos](/assets/chapter2/interview-analysis/analysis-2.png)
+
+¿Cuáles son los mayores desafíos que enfrentas en tu rol actual?
+
+![desafios](/assets/chapter2/interview-analysis/analysis-3.png)
+
+Segmento 2: Docentes y auxiliares
+
+¿Cuál es el sistema operativo de tu teléfono (iOS o Android)?
+
+![sistema operativo](/assets/chapter2/interview-analysis/analysis-4.png)
+
+¿Cuáles son los mayores desafíos que enfrentas en la gestión de equipos y recursos en el aula?
+
+![desafios](/assets/chapter2/interview-analysis/analysis-5.png)
 
 ## 2.3. Needfinding
 
@@ -580,8 +604,24 @@ En esta sección, se presentan las tareas principales que los User Personas (Ari
 
 
 ### 2.3.3. User Journey Mapping
+En esta sección se elaboró el user Journey Mapping, el caul su objetivo es identificar las necesidades, los puntos conflictivos y las oportunidades de mejora. Por eso, cada mapa refleja las etapas de interacción, las acciones, los canales de comunicación, las emociones, los obstáculos y las posibles mejoras.
+
+**Ariana Yasan**
+
+A continuacion se presenta el User Journey Map de Ariana Yasan
+
+<img src="../assets/chapter2/userPerson/Ariana-journey.png" alt="Ariana Yasan Journey Mapping" width="auto" height="auto"/>
 
 ### 2.3.4. Empathy Mapping
+En esta sección se presenta el Empathy Mapping de nuestros 2 segmentos objetivos. Esta herramienta se utilizó porque permite identificar nuestro público objetivo, conocer su entorno y sus necesidades, lo cual nos permite ver el mundo a través de su perspectiva.
+
+Segmento 1: Administrador
+
+<img src="../assets/chapter2/userPerson/Ariana Yasan.png" alt="Ariana Yasan" width="auto" height="auto"/>
+
+Segmento 1: Docente
+
+<img src="../assets/chapter2/userPerson/Renzo Calvo.png" alt="Renzo Calvo" width="auto" height="auto"/>
 
 ### 2.3.5. Ubiquitous Language
 <dl>
@@ -3035,16 +3075,201 @@ Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace:
 Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
 
 ## 2.5. Strategic-Level Domain-Driven Design
+Esta sección explica cómo dividimos nuestro software en bounded contexts usando las herramientas EventStorming y Bounded Context Canvas.
+
 
 ### 2.5.1 EventStorming
+Para la elaboración del EventStorming, el equipo organizó una primera aproximación al modelo del dominmio de nuestro proyecto. Durante este proceso se realizaron una serie de 9 pasos.
+<br>
+
+**Paso 1: Collect Domain Events** 
+<br>
+En este primer paso, se identificó todos los eventos relevantes para el dominio para nuestro sistema. Estos eventos representan hechos importantes que suceden en el proceso de negocio y los recopilamos con pos-its de color naranja.
+
+<img src="../assets/chapter2/eventstorming/domain-event.png" alt="Domain Event" width="auto" height="480"/>
+
+<br>
+
+**Paso 2: Timeline** 
+<br>
+En este paso organizamos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
+<img src="../assets/chapter2/eventstorming/timeline.png" alt="Timeline" width="auto" height="480"/>
+
+<br>
+
+**Paso 3:  Pain and Pivotal points** 
+<br>
+En este paso se identificaron los pain points y los pivotal points del proceso. Esto significa que se encontraron las partes que necesitan mayor atención o que son cruciales para que el sistema funcione correctamente.
+<img src="../assets/chapter2/eventstorming/pain-and-pivotal-points.png" alt="Pain and Pivotal points" width="auto" height="480"/>
+
+<br>
+
+**Paso 4: Commands** 
+<br>
+En este paso se agregaron comandos (los post-its azules) para representar las acciones de los usuarios o sistemas que inician un cambio en el sistema.
+<img src="../assets/chapter2/eventstorming/commands.png" alt="Commands" width="auto" height="480"/>
+
+<br>
+
+**Paso 5: Policies** 
+<br>
+En este paso se definieron reglas de negocio (los post-its morados) que responden a ciertos eventos y generan nuevos eventos. Básicamente, estas reglas automatizan decisiones basadas en lo que sucedió antes.
+<img src="../assets/chapter2/eventstorming/policies.png" alt="Policies" width="auto" height="480"/>
+
+<br>
+
+**Paso 6: Read models** 
+<br>
+En este paso se identificaron las vistas o modelos de lectura que los usuarios necesitan. Esto se refiere a la información específica que debe estar accesible en ciertos momentos para que los usuarios puedan tomar decisiones.
+<img src="../assets/chapter2/eventstorming/read-models.png" alt="Read Models" width="auto" height="480"/>
+
+<br>
+
+**Paso 7: External System** 
+<br>
+En este paso se identificaron los sistemas externos (post-its rosados) que se conectan con nuestra solución. Estos son elementos que no controlamos directamente, pero que influyen en el proceso.
+<img src="../assets/chapter2/eventstorming/external-systems.png" alt="External Systems" width="auto" height="480"/>
+
+<br>
+
+**Paso 8: Aggregates** 
+<br>
+En este paso se organizaron los comandos y eventos relacionados en grupos lógicos llamados agregados (los post-its amarillos). Cada grupo reúne un conjunto de funciones que trabajan juntas de manera coherente.
+<img src="../assets/chapter2/eventstorming/aggregates.png" alt="Aggregates" width="auto" height="480"/>
+
+<br>
+
+**Paso 9: Bounded Context** 
+<br>
+Al final, definimos las áreas de responsabilidad del sistema, también conocidas como bounded contexts.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
 
 #### 2.5.1.1 Candidate Context Discovery
+Después de la sesión de EventStorming en Miro, nuestro equipo se enfocó en encontrar los bounded contexts de la solución. Para lograrlo, aplicamos una técnica que nos ayudó a identificar los look-for-pivotal-events en nuestro proceso.
+
+<br>
+Proceso de identificación
+El equipo empezó a analizar el modelo completo que habían creado, centrándose especialmente en los eventos clave y en los agregados que ya se habían definido.
+<img src="../assets/chapter2/eventstorming/pain-and-pivotal-points.png" alt="Pain an Pivotal points" width="auto" height="480"/>
+
+<br>
+Detección de agrupaciones naturales: Se encontraron patrones y agrupaciones lógicas de comandos, eventos y reglas que se enfocaban en las mismas áreas o procesos.
+<img src="../assets/chapter2/eventstorming/external-systems.png" alt="External Systems" width="auto" height="480"/>
+
+<br>
+Nos enfocamos en eventos claves como la gestión de espacios y recursos que marcan claramente transiciones entre diferentes contextos.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Definición de límites: Trazamos fronteras alredor de los grupos identificados, se definieron los límites iniciales de nuestros bounded contexts.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Nomenclatura y validación: Asignamos a cada bounded context un nombre que reflejara su función principal. También nos aseguramos de que cada uno tuviera una lógica interna coherente y límites bien definidos.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Como resultado de este proceso, identificamos las siguientes áreas clave para nuestra solución:
+
+<br>
+<ul>
+  <li>Profile(Perfil): Este contexto se encarga de todo lo relacionado con la información del usuario. Su función principal es gestionar la creación, modificación y consulta de los perfiles de usuario.</li>
+  <li>IAM(Identity and Access Management): Este contexto es responsable de la identidad y el acceso de los usuarios al sistema. Su objetivo es asegurar que solo los usuarios autenticados y autorizados puedan interactuar con la plataforma.</li>
+  <li>Breakdown Management(Gestión de averías): Este contexto se centra en el manejo de las averías o incidentes. Su función es registrar, gestionar y resolver los problemas que surgen.</li>
+  <li>Reservation Scheduling (Programación de reservaciones): Este contexto se dedica a la programación de las reuniones, clases o eventos. Su responsabilidad es coordinar los horarios y la disponibilidad.</li>
+  <li>Space and Resource Management (Gestión de espacio y recursos): Este contexto maneja todo lo relacionado con la disponibilidad de espacios y recursos dentro de la institución, como aulas y salones.</li>
+</ul>
+
+<br>
+Esta identificación nos proporcionó una base sólida para continuar con el modelado más detallado de cada contexto y sus interacciones.
+
 
 #### 2.5.1.2 Domain Message Flows Modeling
+Los Domain Message Flows representan cómo se comunican nuestros bounded contexts. A continuación, se detallan los flujos de comunicación para cuatro escenarios importantes de nuestra aplicación.
+
+<br>
+
+**Scenario 1: Create Meeting**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/create-meeting.png" alt="Create Meeting" width="auto" height="480"/>
+
+<br>
+
+**Scenario 2: Cancel Reservation**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/cancel-reservation.png" alt="Cancel Reservation" width="auto" height="480"/>
+
+<br>
+
+**Scenario 3: Edit Teacher Profile**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/edit-teacher-profile.png" alt="Edit Teacher Profile" width="auto" height="480"/>
+
+<br>
+
+Estos flujos son cruciales para entender la interacción entre los componentes del sistema. Nos ayudan a encontrar y solucionar problemas de comunicación, además de asegurar que la arquitectura funcione bien para los casos más importantes.
+
 
 #### 2.5.1.3 Bounded Context Canvases
 
+Los Bounded Context Canvases son herramientas visuales que nos ayudan a documentar los aspectos clave de cada contexto delimitado, incluyendo su propósito estratégico, modelo de dominio, lenguaje ubicuo, políticas y las interacciones con otros contextos. A continuación, se presentan los canvases de nuestros cuatro bounded contexts identificados, los cuales nos permitieron definir de manera clara las responsabilidades y límites de cada uno.
+
+##### Bounded context canvas IAM:
+
+![Bounded Context Canvas IAM](../assets/chapter2/bounded-context-canvases/iam-canvas.png)
+
+##### Bounded context canvas profile:
+
+![Bounded Context Canvas Profile](../assets/chapter2/bounded-context-canvases/profile-canvas.png)
+
+##### Bounded context canvas reservation scheduling:
+
+![Bounded Context Canvas Reservation Scheduling](../assets/chapter2/bounded-context-canvases/reservation-canvas.png)
+
+##### Bounded context canvas breakdown management:
+
+![Bounded Context Canvas Breakdown Management](../assets/chapter2/bounded-context-canvases/breakdown-canvas.png)
+
+##### Bounded context space and resource management:
+
+![Bounded Context Canvas Space and Resource Management](../assets/chapter2/bounded-context-canvases/sarm-canvas.png)
+
 ### 2.5.2 Context Mapping
+
+Una vez que identificamos nuestros bounded contexts mediante EventStorming, comenzamos a analizar las relaciones entre ellos para crear un context mapping efectivo. Este paso fue fundamental para comprender cómo interactúan los distintos contextos y para establecer de manera clara sus responsabilidades y límites.
+
+
+- Primera alternativa: Conetext map inicial
+
+El primer context map que se realizó se basó en los bounded context identificados previamente en el event storming.
+
+![Context Map Initial](../assets/chapter2/context-mapping/cm-1.png)
+
+IAM -> Todos | Patrón Shared Kernel, Todos los contexts se comunican con IAM ya que es necesario la autenticación del usuario para que se puedan acceder a los otros contexts.
+
+Profile: Proporciona al administrador la edición y manejo del perfil de los profesores
+
+Breakdown Management -> Space and Resource Management | Patrón Anti-Corruption Layer, donde breakdown management envía reportes de averías o fallas y space and resource management asigna o inhabilita los ambientes reportados
+
+Space and Resource Management -> Reservation Scheduling | Patrón Customer/Supplier, donde space and resource management (Supplier) brinda los datos a Reservation Scheduing(customer) para la programación de la reserva
+
+- Segunda alternativa: Separación de Contextos
+
+¿Que pasaría si tomamos el capability de notificaciones de los bounded context de breakdown management, space and resource management y reservation scheduling para formar un nuevo context?
+
+![Context Map Alternative](../assets/chapter2/context-mapping/cm-2.png)
+
+- Tercera alternativa: 
+
+¿Qué pasaría si consideramos un nuevo contexto compuesto por la integración de las capacidades de gestión de reservas, gestión de espacio y recursos, y notificaciones? Este nuevo contexto formaría una unidad para la asignación y programación optimizada, con notificaciones asociadas al evento de la reserva
+
+
+![Context Map Alternative 2](../assets/chapter2/context-mapping/cm-3.png)
+
+Esta alternativa busca integrar las capacidades de gestión de recursos y reservas con un sistema de notificaciones. De esta forma, el flujo de información se optimiza, permitiendo que la programación de reservas y la gestión de recursos estén más coordinadas, mientras que las notificaciones ayudan a la interacción dinámica con el usuario (en este caso, los profesores o administradores) sin que se interfiera con los contextos ya establecidos.
 
 ### 2.5.3. Software Architecture
 
@@ -3646,6 +3871,11 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
+
+
+
+
 
 
 

@@ -3105,8 +3105,72 @@ Al final, definimos las áreas de responsabilidad del sistema, también conocida
 <img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
 
 #### 2.5.1.1 Candidate Context Discovery
+Después de la sesión de EventStorming en Miro, nuestro equipo se enfocó en encontrar los bounded contexts de la solución. Para lograrlo, aplicamos una técnica que nos ayudó a identificar los look-for-pivotal-events en nuestro proceso.
+
+<br>
+Proceso de identificación
+El equipo empezó a analizar el modelo completo que habían creado, centrándose especialmente en los eventos clave y en los agregados que ya se habían definido.
+<img src="../assets/chapter2/eventstorming/pain-and-pivotal-points.png" alt="Pain an Pivotal points" width="auto" height="480"/>
+
+<br>
+Detección de agrupaciones naturales: Se encontraron patrones y agrupaciones lógicas de comandos, eventos y reglas que se enfocaban en las mismas áreas o procesos.
+<img src="../assets/chapter2/eventstorming/external-systems.png" alt="External Systems" width="auto" height="480"/>
+
+<br>
+Nos enfocamos en eventos claves como la gestión de espacios y recursos que marcan claramente transiciones entre diferentes contextos.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Definición de límites: Trazamos fronteras alredor de los grupos identificados, se definieron los límites iniciales de nuestros bounded contexts.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Nomenclatura y validación: Asignamos a cada bounded context un nombre que reflejara su función principal. También nos aseguramos de que cada uno tuviera una lógica interna coherente y límites bien definidos.
+<img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
+
+<br>
+Como resultado de este proceso, identificamos las siguientes áreas clave para nuestra solución:
+
+<br>
+<ul>
+  <li>Profile(Perfil): Este contexto se encarga de todo lo relacionado con la información del usuario. Su función principal es gestionar la creación, modificación y consulta de los perfiles de usuario.</li>
+  <li>IAM(Identity and Access Management): Este contexto es responsable de la identidad y el acceso de los usuarios al sistema. Su objetivo es asegurar que solo los usuarios autenticados y autorizados puedan interactuar con la plataforma.</li>
+  <li>Breakdown Management(Gestión de averías): Este contexto se centra en el manejo de las averías o incidentes. Su función es registrar, gestionar y resolver los problemas que surgen.</li>
+  <li>Reservation Scheduling (Programación de reservaciones): Este contexto se dedica a la programación de las reuniones, clases o eventos. Su responsabilidad es coordinar los horarios y la disponibilidad.</li>
+  <li>Space and Resource Management (Gestión de espacio y recursos): Este contexto maneja todo lo relacionado con la disponibilidad de espacios y recursos dentro de la institución, como aulas y salones.</li>
+</ul>
+
+<br>
+Esta identificación nos proporcionó una base sólida para continuar con el modelado más detallado de cada contexto y sus interacciones.
+
 
 #### 2.5.1.2 Domain Message Flows Modeling
+Los Domain Message Flows representan cómo se comunican nuestros bounded contexts. A continuación, se detallan los flujos de comunicación para cuatro escenarios importantes de nuestra aplicación.
+
+<br>
+
+**Scenario 1: Create Meeting**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/create-meeting.png" alt="Create Meeting" width="auto" height="480"/>
+
+<br>
+
+**Scenario 2: Cancel Reservation**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/cancel-reservation.png" alt="Cancel Reservation" width="auto" height="480"/>
+
+<br>
+
+**Scenario 3: Edit Teacher Profile**
+
+<br>
+<img src="../assets/chapter2/eventstorming/domain-message-flows-modeling/edit-teacher-profile.png" alt="Edit Teacher Profile" width="auto" height="480"/>
+
+<br>
+
+Estos flujos son cruciales para entender la interacción entre los componentes del sistema. Nos ayudan a encontrar y solucionar problemas de comunicación, además de asegurar que la arquitectura funcione bien para los casos más importantes.
 
 #### 2.5.1.3 Bounded Context Canvases
 
@@ -3712,6 +3776,7 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 
 

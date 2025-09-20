@@ -62,17 +62,49 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 7.</p>
 
-<table style="border-collapse: collapse; width: 100%; border: 1px solid black;">
-  <thead>
-    <tr style="border-bottom: 1px solid black;">
-      <th style="border-right: 1px solid black;">Criterio Específico</th>
-      <th style="border-right: 1px solid black;">Acciones Realizadas</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Contenido eliminado para nuevo proyecto -->
-  </tbody>
+
+<table>
+  <tr>
+    <th>Criterio Específico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+    <td> Calvo Yalan, Renato Guillermo: <br>TB1: </td>
+    <td rowspan="5">TB1: <br>
+</td>
+  </tr>
+  <tr>
+    <td> Torres García, Andrés Alberto: <br>TB1:.<br></td>
+  </tr>
+  <tr>
+    <td> Quijandria Araneda, Vicente: <br>TB1: .</td>
+  </tr>
+  <tr>
+    <td> Navarro Chinga, Antonio Jhair: <br>TB1: .</td>
+  </tr>
+  <tr>
+    <td> Rios Piñan, Dayro Richard: <br>TB1:.</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+    <td>Calvo Yalan, Renato Guillermo: <br>TB1: .</td>
+    <td rowspan="5">TB1:.<br>
+</td>
+  </tr>
+  <tr>
+    <td>Torres García, Andrés Alberto: <br>TB1: .</td>
+  </tr>
+  <tr>
+    <td>Quijandria Araneda, Vicente: <br>TB1:.</td>
+  </tr>
+  <tr>
+    <td>Navarro Chinga, Antonio Jhair: <br>TB1:.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br>TB1:.</td>
+  </tr>
 </table>
 
 # **Contenido**

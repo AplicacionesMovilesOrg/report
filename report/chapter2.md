@@ -333,7 +333,7 @@ Entrevista 1:
 
 Duración: 4 minutos 48 segundos
 
-Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/bdek6avs
 
 Nombre: Paola
 
@@ -355,7 +355,7 @@ Entrevista 2:
 
 Duración: 5 minutos 14 segundos
 
-Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/4dh4cya5
 
 Nombre: Jaime
 
@@ -374,7 +374,7 @@ Entrevista 3:
 
 Duración: 4 minutos 12 segundos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/2vwhk4vs
 
 Nombre: Ariana
 
@@ -396,7 +396,7 @@ Entrevista 4:
 
 Duración: 5 minutos 25 segundos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/3dnu5hhn
 
 Nombre: Manuel Alejandro
 
@@ -416,7 +416,7 @@ Entrevista 5:
 
 Duración: 7 minutos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/ywb9xw8x
 
 Nombre:Fabrizio
 
@@ -436,7 +436,7 @@ Entrevista 6:
 
 Duración: 7 minutos
 
-Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+Link de la entrevista: https://tinyurl.com/3cxtp9aj
 
 Nombre: Renzo 
 
@@ -3831,6 +3831,7 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 
 
 

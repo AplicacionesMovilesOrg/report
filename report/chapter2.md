@@ -2851,7 +2851,10 @@ En esta sección se presenta el Product Backlog de EduSpace, que contiene las hi
 
 A continuación, se presenta una captura de pantalla de la elaboración del product backlog de historias de usuario utilizando la herramnienta Trello.
 
-Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace: <br>
+<img src="../assets/chapter2/product-backlog/product-backlog.png" alt="product backlog" width="auto" height="480"/>
+
+Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace: 
+
 Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
 
 ## 2.5. Strategic-Level Domain-Driven Design
@@ -3466,4 +3469,5 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 

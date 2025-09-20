@@ -321,6 +321,134 @@ En esta sección presentamos los registros de las entrevistas que realizamos par
 
 A continuación, se presentarán las entrevistas realizadas, desarrollando un resumen de cada una, extrayendo las respuestas e identificando las características objetivas y subjetivas.
 
+link del video: 
+
+**Segmento 1: Administradores de instituciones educativas**
+
+Entrevista 1:
+
+![paola img](/assets/chapter2/interviews/interview-1.png)
+
+[00:00 - 04:48]
+
+Duración: 4 minutos 48 segundos
+
+Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre: Paola
+
+Apellidos: Alejandra Schmidt
+
+Edad: 55 años
+
+Distrito: Magdalena
+
+resumen: Alejandra se encarga de todo lo que tiene que ver con poder orgizaniar y comuncar intereses de la institución educativa.Normalmente cada 15 dias gestiona enventario . Ella usa más apple además usa 
+whatsapp para comunicarse . Sus principales habilidades es planificar y poner en accion los objetivos trazados. El principal objetivo de ella es tener una comunicacion clara con todo el centro educativo . 
+El mayor problema es que no hay tanta comunicación como ella quisiera y que no todos están presentes .
+
+Entrevista 2:
+
+![jaime img](/assets/chapter2/interviews/interview-2.png)
+
+[04:48 - 10:04]
+
+Duración: 5 minutos 14 segundos
+
+Link de la entrevista:https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre: Jaime
+
+Apellidos: Rafael Fernandez
+
+Edad: 58 años
+
+Distrito: Chorrillos
+resumen:  Jaime nos comenta que el se ocupa de gestionar todo las necesidades que ocupa la institución educativa. Tambien que cada trimestre ocupa gestionar o cambiar ipads. Usa más su laptop para trabajar y usa aplicaciones como power point,excel,etc para apoyarse a tener una mejor gestión.El se considera una persona ordenada y responsable.Sus mayores desafios son el poder adaptarse a la tecnologia actual y poder comprender a los alumnos.
+
+Entrevista 3:
+
+![ariana img](/assets/chapter2/interviews/interview-3.png)
+
+[10:03 - 14:15]
+
+Duración: 4 minutos 12 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre: Ariana
+
+Apellidos: Yasan Laredo
+
+Edad: 23 años
+
+Distrito: San Juan de Miraflores
+
+Resumen: Yasan es admnistradora de la insitrución academica.Ella nos indica que se fuestra y estresa cuando no cuadra el dinero .Tambien cuando trata de hablar con areas diferentes  pero no la entienden bien .Le gustaría poder gestionar de una manera más facil y sencilla desde la comonidad de su celular sin necesidad de ir a la oficina
+
+**Segmento 2: Docentes y auxiliares**
+
+Entrevista 4:
+
+![renzo img](/assets/chapter2/interviews/interview-4.png)
+
+[14:15 - 19:40]
+
+Duración: 5 minutos 25 segundos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre: Manuel Alejandro
+
+Apellidos: Molina Vasquez
+
+Edad: 22 años
+
+Distrito: San Martin de Porres
+
+Resumen:El entrevistado nos indica que trabaja de docente en trilce dictando los cursos como algreba,geometria. Nos comenta que se comunica a través de la aplicación whatsapp para cualquier caso de cambio de salón o gestionar alguna otra area.Sin embargo no siempre responden rapido por lo que le gustaría gestionar rapido y tener las confirmaciones lo más rapido posible .
+
+Entrevista 5:
+
+![renzo img](/assets/chapter2/interviews/interview-5.png)
+
+[19:40 - 26:40]
+
+Duración: 7 minutos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre:Fabrizio
+
+Apellidos: Recoba
+
+Edad: 25 años
+
+Distrito: Surco
+
+Resumen:enseña filosifia e historia.El nos comenta que para registrar problemas del 1 al 10 es un 8 . Normalmente usa block de notas o plumos pero a veces usa su laptop. El usa su laptop para el trabajo y a veces su celular . Tiene un android commo sistema operativo y tambien un ios.Se le complica usar los materiales porque algunas cosas no funcionan como tal. Tambien al momento de gestionar los recursos de aulas se le complica.
+
+Entrevista 6:
+
+![renzo img](/assets/chapter2/interviews/interview-6.png)
+
+[26:40 - 35:54]
+
+Duración: 7 minutos
+
+Link de la entrevista: https://upcedupe-my.sharepoint.com/personal/u202315283_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202315283_upc_edu_pe%2FDocuments%2Fupc-pre-202502-cc238-12617-Eduspace-needfinding-sprint-1%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1
+
+Nombre: Renzo 
+
+Apellidos: Calvo Yalan
+
+Edad: 32 años
+
+Distrito: Barranco
+
+Resumen:
+El entrevistado nos indica su perpectiva que es la de un docente universitario .Dicta cursos de la carrera de medicina humana y nos indica que en donde el trabaja los alumnos pueden acceder a ipads que presta la universidad , tambien que se fustra cada vez que el lecra no funciona . Su enseñanza es didactica y le gusta que sus alumnos le hagan preguntas y que investiguen .
+
 ### 2.2.3. Análisis de entrevistas
 
 En esta sección se realiza el análisis de cada entrevista para cada segmento objetivo. Con el fin de obtener información para el desarrollo de nuestra aplicación. A continuación, se presenarán los análisis de entrevistas, los cuáles han sido hechos recaudando la información de las entrevistas previamente realizadas.

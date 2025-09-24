@@ -20,7 +20,7 @@ EduSpace permite un registro exhaustivo de cada ambiente educativo, incluyendo a
 
 # 1.2. Solution Profile
 
-EduSpace es una startup que optimiza la gestión de espacios educativos en universidades, colegios, institutos, y otras instituciones. Para obtener más informacion necesaria para la realizacion de nuestra startup, nos basamos en la teoria de 5 ‘W’s y 2 ‘H’s, con las preguntas,Who, What, Where, When, Why, How & How Much. Asi pues, se podra mostrar los resultados a continuacion:
+EduSpace es una startup que optimiza la gestión de espacios educativos en universidades, colegios, institutos, y otras instituciones. Para obtener más informacion necesaria para la realizacion de nuestra startup, nos basamos en la teoria de 5 ‘W’s y 2 ‘H’s, con las preguntas, Who, What, Where, When, Why, How & How Much. Asi pues, se podra mostrar los resultados a continuacion:
 
 ## 1.2.1. Antecedentes y Problemática
 

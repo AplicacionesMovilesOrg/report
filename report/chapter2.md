@@ -32,7 +32,7 @@ En esta sección se presenta el análisis competitivo realizado por el equipo de
   </tr>
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="4">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.</td>
+    <td colspan="4">Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis. </td>
   </tr>
   <tr>
     <td colspan="4">Texto</td>
@@ -321,7 +321,7 @@ En esta sección presentamos los registros de las entrevistas que realizamos par
 
 A continuación, se presentarán las entrevistas realizadas, desarrollando un resumen de cada una, extrayendo las respuestas e identificando las características objetivas y subjetivas.
 
-link del video: 
+link del video:
 
 **Segmento 1: Administradores de instituciones educativas**
 
@@ -343,8 +343,8 @@ Edad: 55 años
 
 Distrito: Magdalena
 
-resumen: Alejandra se encarga de todo lo que tiene que ver con poder orgizaniar y comuncar intereses de la institución educativa.Normalmente cada 15 dias gestiona enventario . Ella usa más apple además usa 
-whatsapp para comunicarse . Sus principales habilidades es planificar y poner en accion los objetivos trazados. El principal objetivo de ella es tener una comunicacion clara con todo el centro educativo . 
+resumen: Alejandra se encarga de todo lo que tiene que ver con poder orgizaniar y comuncar intereses de la institución educativa.Normalmente cada 15 dias gestiona enventario . Ella usa más apple además usa
+whatsapp para comunicarse . Sus principales habilidades es planificar y poner en accion los objetivos trazados. El principal objetivo de ella es tener una comunicacion clara con todo el centro educativo .
 El mayor problema es que no hay tanta comunicación como ella quisiera y que no todos están presentes .
 
 Entrevista 2:
@@ -364,7 +364,7 @@ Apellidos: Rafael Fernandez
 Edad: 58 años
 
 Distrito: Chorrillos
-resumen:  Jaime nos comenta que el se ocupa de gestionar todo las necesidades que ocupa la institución educativa. Tambien que cada trimestre ocupa gestionar o cambiar ipads. Usa más su laptop para trabajar y usa aplicaciones como power point,excel,etc para apoyarse a tener una mejor gestión.El se considera una persona ordenada y responsable.Sus mayores desafios son el poder adaptarse a la tecnologia actual y poder comprender a los alumnos.
+resumen: Jaime nos comenta que el se ocupa de gestionar todo las necesidades que ocupa la institución educativa. Tambien que cada trimestre ocupa gestionar o cambiar ipads. Usa más su laptop para trabajar y usa aplicaciones como power point,excel,etc para apoyarse a tener una mejor gestión.El se considera una persona ordenada y responsable.Sus mayores desafios son el poder adaptarse a la tecnologia actual y poder comprender a los alumnos.
 
 Entrevista 3:
 
@@ -384,7 +384,7 @@ Edad: 23 años
 
 Distrito: San Juan de Miraflores
 
-Resumen: Yasan es admnistradora de la insitrución academica.Ella nos indica que se fuestra y estresa cuando no cuadra el dinero .Tambien cuando trata de hablar con areas diferentes  pero no la entienden bien .Le gustaría poder gestionar de una manera más facil y sencilla desde la comonidad de su celular sin necesidad de ir a la oficina
+Resumen: Yasan es admnistradora de la insitrución academica.Ella nos indica que se fuestra y estresa cuando no cuadra el dinero .Tambien cuando trata de hablar con areas diferentes pero no la entienden bien .Le gustaría poder gestionar de una manera más facil y sencilla desde la comonidad de su celular sin necesidad de ir a la oficina
 
 **Segmento 2: Docentes y auxiliares**
 
@@ -438,7 +438,7 @@ Duración: 7 minutos
 
 Link de la entrevista: https://tinyurl.com/3cxtp9aj
 
-Nombre: Renzo 
+Nombre: Renzo
 
 Apellidos: Calvo Yalan
 
@@ -484,18 +484,19 @@ Con el fin de desarrollar un producto alineado con las necesidades específicas 
 ### 2.3.1. User Personas
 
 A partir del análisis de entrevistas y la recolección de información sobre las dinámicasen las instituciones educativas, se identificaron los principales perfiles de usuarios que interactúan directamente con la solución Veyra.EduSpace Estos perfiles representan los segmentos clave para el sistema, ya que concentran tanto la necesidad de gestión operativa como en tiempo real . La construcción de los User Persona permite al equipo de desarrollo comprender mejor sus motivaciones, frustraciones y hábitos, lo que resulta esencial para diseñar funcionalidades adecuadas y experiencias de usuario efectivas.
-##  Segmento 1:
+
+## Segmento 1:
+
 <img src="../assets/chapter2/userPerson/1.png" alt="User Persona 1" width="auto" height="480"/>
 
+## Segmento 2:
 
-##  Segmento 2:
 <img src="../assets/chapter2/userPerson/2.png" alt="User Persona 1" width="auto" height="480"/>
-
-
 
 ### 2.3.2. User Task Matrix
 
 En esta sección, se presentan las tareas principales que los User Personas (Ariana Yasan, Administradora de Universidad, y Renzo Calvo, docente universitario) realizan para cumplir sus objetivos dentro del sector educativo en Lima, Perú. Es importante destacar que las tareas mencionadas no dependen de ninguna solución de software en particular, sino que reflejan las actividades que cada segmento realiza de manera habitual en sus procesos de producción y distribución de vinos.
+
 <h2>User Task Matrix : Ariana Yasan (Administradora)</h2>
 <table>
     <thead>
@@ -602,8 +603,8 @@ En esta sección, se presentan las tareas principales que los User Personas (Ari
     </tbody>
 </table>
 
-
 ### 2.3.3. User Journey Mapping
+
 En esta sección se elaboró el user Journey Mapping, el caul su objetivo es identificar las necesidades, los puntos conflictivos y las oportunidades de mejora. Por eso, cada mapa refleja las etapas de interacción, las acciones, los canales de comunicación, las emociones, los obstáculos y las posibles mejoras.
 
 **Ariana Yasan**
@@ -613,6 +614,7 @@ A continuacion se presenta el User Journey Map de Ariana Yasan
 <img src="../assets/chapter2/userPerson/Ariana-journey.png" alt="Ariana Yasan Journey Mapping" width="auto" height="auto"/>
 
 ### 2.3.4. Empathy Mapping
+
 En esta sección se presenta el Empathy Mapping de nuestros 2 segmentos objetivos. Esta herramienta se utilizó porque permite identificar nuestro público objetivo, conocer su entorno y sus necesidades, lo cual nos permite ver el mundo a través de su perspectiva.
 
 Segmento 1: Administrador
@@ -624,6 +626,7 @@ Segmento 1: Docente
 <img src="../assets/chapter2/userPerson/Renzo Calvo.png" alt="Renzo Calvo" width="auto" height="auto"/>
 
 ### 2.3.5. Ubiquitous Language
+
 <dl>
     <dt><span class="term">Classroom</span> <span class="spanish">(Aula)</span></dt>
     <dd>Espacio destinado a la realización de clases presenciales o actividades académicas; incluye atributos como nombre, capacidad y equipamiento asociado.</dd>
@@ -1021,12 +1024,12 @@ Segmento 1: Docente
   </tr>
 </table>
 
-
 <br>
 
 <br>
 
 **Users Stories:**
+
 <table style="width:100%; border-collapse: collapse;">
   <tr>
     <td style="border: 1px solid black; padding: 8px;">Story ID</td>
@@ -1070,7 +1073,6 @@ Entonces la interfaz debe adaptarse correctamente al tamaño de la pantalla del 
 Y todas las características deben ser accesibles y utilizables.</td>
   </tr>
 </table>
-
 
 <table style="width:100%; border-collapse: collapse;">
   <tr>
@@ -1238,15 +1240,13 @@ Dado Que el administrador ha completado el formulario de registro con un correo 
 Cuando el administrador envía la solicitud de registro,
 
 <br>
-Entonces el sistema debe validar los datos ingresados, 
+Entonces el sistema debe validar los datos ingresados,
 
 <br>
 Además, debe enviar un correo de confirmación al correo institucional del administrador,
 
 <br>
 Y el sistema debe mostrar un mensaje de éxito indicando que el registro ha sido exitoso y que debe verificar su correo para activar la cuenta.
-
-
 
 <br>
 Escenario 2: Falta de campos obligatorios en el registro
@@ -1258,7 +1258,7 @@ Dado Que el administrador ha dejado campos obligatorios del formulario sin compl
 Cuando intenta enviar la solicitud de registro,
 
 <br>
-Entonces el sistema debe mostrar mensajes de error en los campos faltantes, 
+Entonces el sistema debe mostrar mensajes de error en los campos faltantes,
 
 <br>
 Y el sistema no debe permitir finalizar el registro hasta que todos los campos obligatorios estén completos.
@@ -1308,7 +1308,6 @@ Entonces el sistema debe autenticar que las credenciales del docente sean las co
 
 <br>
 Y el sistema debe permitir al docente acceder a las características y recursos específicos para su rol educativo.
-
 
 <br>
 Escenario 2: Manejo de errores de inicio de sesión
@@ -1367,7 +1366,6 @@ Entonces el sistema debe autenticar al administrador correctamente,
 <br>
 Y el sistema debe permitir al administrador acceder a las funcionalidades para gestionar la administración.
 
-
 <br>
 Escenario 2: Manejo de errores de inicio de sesión
 
@@ -1421,7 +1419,6 @@ Cuando el administrador envía el registro,
 
 <br>
 Entonces el sistema almacena los datos ingresados en la base de datos.
-
 
 <br>
 Escenario 2: Información incompleta
@@ -1480,7 +1477,6 @@ Entonces el sistema almacenará las credenciales del docente en la base de datos
 <br>
 Y el docente podrá iniciar sesión correctamente.
 
-
 <br>
 Escenario 2: Información de acceso incorrecta
 
@@ -1492,7 +1488,6 @@ Cuando el docente envía el registro de información,
 
 <br>
 Entonces el sistema mostrará un mensaje de error y no se guardará nada en la base de datos.
-
 
 <br>
 Escenario 3: Información insuficiente
@@ -1551,7 +1546,6 @@ Entonces todos los datos ingresados se almacenan correctamente,
 <br>
 Y se actualiza la lista de salones registrados.
 
-
 <br>
 Escenario 2: Información incorrecta de salones
 
@@ -1563,7 +1557,6 @@ Cuando el administrador envía el registro de salones,
 
 <br>
 Entonces el sistema muestra un mensaje de error.
-
 
 <br>
 Escenario 3: Información incorrecta de salones
@@ -1621,7 +1614,6 @@ Entonces los datos ingresados se almacenarán en la base de datos,
 
 <br>
 Y la vista de espacios registrados se actualizan.
-
 
 <br>
 Escenario 2: Información de espacios compartidos incorrectos
@@ -1692,7 +1684,6 @@ Cuando el administrador envía el registro,
 <br>
 Entonces los datos ingresados de los horarios del espacio compartido se almacenan en la base de datos.
 
-
 <br>
 Escenario 2: Información de horarios incorrecto
 
@@ -1747,7 +1738,6 @@ Cuando el administrador envía el registro con los datos en formato correcto,
 <br>
 Entonces el sistema registra el recurso de ambiente.
 
-
 <br>
 Escenario 2: Registro con datos incompletos
 
@@ -1801,7 +1791,6 @@ Cuando el administrador envía el registro con datos de formato válido,
 
 <br>
 Entonces el sistema registra la reunión con la hora y el lugar indicados.
-
 
 <br>
 Escenario 2: Registro con hora inválida
@@ -1898,7 +1887,6 @@ Cuando el reporte ha sido completado y está listo para ser enviado,
 <br>
 Entonces el sistema muestra una notificación al administrador con el contenido del reporte.
 
-
 <br>
 Escenario 2: No recibir notificación si el reporte no es enviado
 
@@ -1952,7 +1940,6 @@ Cuando la asistencia del docente ha sido confirmada,
 
 <br>
 Entonces el sistema notifica al administrador sobre la confirmación de asistencia del docente.
-
 
 <br>
 Escenario 2: No recibir notificación si no se confirma asistencia
@@ -2008,7 +1995,6 @@ Cuando un docente está asignado a un ambiente,
 <br>
 Entonces el sistema refleja que el docente ha sido registrado como el encargado del el docente ha accedido a la lista de espacios compartidos seleccionado.
 
-
 <br>
 Escenario 2: Registro sin seleccionar docente
 
@@ -2062,7 +2048,6 @@ Cuando un nuevo encargado ha sido seleccionado,
 
 <br>
 Entonces el sistema refleja que la información del ambiente ha sido actualizada con el nuevo encargado.
-
 
 <br>
 Escenario 2: Actualización sin seleccionar nuevo encargado
@@ -2202,7 +2187,6 @@ Cuando accede a la sección de espacios compartidos,
 <br>
 Entonces el sistema muestra una lista con los espacios ocupados y disponibles.
 
-
 <br>
 Escenario 2: Ver detalles de los espacios disponibles
 
@@ -2257,7 +2241,6 @@ Cuando accede a la función de reserva de espacios,
 <br>
 Entonces el sistema le permite seleccionar un espacio disponible.
 
-
 <br>
 Escenario 2: Seleccionar un espacio para reserva
 
@@ -2270,7 +2253,6 @@ Cuando selecciona un espacio disponible,
 <br>
 Entonces el sistema muestra los detalles del espacio, incluyendo ubicación y recursos.
 
-
 <br>
 Escenario 3: Realizar una reserva
 
@@ -2282,7 +2264,6 @@ Cuando selecciona la fecha, hora y duración de la reserva,
 
 <br>
 Entonces el sistema confirma la reserva y envía una notificación de confirmación.
-
 
 <br>
 Escenario 4: Confirmación del proceso de reserva
@@ -2298,7 +2279,6 @@ Entonces el sistema está en el estado de visualización de un pop-up de confirm
 
 <br>
 Y al estar en el estado de confirmación exitosa, el sistema refleja la reserva finalizada, seguido de una notificación de confirmación para el docente.
-
 
 <br>
 Escenario 5: Cancelación el proceso de reserva
@@ -2356,7 +2336,6 @@ Entonces el sistema está en estado de confirmación de cancelación,
 
 <br>
 Y tras la aceptación, el sistema queda en estado de reserva cancelada, con el docente notificado.
-
 
 <br>
 Escenario 2: Cancelación rechazada de una reserva de espacio compartido
@@ -2416,7 +2395,6 @@ Cuando la aplicación se encuentra en estado de visualización de la sección de
 <br>
 Entoncesel sistema está en estado de mostrar todas las averías registradas y la opción de registrar una nueva avería.
 
-
 <br>
 Escenario 2: Registro de Avería con verificación correcta de todas las áreas del formulario completadas
 
@@ -2432,7 +2410,6 @@ Entonces el sistema se encuentra en estado de registro satisfactorio de la aver�
 <br>
 y el docente queda en estado de notificado sobre el registro exitoso.
 
-
 <br>
 Escenario 3: Formulario de reporte de avería incompleto
 
@@ -2444,7 +2421,6 @@ Cuando el formulario de registro está incompleto,
 
 <br>
 Entonces el sistema está en estado de alerta mostrando un mensaje de advertencia indicando campos obligatorios sin completar.
-
 
 <br>
 Escenario 4: Adjuntar evidencia de la avería
@@ -2458,7 +2434,6 @@ Cuando el sistema está en estado de permitir adjuntar archivos,
 <br>
 Entonces el sistema permite la adición de archivos para proporcionar información adicional sobre la avería.
 
-
 <br>
 Escenario 5: Ver el estado del reporte de avería
 
@@ -2470,7 +2445,6 @@ Cuando accede a la sección de reportes de avería,
 
 <br>
 Entonces el sistema está en estado de mostrar el estado actual del reporte.
-
 
 <br>
 Escenario 6: Actualizar o añadir información al reporte
@@ -2492,6 +2466,7 @@ Entonces el sistema está en estado de permitir la actualización del reporte y 
 <br>
 
 **Technical Stories:**
+
 <table>
     <tr>
         <td>Technical Stories</td>
@@ -2676,8 +2651,6 @@ Entonces el sistema está en estado de permitir la actualización del reporte y 
         <td>EP-12</td>
     </tr>
 </table>
-
-
 
 ### 2.4.2 Impact Mapping
 
@@ -3070,19 +3043,20 @@ A continuación, se presenta una captura de pantalla de la elaboración del prod
 
 <img src="../assets/chapter2/product-backlog/product-backlog.png" alt="product backlog" width="auto" height="480"/>
 
-Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace: 
+Asimismo, se puede acceder a nuestro baclog mediante el siguiente enlace:
 
 Product Backlog en Trello: [https://tinyurl.com/mr2u266y](https://tinyurl.com/mr2u266y)
 
 ## 2.5. Strategic-Level Domain-Driven Design
+
 Esta sección explica cómo dividimos nuestro software en bounded contexts usando las herramientas EventStorming y Bounded Context Canvas.
 
-
 ### 2.5.1 EventStorming
+
 Para la elaboración del EventStorming, el equipo organizó una primera aproximación al modelo del dominmio de nuestro proyecto. Durante este proceso se realizaron una serie de 9 pasos.
 <br>
 
-**Paso 1: Collect Domain Events** 
+**Paso 1: Collect Domain Events**
 <br>
 En este primer paso, se identificó todos los eventos relevantes para el dominio para nuestro sistema. Estos eventos representan hechos importantes que suceden en el proceso de negocio y los recopilamos con pos-its de color naranja.
 
@@ -3090,61 +3064,62 @@ En este primer paso, se identificó todos los eventos relevantes para el dominio
 
 <br>
 
-**Paso 2: Timeline** 
+**Paso 2: Timeline**
 <br>
 En este paso organizamos los eventos identificados en una línea temporal, colocándolos en orden cronológico para visualizar mejor el flujo del proceso y entender la secuencia natural de acciones en el sistema.
 <img src="../assets/chapter2/eventstorming/timeline.png" alt="Timeline" width="auto" height="480"/>
 
 <br>
 
-**Paso 3:  Pain and Pivotal points** 
+**Paso 3: Pain and Pivotal points**
 <br>
 En este paso se identificaron los pain points y los pivotal points del proceso. Esto significa que se encontraron las partes que necesitan mayor atención o que son cruciales para que el sistema funcione correctamente.
 <img src="../assets/chapter2/eventstorming/pain-and-pivotal-points.png" alt="Pain and Pivotal points" width="auto" height="480"/>
 
 <br>
 
-**Paso 4: Commands** 
+**Paso 4: Commands**
 <br>
 En este paso se agregaron comandos (los post-its azules) para representar las acciones de los usuarios o sistemas que inician un cambio en el sistema.
 <img src="../assets/chapter2/eventstorming/commands.png" alt="Commands" width="auto" height="480"/>
 
 <br>
 
-**Paso 5: Policies** 
+**Paso 5: Policies**
 <br>
 En este paso se definieron reglas de negocio (los post-its morados) que responden a ciertos eventos y generan nuevos eventos. Básicamente, estas reglas automatizan decisiones basadas en lo que sucedió antes.
 <img src="../assets/chapter2/eventstorming/policies.png" alt="Policies" width="auto" height="480"/>
 
 <br>
 
-**Paso 6: Read models** 
+**Paso 6: Read models**
 <br>
 En este paso se identificaron las vistas o modelos de lectura que los usuarios necesitan. Esto se refiere a la información específica que debe estar accesible en ciertos momentos para que los usuarios puedan tomar decisiones.
 <img src="../assets/chapter2/eventstorming/read-models.png" alt="Read Models" width="auto" height="480"/>
 
 <br>
 
-**Paso 7: External System** 
+**Paso 7: External System**
 <br>
 En este paso se identificaron los sistemas externos (post-its rosados) que se conectan con nuestra solución. Estos son elementos que no controlamos directamente, pero que influyen en el proceso.
 <img src="../assets/chapter2/eventstorming/external-systems.png" alt="External Systems" width="auto" height="480"/>
 
 <br>
 
-**Paso 8: Aggregates** 
+**Paso 8: Aggregates**
 <br>
 En este paso se organizaron los comandos y eventos relacionados en grupos lógicos llamados agregados (los post-its amarillos). Cada grupo reúne un conjunto de funciones que trabajan juntas de manera coherente.
 <img src="../assets/chapter2/eventstorming/aggregates.png" alt="Aggregates" width="auto" height="480"/>
 
 <br>
 
-**Paso 9: Bounded Context** 
+**Paso 9: Bounded Context**
 <br>
 Al final, definimos las áreas de responsabilidad del sistema, también conocidas como bounded contexts.
 <img src="../assets/chapter2/eventstorming/bounded-context.png" alt="Bounded Context" width="auto" height="480"/>
 
 #### 2.5.1.1 Candidate Context Discovery
+
 Después de la sesión de EventStorming en Miro, nuestro equipo se enfocó en encontrar los bounded contexts de la solución. Para lograrlo, aplicamos una técnica que nos ayudó a identificar los look-for-pivotal-events en nuestro proceso.
 
 <br>
@@ -3183,8 +3158,8 @@ Como resultado de este proceso, identificamos las siguientes áreas clave para n
 <br>
 Esta identificación nos proporcionó una base sólida para continuar con el modelado más detallado de cada contexto y sus interacciones.
 
-
 #### 2.5.1.2 Domain Message Flows Modeling
+
 Los Domain Message Flows representan cómo se comunican nuestros bounded contexts. A continuación, se detallan los flujos de comunicación para cuatro escenarios importantes de nuestra aplicación.
 
 <br>
@@ -3211,7 +3186,6 @@ Los Domain Message Flows representan cómo se comunican nuestros bounded context
 <br>
 
 Estos flujos son cruciales para entender la interacción entre los componentes del sistema. Nos ayudan a encontrar y solucionar problemas de comunicación, además de asegurar que la arquitectura funcione bien para los casos más importantes.
-
 
 #### 2.5.1.3 Bounded Context Canvases
 
@@ -3241,7 +3215,6 @@ Los Bounded Context Canvases son herramientas visuales que nos ayudan a document
 
 Una vez que identificamos nuestros bounded contexts mediante EventStorming, comenzamos a analizar las relaciones entre ellos para crear un context mapping efectivo. Este paso fue fundamental para comprender cómo interactúan los distintos contextos y para establecer de manera clara sus responsabilidades y límites.
 
-
 - Primera alternativa: Conetext map inicial
 
 El primer context map que se realizó se basó en los bounded context identificados previamente en el event storming.
@@ -3262,10 +3235,9 @@ Space and Resource Management -> Reservation Scheduling | Patrón Customer/Suppl
 
 ![Context Map Alternative](../assets/chapter2/context-mapping/cm-2.png)
 
-- Tercera alternativa: 
+- Tercera alternativa:
 
 ¿Qué pasaría si consideramos un nuevo contexto compuesto por la integración de las capacidades de gestión de reservas, gestión de espacio y recursos, y notificaciones? Este nuevo contexto formaría una unidad para la asignación y programación optimizada, con notificaciones asociadas al evento de la reserva
-
 
 ![Context Map Alternative 2](../assets/chapter2/context-mapping/cm-3.png)
 
@@ -3871,11 +3843,3 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
-
-
-
-
-
-
-
-

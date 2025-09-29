@@ -231,7 +231,7 @@ Vista para registro e inicio de sesión en la aplicación móvil.
 
 Vista de la pestaña de menu de la aplicación móvil.
 
-![Menu mock-ups](/assets/chapter3/mobile-applications-mock-ups/menu-mock-up.png)
+![Menu mock-ups](/assets/chapter3/mobile-applications-mock-ups/menu-mock-ups.png)
 
 
 ##### Classroom mock-ups
@@ -257,7 +257,7 @@ Vista de la creación de reuniones en la aplicación móvil.
 
 Vista de la gestión de profesores en la aplicación móvil.
 
-![Teacher management mock-ups](/assets/chapter3/mobile-applications-mock-ups/teacher-management-mock-ups.png)mock-ups
+![Teacher management mock-ups](/assets/chapter3/mobile-applications-mock-ups/teacher-management-mock-ups.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 

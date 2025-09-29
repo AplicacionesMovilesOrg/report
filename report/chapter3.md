@@ -127,6 +127,38 @@ En base a nuestra aplicación, hemos decidido que nuestro diseño y organizació
 
 #### 3.1.2.2. Labelling Systems
 
+En esta sección, se explica las estrategias empleadas para etiquetar y organizar la información dentro de la plataforma mobile EduSpace, buscando mantener la simplicidad y evitar la confusión para los visitantes y usuarios. Las etiquetas se diseñan para ser claras y concisas, utilizando el mínimo número de palabras necesario para representar eficazmente los conjuntos de información y sus asociaciones.
+
+Principios de Etiquetado:
+
+- Claridad: Cada etiqueta debe ser fácilmente comprensible por todos los usuarios, independientemente de su rol (administrador o docente).
+- Consistencia: Se mantiene un lenguaje uniforme en todas las secciones de la aplicación para evitar confusión.
+- Brevedad: Las etiquetas se formulan con el menor número de palabras posibles sin perder claridad o precisión.
+
+Etiquetas para Administradores:
+
+- Home: Resumen y acceso rápido a funciones clave.
+- Environments and Equipment: Registro y gestión de ambientes (aulas, deportivos, etc.).
+- Classroom Changes and Meetings: Administración de cambios de aulas o reuniones.
+- Personal Data: Gestión de datos y roles de trabajadores.
+- Personnel Management: Asignación y reasignación de personal responsable de cada espacio. 
+- Notifications: Alertas y actualizaciones importantes.
+- Profile: Información personal y profesional del administrador.
+- Log Out: Opción para cerrar sesión.
+
+Etiquetas para Docentes:
+
+- Home: Resumen de tareas y calendario de actividades.
+- Notifications: Notificaciones sobre cambios de aula o reuniones.
+- Reservations: Reserva de espacios deportivos y aulas.
+- Breakdown Reports: Reporte de averías en equipos o recursos.
+- Availability: Consulta de espacios disponibles y ocupados.
+- Profile: Información personal y profesional del docente.
+- Log Out: Opción para cerrar sesión.
+
+
+Estas etiquetas están diseñadas para facilitar la navegación y comprensión de la plataforma, asegurando que los usuarios puedan acceder rápidamente a las funciones que necesitan, sin tener que interpretar términos complicados o ambiguos. La simplicidad en el etiquetado también ayuda a minimizar el tiempo de aprendizaje y maximiza la eficiencia en el uso de la aplicación.
+
 #### 3.1.2.3. SEO Tags and Meta Tags
 
 #### 3.1.2.4. Searching Systems

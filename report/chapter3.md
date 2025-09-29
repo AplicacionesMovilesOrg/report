@@ -8,6 +8,8 @@
 
 ## 3.1.2. Information Architecture
 
+En base a nuestra aplicación, hemos decidido que nuestro diseño y organización visual será jerárquico, para que los usuarios puedan distinguir claramente la importancia de cada funcionalidad de la app. Al mismo tiempo, utilizamos un sistema moderno y sencillo para atraer a los usuarios.
+
 #### 3.1.2.1. Organization Systems
 
 #### 3.1.2.2. Labelling Systems

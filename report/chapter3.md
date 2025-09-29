@@ -221,6 +221,8 @@ Vista de la gestión de profesores en la aplicación móvil.
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+Los mockups constituyen una fase fundamental en el proceso de diseño de las aplicaciones, proporcionando una visualización anticipada de la estética y disposición de los elementos previo al inicio del desarrollo. A continuación, se presenta el enlace a los mockups desarrollados en Figma
+
 ##### Login and sign up mock-ups
 
 Vista para registro e inicio de sesión en la aplicación móvil.

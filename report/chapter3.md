@@ -221,6 +221,44 @@ Vista de la gestión de profesores en la aplicación móvil.
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 
+##### Login and sign up mock-ups
+
+Vista para registro e inicio de sesión en la aplicación móvil.
+
+![Login mock-ups](/assets/chapter3/mobile-applications-mock-ups/login-mock-ups.png)
+
+##### Menu mock-ups
+
+Vista de la pestaña de menu de la aplicación móvil.
+
+![Menu mock-ups](/assets/chapter3/mobile-applications-mock-ups/menu-mock-up.png)
+
+
+##### Classroom mock-ups
+
+Vista de la asignacion de aulas en la aplicación móvil.
+
+![Classroom mock-ups](/assets/chapter3/mobile-applications-mock-ups/classrooms-mock-ups.png)
+
+
+##### Shared Spaces mock-ups
+
+Vista de la reserva de los espacios compartidos en la aplicación móvil.
+
+![Shared Spaces mock-ups](/assets/chapter3/mobile-applications-mock-ups/shared-spaces-mock-ups.png)
+
+##### Meetings mock-ups
+
+Vista de la creación de reuniones en la aplicación móvil.
+
+![Meetings mock-ups](/assets/chapter3/mobile-applications-mock-ups/meetings-mock-ups.png)
+
+##### Teacher management mock-ups
+
+Vista de la gestión de profesores en la aplicación móvil.
+
+![Teacher management mock-ups](/assets/chapter3/mobile-applications-mock-ups/teacher-management-mock-ups.png)mock-ups
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 
 #### 3.1.4.5. Mobile Applications Prototyping

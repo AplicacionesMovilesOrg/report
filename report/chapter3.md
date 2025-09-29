@@ -250,6 +250,12 @@ En conjunto, estas herramientas permiten que el proceso de búsqueda en EduSpace
 
 #### 3.1.2.5. Navigation Systems
 
+Menú Principal: El menú principal contiene las opciones más importantes de navegación como "Home", "Reservas", "Perfil" y el ícono de "inventario". Dicho menú permite un acceso rápido y directo a las secciones clave desde cualquier página.
+
+Categoría de Ambientes: Los espacios se dividen en varias categorías como "Aulas", "Oficinas", "Ambientes Deportivos". Cada uno está representado con intuitivos íconos, facilitando la navegación para los usuarios.
+
+Visualización de Espacios y Equipamiento: Los espacios y equipos están organizados en tarjetas por filas, con la información necesaria para el usuario como el nombre, la imagen del espacio o equipo, y un botón de "Reservar" o "Solicitar" para hacer una reserva o solicitud de uso de recursos.
+
 ### 3.1.3. Landing Page UI Design
 
 #### 3.1.3.1. Landing Page Wireframe

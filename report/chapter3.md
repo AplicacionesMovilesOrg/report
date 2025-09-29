@@ -161,6 +161,50 @@ Estas etiquetas están diseñadas para facilitar la navegación y comprensión d
 
 #### 3.1.2.3. SEO Tags and Meta Tags
 
+Las meta etiquetas nos permiten codificar y especificar metadatos en una página web. Aunque no son visibles para los usuarios, los navegadores y rastreadores web las leen. Estas etiquetas facilitan el análisis de archivos HTML y ayudan en el mantenimiento del contenido. Además, influyen en el posicionamiento de nuestra página en los motores de búsqueda
+
+- Title: 
+
+<div style="text-align: center;">
+
+```html
+<title>EduSpace</title>
+```
+
+</div>
+
+- Meta Description: 
+
+<div style="text-align: center;">
+
+```html
+<meta name="description" content="Platform that simplifies the management of educational infrastructures."/>
+```
+
+</div>
+
+
+- Meta Keyboard: 
+
+<div style="text-align: center;">
+
+```html
+<meta name="keywords" content="Management, platform, optimization, automation, coordination, inventory, reservation, infrastructure, communication"/>
+```
+
+</div>
+
+- Meta Author: 
+
+<div style="text-align: center;">
+
+```html
+<meta name="author" content="Los ProDevs"/>
+<meta name="copyright" content="Copyright EduSpace team" />
+```
+
+</div>
+
 #### 3.1.2.4. Searching Systems
 
 #### 3.1.2.5. Navigation Systems

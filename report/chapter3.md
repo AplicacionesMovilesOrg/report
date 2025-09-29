@@ -207,6 +207,47 @@ Las meta etiquetas nos permiten codificar y especificar metadatos en una página
 
 #### 3.1.2.4. Searching Systems
 
+EduSpace, el sistema de filtrado ha sido diseñado para proporcionar una experiencia eficiente y fluida a la hora de gestionar reservas de espacios educativos y equipamiento, sin abrumar a los usuarios con el volumen de información disponible.
+
+#### **Opciones de Búsqueda Ofrecidas**
+
+- **Cátegorias de Búsqueda**
+
+Los usuarios pueden navegar por categorías predefinidas según su rol. Para los docentes, las opciones incluyen la búsqueda por "Día", "Hora", y "Lugar", permitiendo encontrar rápidamente aulas disponibles o recursos para sus clases. Estas categorías están organizadas de forma clara, al estilo de un buscador de Google, facilitando el acceso directo a la información más relevante.
+
+Para los administradores, se ofrecen filtros adicionales para la búsqueda de equipamiento y ambientes (como aulas o espacios deportivos), con etiquetas que permiten explorar el inventario de manera eficiente. En el caso de ambientes deportivos, los administradores también tienen la opción de filtrar por tipos específicos como "Voleibol", "Fútbol" o "Básquet".
+
+- **Búsqueda avanzada con filtros**
+
+**Docentes:**
+
+- Día y hora de la reserva.
+- Lugar de la búsqueda (aulas, espacios comunes).
+
+**Administradores:**
+- Equipamiento: tipo de recursos disponibles en cada aula o ambiente.
+- Ambientes: aulas, oficinas, espacios deportivos.
+- Ambientes deportivos: tipo de espacio deportivo como voleibol, fútbol, básquet.
+
+#### **Visualización de los Datos Después de la Búsqueda**
+
+**Resultados en forma de Tarjetas**
+
+Los resultados se muestran en tarjetas visualmente organizadas que contienen:
+
+- Nombre del ambiente o del equipo disponible.
+- Una imagen del aula, equipo o espacio deportivo.
+- Detalles clave como capacidad, disponibilidad de recursos o estado de mantenimiento.
+
+#### **Orden de los Resultados**
+
+Los resultados están ordenados por:
+
+- Relevancia: según los filtros seleccionados por el usuario.
+- Disponibilidad: los ambientes y equipamientos disponibles primero.
+
+En conjunto, estas herramientas permiten que el proceso de búsqueda en EduSpace sea intuitivo, rápido y enfocado en satisfacer las necesidades tanto de docentes como de administradores.
+
 #### 3.1.2.5. Navigation Systems
 
 ### 3.1.3. Landing Page UI Design

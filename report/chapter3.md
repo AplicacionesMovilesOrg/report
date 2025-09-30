@@ -268,6 +268,8 @@ Esta sección comprende apartados internos donde se expondrá y detallará la pr
 
 #### 3.1.4.1. Mobile Applications Wireframes
 
+Seguidamente, se presentan los wireframes diseñados para nuestras aplicaciones, los cuales permiten estructurar la interfaz y el flujo de navegación previo al inicio del desarrollo.
+
 ##### Login and sign up wireframes
 
 Vista para registro e inicio de sesión en la aplicación móvil.
@@ -309,10 +311,11 @@ Vista de la gestión de profesores en la aplicación móvil.
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
 
-
 #### 3.1.4.3. Mobile Applications Mock-ups
 
 Los mockups constituyen una fase fundamental en el proceso de diseño de las aplicaciones, proporcionando una visualización anticipada de la estética y disposición de los elementos previo al inicio del desarrollo. A continuación, se presenta el enlace a los mockups desarrollados en Figma
+
+link: https://tinyurl.com/2nrus2z8
 
 ##### Login and sign up mock-ups
 
@@ -353,5 +356,51 @@ Vista de la gestión de profesores en la aplicación móvil.
 ![Teacher management mock-ups](/assets/chapter3/mobile-applications-mock-ups/teacher-management-mock-ups.png)
 
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
+
+Seguidamente, se presentan los diagramas de flujo que representan las rutas de navegación de los usuarios según sus objetivos (User Goals).
+
+- User goal: Como profesor, quiero iniciar sesión en la aplicación, para acceder a las funcionalidades específicas para docentes.
+
+
+![login user flow](/assets/chapter3/mobile-applications-user-flow/login-user-flow.png)
+
+El usuario ingresa a la aplicación usando sus credenciales (email y contraseña).
+
+
+- User goal: Como administrador, quiero registrarme en la aplicación mobile, para hacer uso de las características disponibles.
+
+
+![register user flow](/assets/chapter3/mobile-applications-user-flow/register-user-flow.png)
+
+El adminnistrador se registra a la aplicación completando un formulario con sus datos.
+
+
+- User goal: Como administrador, quiero registrar las información de acceso del docente, para que puedan iniciar sesión en la plataforma mobile.
+
+
+![teacher management user flow](/assets/chapter3/mobile-applications-user-flow/teacher-management-user-flow.png)
+
+El administrador registra la información de los docentes para que inicien sesión.
+
+
+- User goal: Como administrador, quiero registrar los espacios compartidos, para que puedan ser gestionados en la plataforma mobile.
+
+
+![shared spaces user flow](/assets/chapter3/mobile-applications-user-flow/shared-spaces-user-flow.png)
+
+El administrador registra espacios compartidos para que puedan ser gestionados.
+
+- User goal: Como administrador, quiero registrar la hora y lugar de la reunión, para asegurar que todos los participantes tengan la información correcta sobre la reunión.
+
+![meetings user flow](/assets/chapter3/mobile-applications-user-flow/meetings-user-flow.png)
+
+El administrador registra reuniones con fecha y hora para que los paritcipantes estén informados.
+
+
+- User goal: Como administrador, quiero asignar aulas a los docentes, para que puedan gestionar sus clases de manera eficiente.
+
+![classrooms user flow](/assets/chapter3/mobile-applications-user-flow/classrooms-user-flow.png)
+
+El administrador asigna aulas a los docentes para que gestionen sus clases.
 
 #### 3.1.4.5. Mobile Applications Prototyping

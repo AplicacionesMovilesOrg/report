@@ -310,6 +310,53 @@ Vista de la gestión de profesores en la aplicación móvil.
 
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 
+A continuación, se presentan los diagramas de flujo que representan las rutas de navegación de los usuarios según sus objetivos (User Goals).
+
+
+- User goal: Como profesor, quiero iniciar sesión en la aplicación, para acceder a las funcionalidades específicas para docentes.
+
+
+![login user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/login-wireflows.png)
+
+El usuario ingresa a la aplicación usando sus credenciales (email y contraseña).
+
+
+- User goal: Como administrador, quiero registrarme en la aplicación mobile, para hacer uso de las características disponibles.
+
+
+![register user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/register-wireflows.png)
+
+El adminnistrador se registra a la aplicación completando un formulario con sus datos.
+
+
+- User goal: Como administrador, quiero registrar las información de acceso del docente, para que puedan iniciar sesión en la plataforma mobile.
+
+
+![teacher management user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/teacher-management-wireflows.png)
+
+El administrador registra la información de los docentes para que inicien sesión.
+
+
+- User goal: Como administrador, quiero registrar los espacios compartidos, para que puedan ser gestionados en la plataforma mobile.
+
+
+![shared spaces user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/shared-space-wireflow.png)
+
+El administrador registra espacios compartidos para que puedan ser gestionados.
+
+- User goal: Como administrador, quiero registrar la hora y lugar de la reunión, para asegurar que todos los participantes tengan la información correcta sobre la reunión.
+
+![meetings user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/meetings-wireflows.png)
+
+El administrador registra reuniones con fecha y hora para que los paritcipantes estén informados.
+
+
+- User goal: Como administrador, quiero asignar aulas a los docentes, para que puedan gestionar sus clases de manera eficiente.
+
+![classrooms user flow](/assets/chapter3/mobile-applications-wireflow-diagrams/classroom-wireflows.png)
+
+El administrador asigna aulas a los docentes para que gestionen sus clases.
+
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 

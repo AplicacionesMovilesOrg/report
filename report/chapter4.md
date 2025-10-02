@@ -164,6 +164,25 @@ Link de la lading page desplegada: https://aplicacionesmovilesorg.github.io/land
 
 ##### 4.2.1.1. Sprint Planning 1
 
+Para este primer sprint nos enfocaremos en los tasks para la
+elaboración del producto. Nos dividiremos entre nosotros cada
+una de las tareas identificadas para el sprint.
+
+| Sprint #                        | Sprint 1                                                                                                                                                                                                                                                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sprint Planning Background      |                                                                                                                                                                                                                                                                                                              |
+| Date                            | 01/10/2025                                                                                                                                                                                                                                                                                                   |
+| Time                            | 06:00 PM                                                                                                                                                                                                                                                                                                     |
+| Location                        | Servidor de Discord del Equipo                                                                                                                                                                                                                                                                               |
+| Prepared By                     | Andres Torres                                                                                                                                                                                                                                                                                                |
+| Attendees (to planning meeting) | Andres Torres / Dayro Rios / Vicente Quijandria / Renato Calvo / Antonio Navarro                                                                                                                                                                                                                             |
+| Sprint 1 Review Summary         | En esta primera seccion se planteo el desarrollo para el proyecto, se hizo la creacion de la landing page, el diseño de la aplicación movil y del 70% del desarrollo de la API RESTful.                                                                                                                      |
+| Sprint 1 Retrospective Summary  | En esta seccion todos los integrantes mencionaron tener aciertos en partes del codigo y en otras partes poder mejorar sus habilidades realizando la Landing Page, aplicacion movil y la API RESTful.                                                                                                         |
+| Sprint Goal & User Stories      |                                                                                                                                                                                                                                                                                                              |
+| Sprint 1 Goal                   | Desarrollar, desplegar y hacer visible la landing page, aplicacion movil y la API RESTful, integrando todos sus componentes clave y garantizando una apariencia coherente con los mockups de la aplicación. El éxito se logrará cuando la página esté completamente funcional y accesible para los usuarios. |
+| Sprint 1 Velocity               | 42 Velocity                                                                                                                                                                                                                                                                                                  |
+| Sum of Story Points             | 42 Story Points.                                                                                                                                                                                                                                                                                             |
+
 ##### 4.2.1.2. Sprint Backlog 1
 
 ##### 4.2.1.3. Development Evidence for Sprint Review

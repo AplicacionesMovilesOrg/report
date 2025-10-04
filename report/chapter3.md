@@ -451,3 +451,49 @@ El administrador registra reuniones con fecha y hora para que los paritcipantes 
 El administrador asigna aulas a los docentes para que gestionen sus clases.
 
 #### 3.1.4.5. Mobile Applications Prototyping
+
+A continuación, se presenta el enlace al prototipo interactivo desarrollado en Figma, que permite simular la experiencia de usuario y la navegación dentro de la aplicación móvil.
+
+link: https://tinyurl.com/sjpu4w6s
+
+
+Flujo 1:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/login.png)
+
+En este flujo, el usuario ingresa sus credenciales (correo electrónico y contraseña) para acceder a la aplicación móvil.
+
+
+Flujo 2:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/register.png)
+
+En este flujo, el administrador completa un formulario con sus datos personales para registrarse en la aplicación móvil.
+
+
+Flujo 3:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/classroom.png)
+
+En este flujo, el administrador asigna aulas a los docentes para que puedan gestionar sus clases de manera eficiente.
+
+
+Flujo 4:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/meeting.png)
+
+En este flujo, el administrador programa una reunión especificando la fecha, hora y lugar, asegurando que todos los participantes estén informados.
+
+
+Flujo 5:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/shared.png)
+
+En este flujo, el administrador registra espacios compartidos para que puedan ser gestionados en la plataforma móvil.
+
+
+Flujo 6:
+
+![Mobile Applications Prototyping](/assets/chapter3/mobile-applications-prototyping/teacher.png)
+
+En este flujo, el administrador registra la información de los docentes para que puedan iniciar sesión en la plataforma móvil.

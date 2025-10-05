@@ -3,6 +3,7 @@
 ## 3.1. Product design
 
 ### 3.1.1. Style Guidelines
+Debido al enfoque de nuestra solución mobile en la gestión de espacios educativos y administrativos, es necesario que tenga un estilo profesional y organizado, que facilite la navegación y promueva la eficiencia en las tareas de los administradores y docentes.
 
 #### 3.1.1.1. General Style Guidelines
 

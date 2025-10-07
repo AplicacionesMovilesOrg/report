@@ -317,7 +317,23 @@ Visualización de Espacios y Equipamiento: Los espacios y equipos están organiz
 </br>
 
 ### 3.1.3.2. Landing Page Mock-up
+En esta sección se presentará una representación de la landing page tanto para Desktop Web Browser y Web Mobile Browser
 
+**Landing Page para Desktop Web Browser:**
+
+<br>
+<div style="text-align: center;">
+    <img src="./../assets/chapter3/landing-page-mock-ups/landing-page-mockup-desktop.png" alt="LandingPage">
+</div>
+</br>
+
+**Web Mobile Browser**
+
+<br>
+<div style="text-align: center;">
+    <img src="./../assets/chapter3/landing-page-mock-ups/landing-page-mockup-mobile.png" alt="LandingPage">
+</div>
+</br>
 ### 3.1.4. Mobile Applications UX/UI Design
 
 Esta sección comprende apartados internos donde se expondrá y detallará la propuesta de diseño visual e interactivo para las aplicaciones que componen la experiencia del usuario con los productos digitales.

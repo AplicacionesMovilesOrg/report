@@ -301,12 +301,22 @@ Visualización de Espacios y Equipamiento: Los espacios y equipos están organiz
 ### 3.1.3. Landing Page UI Design
 
 #### 3.1.3.1. Landing Page Wireframe
+**Landing Page para Desktop Web Browser:**
 <br>
 <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/6a441643-2bcb-4e45-9ce7-e7f656e2806c" alt="LP-desktop">
 </div>
 </br>
-#### 3.1.3.2. Landing Page Mock-up
+
+**Web Mobile Browser**
+
+<br>
+<div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/8cd02c5a-8fe8-4516-8cdf-6342b41dc2df" alt="LP-webmobile">
+</div>
+</br>
+
+### 3.1.3.2. Landing Page Mock-up
 
 ### 3.1.4. Mobile Applications UX/UI Design
 

@@ -379,15 +379,15 @@ Duración:
 
 Link de la entrevista:
 
-Nombre:
+Nombre: Mateo Yoshi
 
-Apellidos:
+Apellidos: Kiyan, Gardener
 
-Edad:
+Edad: 28
 
-Distrito:
+Distrito: San Isidro
 
-Resumen:
+Resumen: Mateo es un docente en el insituto privado Le Cordon Bleu. El enseña el curso de Gestion de Inventario. Encontró que la landing page era clara pero que le faltaba mejor UI, y valoró especialmente los planes listados. 
 
 Entrevista 6:
 
@@ -399,14 +399,14 @@ Duración:
 
 Link de la entrevista:
 
-Nombre:
+Nombre: Adrian Isaac
 
-Apellidos:
+Apellidos: De La Torre, Lorenzo
 
-Edad:
+Edad: 25
 
-Distrito:
+Distrito: Lince
 
-Resumen:
+Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto personal educativo. Encontró que la landing page era muy buena, le gusto mucho, y valoró especialmente el plan Basico y Medio para instituciones chicas y medianas. 
 
 #### 4.3.3. Evaluaciones según heurísticas

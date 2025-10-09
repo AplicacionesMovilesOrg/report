@@ -210,6 +210,15 @@ una de las tareas identificadas para el sprint.
 ##### 4.2.1.3. Development Evidence for Sprint Review
 
 ##### 4.2.1.4. Testing Suite Evidence for Sprint Review
+A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
+
+| Repository                                                   | Branch | Commit Id                                      | Commit Message                                                      | Commit Message Body | Committed on (Date) |
+|--------------------------------------------------------------|---------|------------------------------------------------|---------------------------------------------------------------------|----------------------|---------------------|
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main    | be4fae8973d3f7ee2571b64733e3e0d30cb86f91       | feat: add Gherkin scenarios for administrator login                 | -                    | 08/10/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main    | 988b1f5fb8c3e486d3eaf3a59ce2d49437b0717c       | feat: add Gherkin scenarios for teacher personal information registration | -                    | 08/10/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main    | 95151a86995fc6431a9e6f49f88dc299bcd74a36       | feat: add Gherkin scenarios for teacher access information registration | -                    | 08/10/2025          |
+
+Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review
 

@@ -410,3 +410,23 @@ Distrito: Lince
 Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto personal educativo. Encontró que la landing page era muy buena, le gusto mucho, y valoró especialmente el plan Basico y Medio para instituciones chicas y medianas. 
 
 #### 4.3.3. Evaluaciones según heurísticas
+
+### 5.3.3 Evaluaciones según heurísticas
+
+La evaluación heurística se centró en la **landing page de EduSpace Mobile**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.  
+
+| **Heurística de Nielsen** | **Descripción** | **Observaciones en la Landing Page (según entrevistas)** | **Recomendaciones de mejora** |
+|----------------------------|-----------------|----------------------------------------------------------|--------------------------------|
+| **1. Visibilidad del estado del sistema** | El usuario debe saber en todo momento qué está ocurriendo. | La página carga correctamente y muestra contenido sin retrasos notables. No obstante, podría incluir indicadores visuales al desplazarse. | Incorporar animaciones o efectos sutiles al hacer scroll para mejorar la percepción de fluidez. |
+| **2. Correspondencia entre el sistema y el mundo real** | El diseño y lenguaje deben ser familiares para el usuario. | Los usuarios consideraron clara la información y comprendieron fácilmente los planes y beneficios. | Mantener el lenguaje sencillo y cercano al entorno educativo, evitando tecnicismos. |
+| **3. Control y libertad del usuario** | Permitir moverse libremente y deshacer acciones fácilmente. | La navegación es lineal y sin distracciones. Sin embargo, el botón de “Volver arriba” no está presente. | Agregar un botón flotante que permita regresar al inicio de la página. |
+| **4. Consistencia y estándares** | Mantener coherencia visual y de interacción. | Algunos usuarios mencionaron que la UI podría mejorar, especialmente en coherencia visual. | Unificar estilos tipográficos, espaciados y colores para reforzar la identidad visual. |
+| **5. Prevención de errores** | Evitar que el usuario cometa errores. | No se detectaron errores funcionales al interactuar con los elementos visibles. | Verificar que los botones y enlaces mantengan la misma funcionalidad en todas las resoluciones móviles. |
+| **6. Reconocimiento antes que recuerdo** | Mostrar opciones y contenidos visibles sin necesidad de recordar. | Los usuarios destacaron que los **planes** y **beneficios** estaban claramente visibles y organizados. | Mantener la estructura actual, reforzando el uso de íconos o etiquetas que ayuden a la identificación rápida. |
+| **7. Flexibilidad y eficiencia de uso** | Permitir interacciones fluidas y accesibles. | La experiencia es fluida, aunque algunos usuarios sugirieron añadir contenido más dinámico. | Incluir videos breves o animaciones explicativas para mejorar la interacción y el dinamismo visual. |
+| **8. Estética y diseño minimalista** | Evitar el exceso de información y priorizar lo esencial. | La mayoría de usuarios valoró el diseño limpio y la claridad general. | Mantener el enfoque minimalista, pero optimizar la jerarquía visual entre secciones. |
+| **9. Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores** | Los mensajes de error deben ser claros y útiles. | No se observaron errores o mensajes emergentes, ya que se trata de una página informativa. | Añadir mensajes amigables para redirecciones rotas o enlaces inactivos. |
+| **10. Ayuda y documentación** | Ofrecer soporte o información adicional. | Algunos usuarios sugirieron incluir **videos explicativos** sobre la aplicación. | Incorporar un video introductorio y enlaces hacia documentación o contacto para instituciones interesadas. |
+
+**Conclusión:**  
+La landing page de **EduSpace Mobile** fue bien valorada por los entrevistados, destacando su **claridad**, **organización de los planes** y **secciones de beneficios y testimonios**. Las principales oportunidades de mejora se relacionan con la **optimización de la interfaz visual (UI)** y la **incorporación de elementos multimedia** que hagan la experiencia más dinámica e informativa para los nuevos usuarios.

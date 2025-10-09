@@ -266,6 +266,23 @@ Evidencia del despliegue de los Web Services:
 Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
+Durante el Sprint I del proyecto Eduspace, el equipo se enfocó en el desarrollo de la landing page y Web Service. Para ello, se utilizó
+Visual Studio Code y Rider como editor de código además se empleó Git como herramienta de control de versiones. El trabajo se organizó mediante tareas del backlog y se
+gestionó a través de un flujo de trabajo basado en ramas secundarias (feature/), lo que permitió un desarrollo paralelo eficiente.
+
+A continuación, se presentan los aportes de los integrantes en cada uno de los repositorios:
+
+**Landing Page:**
+![Insight_Landing](../assets/chapter4/landing-page-deployment/insights_landing.png)
+
+
+**Web Services:**
+![Insight_web_services](../assets/chapter4/landing-page-deployment/insights_platform.png)
+
+
+**Project Report:**
+![Insight_report](../assets/chapter4/landing-page-deployment/insights_report.png)
+
 
 ### 4.3. Validation Interviews
 

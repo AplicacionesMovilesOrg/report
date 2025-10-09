@@ -247,6 +247,23 @@ Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
 | `/api/v1/teachers-profiles` | Registrar un nuevo perfil de docente | POST | `{ "firstName": "string", "lastName": "string", "email": "string", "dni": "string", "address": "string", "phone": "string", "administratorId": 0, "username": "string", "password": "string" }` | **Response 200:** `"OK"` |
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
+La Landing Page fue desplegada correctamente mediante GitHub Pages, configurando en ramas "features" que luego fueron incorporadas a la rama main como fuente de publicación y verificando su disponibilidad pública a continuación.
+
+Evidencia del despliegue del Landing Page:
+![Evidecia_despliegue_landing](../assets/chapter4/landing-page-deployment/landing-page-deployment-4.png)
+
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+
+Por otro lado, el backend fue desplegado en un entorno cloud con MySQL configurado como base de datos a través de una instancia Docker, vinculada al proyecto eduspace-platform; se validó el correcto funcionamiento de las tablas principales (accounts, admin_profiles, classrooms, reports, reservations, shared_areas, teacher_profiles, entre otras) y la conexión establecida entre el servicio y la base de datos.
+
+Evidencia del despliegue de los Web Services:
+![Evidecia_repositorio_backend](../assets/chapter4/landing-page-deployment/backendRepository.png)
+
+
+![Evidecia_despliegue_backend](../assets/chapter4/landing-page-deployment/backendeM.jpg)
+
+Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint
 

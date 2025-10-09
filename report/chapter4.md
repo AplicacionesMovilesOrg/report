@@ -222,6 +222,16 @@ Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 
 ##### 4.2.1.5. Execution Evidence for Sprint Review
 
+Evidencia de ejecución del Landing Page:
+
+![Landing Page Deployed](../assets/chapter4/landing-page-deployment/landingPageMobile.png)
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+Evidencia de Ejecución Web Services:
+
+![Backend Deployed](../assets/chapter4/landing-page-deployment/backend.png)
+Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
+
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review

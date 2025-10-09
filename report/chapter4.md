@@ -234,6 +234,18 @@ Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
 
 ##### 4.2.1.6. Services Documentation Evidence for Sprint Review
 
+| Endpoint | Acción | Verbo HTTP | Parámetros / Request Body | Ejemplo |
+|-----------|---------|-------------|----------------------------|----------|
+| `/api/v1/classrooms/teachers/{teacherId}` | Crear un aula con un docente encargado | POST | `{ "name": "string", "description": "string" }` | `{ "id": 0, "name": "string", "description": "string", "teacherId": 0 }` |
+| `/api/v1/shared-area/{id}` | Actualizar un espacio compartido por su ID | PUT | `{ "name": "string", "capacity": 0, "description": "string" }` | **Response 200:** `{ "id": 0, "name": "string", "capacity": 0, "description": "string" }` <br> **Response 404:** `"The shared area was not found"` |
+| `/api/v1/shared-area` | Obtener todos los espacios compartidos | GET | N/A | `[ { "id": 0, "name": "string", "capacity": 0, "description": "string" } ]` |
+| `/api/v1/authentication/sign-in` | Iniciar sesión con credenciales de usuario | POST | `{ "username": "string", "password": "string" }` | `{ "id": 0, "username": "string", "role": "string", "token": "string" }` |
+| `/api/v1/administrator-profiles` | Registrar un nuevo perfil de administrador | POST | `{ "firstName": "string", "lastName": "string", "email": "string", "dni": "string", "address": "string", "phone": "string", "username": "string", "password": "string" }` | **Response 200:** `"OK"` |
+| `/api/v1/classrooms/{classroomId}/resources` | Registrar un recurso dentro de un aula específica | POST | `classroomId` `{ "name": "string", "kindOfResource": "string" }` | **Response 200:** `"OK"` |
+| `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Actualizar un recurso dentro de un aula específica | PUT | `classroomId` <br> `resourceId` <br> `{ "id": 0, "name": "string", "kindOfResource": "string", "classroomId": 0 }` | **Response 200:** `"OK"` |
+| `/api/v1/reports` | Crear un reporte para un recurso específico | POST | `{ "kindOfReport": "string", "description": "string", "resourceId": 0, "createdAt": "2025-10-09T04:38:47.148Z" }` | **Response 201:** `{ "id": 0, "kindOfReport": "string", "description": "string", "resourceId": 0, "createdAt": "2025-10-09T04:38:47.148Z", "status": "string" }` |
+| `/api/v1/teachers-profiles` | Registrar un nuevo perfil de docente | POST | `{ "firstName": "string", "lastName": "string", "email": "string", "dni": "string", "address": "string", "phone": "string", "administratorId": 0, "username": "string", "password": "string" }` | **Response 200:** `"OK"` |
+
 ##### 4.2.1.7. Software Deployment Evidence for Sprint Review
 
 ##### 4.2.1.8. Team Collaboration Insights during Sprint

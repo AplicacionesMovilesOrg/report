@@ -282,4 +282,131 @@ Elementos a incluir:
 
 #### 4.3.2. Registro de Entrevistas
 
+**Segmento 1: Administradores de instituciones educativas**
+
+Entrevista 1:
+
+![ Entrevista 1](../assets/chapter4/validation-interviews/validation-1.png)
+
+[ 00:00 - 2:34 ]
+
+Duración: 2 minutos 34 segundos
+
+Link de la entrevista: 
+
+Nombre: Ariana
+
+Apellidos: Yasan Laredo
+
+Edad: 23 años
+
+Distrito: San Juan de Miraflores
+
+Resumen: Ariana, administradora de la institución educativa, tiene a su cargo la coordinación de eventos y la gestión de recursos para las actividades escolares. Consideró que la página de inicio era visual y fácil de comprender, destacando los testimonios y la sección de beneficios como los elementos que más le llamaron la atención.
+
+Entrevista 2:
+
+![ Entrevista 2](../assets/chapter4/validation-interviews/validation-2.png)
+
+[ 2:34 - 6:21 ]
+
+Duración: 3 minutos 47 segundos
+
+Link de la entrevista: 
+
+Nombre: Alexander
+
+Apellidos: Miranda Vivanco
+
+Edad: 20
+
+Distrito: Villa el Salvador
+
+Resumen: Alexander es un estudiante universitario que también trabaja como asistente administrativo en una institución educativa en Villa El Salvador. Está encargado de coordinar eventos y gestionar recursos para actividades escolares. Encontró que la landing page era clara y atractiva, y valoró especialmente los testimonios y beneficios listados. Sin embargo, sugirió que se incluyan videos dentro de la landing page para tener un mejor sobre la aplicación, además de hacerla más dinámica y atractiva.
+
+
+Entrevista 3:
+
+![ Entrevista 3](../assets/chapter4/validation-interviews/validation-3.png)
+
+[ 6:21 - 9:14 ]
+
+Duración: 2 minutos 53 segundos
+
+Link de la entrevista:
+
+Nombre: Rocio
+
+Apellidos: Piñan Saavedra
+
+Edad: 53
+
+Distrito: Villa el Salvador
+
+Resumen: Rocio es una administradora de una institución educativa privada en Villa El Salvador. Ella maneja la gestión de espacios y recursos para eventos escolares. Encontró que la landing page era clara y atractiva, y valoró especialmente los testimonios y beneficios listados. 
+
+**Segmento 2: Docentes y auxiliares**
+
+Entrevista 4: 
+
+![ Entrevista 4](../assets/chapter4/validation-interviews/validation-4.png)
+
+[ 9:14 - 11:53 ]
+
+Duración: 2 minutos 39 segundos
+
+Link de la entrevista:
+
+Nombre: Stefano Lucarelly
+
+Apellidos: Sanchez Heredia
+
+Edad: 20
+
+Distrito: Villa el Salvador
+
+Resumen: 
+
+
+
+Entrevista 5:
+
+![ Entrevista 5](../assets/chapter4/validation-interviews/validation-5.png)
+
+[ - ]
+
+Duración:
+
+Link de la entrevista:
+
+Nombre:
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Resumen:
+
+Entrevista 6:
+
+![ Entrevista 6](../assets/chapter4/validation-interviews/validation-6.png)
+
+[ - ]
+
+Duración:
+
+Link de la entrevista:
+
+Nombre:
+
+Apellidos:
+
+Edad:
+
+Distrito:
+
+Resumen:
+
 #### 4.3.3. Evaluaciones según heurísticas

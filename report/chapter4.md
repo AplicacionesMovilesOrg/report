@@ -411,8 +411,6 @@ Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto pers
 
 #### 4.3.3. Evaluaciones según heurísticas
 
-### 5.3.3 Evaluaciones según heurísticas
-
 La evaluación heurística se centró en la **landing page de EduSpace Mobile**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.  
 
 | **Heurística de Nielsen** | **Descripción** | **Observaciones en la Landing Page (según entrevistas)** | **Recomendaciones de mejora** |

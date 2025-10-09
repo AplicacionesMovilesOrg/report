@@ -240,7 +240,45 @@ Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
 
 ### 4.3. Validation Interviews
 
+
+En la sección **“Validation Interviews”** de nuestro proyecto, nos concentramos en **refinar la plataforma EduSpace**, la cual está orientada a **mejorar la gestión integral de los espacios educativos** en instituciones con **infraestructuras amplias y complejas**. Esta etapa esencial del desarrollo se centra en **realizar entrevistas estructuradas y conversaciones interactivas** con nuestros principales usuarios: **administradores, docentes y auxiliares**.
+El propósito de estas entrevistas es **recoger sus percepciones, necesidades y recomendaciones**, garantizando que EduSpace **no solo cumpla con los requerimientos técnicos**, sino que también **se adapte a las dinámicas operativas y expectativas específicas** de cada tipo de usuario.
+
 #### 4.3.1. Diseño de Entrevistas
+
+En esta sección se establece por cada segmento objetivo los elementos a incluir en la sesión de validación, incluyendo el Landing Page y las aplicaciones. Además se especifica cuáles serán los user flows de las aplicaciones, que formarán parte del proceso de validación.
+
+Segmento 1: Administradores de instituciones educativas
+
+Objetivo de la validación: Comprobar si los usuarios entienden el valor de la plataforma para la gestion de la infraestructura educativa.
+
+Elementos a incluir:
+
+- Claridad del mensaje principal en la landing page
+
+- Opiniones sobre testimonios y beneficios listados.
+
+- Visualización de los beneficios sobre las herramientas ofrecidas
+
+- Visualización de planes y precios de la plataforma
+
+- Paneles de errores
+
+
+Segmento 2: Docentes y auxiliares
+
+Objetivo de la validación: Comprobar si los usuarios entienden el valor de la plataforma para la gestion de los espacios educativos.
+
+Elementos a incluir:
+
+- Claridad del mensaje principal en la landing page
+
+- Opiniones sobre testimonios y beneficios listados.
+
+- Visualización de los beneficios sobre las herramientas ofrecidas
+
+- Visualización de planes y precios de la plataforma
+
 
 #### 4.3.2. Registro de Entrevistas
 

@@ -26,56 +26,31 @@ EduSpace es una startup que optimiza la gestión de espacios educativos en unive
 
 - ### _WHAT?_
 
-El problema que nuestra solución busca es la eficiencia en el uso de los
-espacios educativos mediante una aplicación que ofrece un registro detallado de cada área.
-Las instituciones educativas con grandes infraestructuras manejan múltiples espacios,
-lo que dificulta llevar un control eficiente. Con ello, ocasiona una comunicación ineficiente
-entre los entornos y sus empleados, lo que llevaría a retrasos en la toma de decisiones
-y dificultades para notificar cambios o incidencias.
+El problema que EduSpace busca resolver es la ineficiencia en la gestión de espacios educativos en instituciones con grandes infraestructuras. Mahmoud et al. (2024) identifican que las instalaciones enfrentan el desafío de cumplir simultáneamente cuatro objetivos competidores: aumentar ingresos, calidad y reputación mientras reducen gastos. Pampana et al. (2022) señalan que la falta de sistemas integrados genera comunicación deficiente entre departamentos, retrasos en decisiones y dificultades para notificar cambios o incidencias, siendo esta la barrera principal hacia una gestión efectiva de instalaciones.
 
 - ### _WHEN?_
 
-La problemática surge cuando las instituciones experimentan un crecimiento o
-complejidad en su operación diaria, lo que dificulta la gestión eficiente de sus espacios,
-personal y recursos. Este desafío es más evidente en momentos críticos como la planificación
-de nuevos semestres, la coordinación de actividades entre diferentes ambientes, la gestión de
-ausencias de personal, o cuando se enfrentan a la necesidad de automatizar procesos administrativos
-para mantener la eficiencia y evitar errores
+La problemática surge cuando las instituciones experimentan crecimiento o mayor complejidad operativa, dificultando la gestión eficiente de espacios, personal y recursos. Pampana et al. (2022) reportan que APPA identificó falta de planificación para financiar adecuadamente actividades de gestión de instalaciones en el ciclo de vida completo del edificio, con $26 mil millones necesarios para mantenimiento diferido acumulado y $5.7 mil millones para mantenimiento urgente. El desafío es más evidente durante planificación de semestres, coordinación de actividades, gestión de ausencias de personal y necesidad de automatizar procesos administrativos.
 
 - ### _WHERE?_
 
-La problemática de la eficiencia en el uso de los espacios educativos ocurriría dentro de instituciones como universidades, colegios, institutos, y otras organizaciones educativas .Estos espacios incluyen aulas, laboratorios, bibliotecas, áreas deportivas, y salas comunes. En estos entornos, la gestión y coordinación diaria se complica debido a la dispersión de recursos y la falta de un sistema centralizado. Esta situación afecta la comunicación entre los empleados, desde docentes hasta personal administrativo y de mantenimiento, y provoca retrasos en la toma de decisiones y dificultades para notificar cambios o incidencias, impactando negativamente en la operación y eficiencia de la institución
+La problemática ocurre en universidades, colegios, institutos y organizaciones educativas, abarcando aulas, laboratorios, bibliotecas, áreas deportivas y salas comunes. Mahmoud et al. (2024) demuestran que las instalaciones son una de las razones más críticas que influyen en la elección de universidad y en la satisfacción de los estudiantes. Pampana et al. (2022) indican que las instituciones de educación superior poseen mayor variedad y cantidad de edificios comparado con otras organizaciones, requiriendo enfoques más diversos en mantenimiento operacional y gestión de espacios.
 
 - ### _WHY?_
 
-El problema de la eficiencia en el uso de los espacios educativos ocurre debido a la falta de integración y automatización en la gestión de múltiples áreas dentro de instituciones, como universidades, colegios e institutos. La dependencia de sistemas desintegrados o métodos manuales genera una comunicación deficiente entre departamentos, retrasos en la toma de decisiones, y dificultades para reasignar responsabilidades o notificar incidencias. Este problema se puede solucionar mediante la implementación de una aplicación centralizada como EduSpace, que ofrece un registro detallado y automatizado de cada espacio educativo y del personal asociado, facilitando la coordinación y comunicación interna, optimizando el uso de los recursos disponibles, y mejorando la eficiencia operativa de la institución.
+El problema existe por la falta de integración y automatización en la gestión de instalaciones educativas. Pampana et al. (2022) identifican que la ausencia de estudios sobre mantenimiento preventivo planificado y no planificado a escala de campus es la barrera principal, donde solo el 50% de gerentes usan sistemas computarizados de gestión. Mahmoud et al. (2024) evidencian mediante revisión sistemática de 428 documentos que la gestión adecuada de instalaciones puede aumentar creatividad, productividad, comodidad y satisfacción, con un tamaño de efecto de Cohen de 0.45 en satisfacción estudiantil y 0.38 en rendimiento académico.
 
 - ### _WHO?_
 
-En la problemática abordada por la solución,
-los involucrados incluyen a docentes, personal administrativo,
-y otros miembros del equipo de una institución educativa.
-Esto se debe a que los trabajadores interactúan con la aplicación
-para la separacion de aulas, planificacion de clases, solicitud de
-recursos adicionales, entre otras tareas.
+Los involucrados incluyen docentes, personal administrativo, trabajadores de mantenimiento y limpieza que interactúan con la plataforma para separación de aulas, planificación de clases, solicitud de recursos y reporte de incidencias. Biancardi et al. (2023) evidencian que el desarrollo de comunidades sostenibles en instituciones de educación superior requiere la participación activa de todos los stakeholders institucionales. Mahmoud et al. (2024) destacan que la gestión de instalaciones impacta significativamente en la satisfacción estudiantil, el desempeño del personal y la reputación institucional, afectando así la inscripción y retención de estudiantes.
 
 - ### _HOW?_
 
-EduSpace funciona mediante una plataforma integral diseñada para la
-gestión eficiente de espacios educativos. El funcionamiento comienza con la
-configuración inicial de la aplicación, que incluye la carga de datos sobre aulas,
-ambientes deportivos, equipos y personal. Los administradores pueden gestionar la
-asignación de responsabilidades, coordinar cambios de aula, y recibir notificaciones
-sobre eventos y percances.Así pues, el diseño de la plataforma será adaptada de acuerdo
-a las necesidades específicas de cada instituciones educativas.
+EduSpace funciona mediante una plataforma integral que comienza con la configuración inicial incluyendo datos de aulas, ambientes deportivos, equipos y personal, permitiendo a administradores gestionar asignaciones, coordinar cambios y recibir notificaciones en tiempo real. Mahmoud et al. (2024) indican que la tecnología inteligente como IoT, IA y BIM mejora eficiencia operativa, reduce costos y promueve mantenimiento predictivo, permitiendo a gerentes identificar problemas proactivamente. Pampana et al. (2022) reportan que los sistemas CMMS se han convertido en estándar de la industria, con el 50% de instituciones adoptándolos para monitorear automáticamente el progreso del trabajo preventivo.
 
 - ### _HOW MUCH?_
 
-EduSpace beneficiará a las instituciones educativas al reducir costos administrativos
-en hasta un 20%, mejorar la eficiencia del personal en un 30%, y disminuir los costos
-de reparación imprevistos en un 15%. La automatización de procesos y la mejora en la comunicación
-pueden llevar a un ahorro general de hasta un 25% en costos operativos anuales, optimizando la gestión
-de espacios, personal y recursos.
+Mahmoud et al. (2024) evidencian mediante meta-análisis que la gestión de instalaciones tiene un tamaño de efecto de Cohen de 0.45 en satisfacción estudiantil y 0.38 en rendimiento académico, indicando que inversiones en calidad de instalaciones mejoran significativamente estos indicadores institucionales. Pampana et al. (2022) identifican que se necesitan $26 mil millones para mantenimiento diferido acumulado causado por financiamiento inadecuado. EduSpace proyecta reducir costos administrativos hasta 20%, mejorar eficiencia del personal 30%, disminuir costos de reparación imprevistos 15% y lograr ahorros operativos generales hasta 25% anualmente mediante optimización de gestión de espacios, personal y recursos (Mahmoud et al., 2024; Pampana et al., 2022).
 
 ## 1.2.2. LEAN UX PROCESS
 

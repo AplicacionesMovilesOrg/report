@@ -16,7 +16,7 @@ NRC: 12617
 
 Profesor: Mayta Guillermo, Jorge Luis
 
-“Informe de TB1”
+“Informe de TP”
 
 Startup: Eduspace
 
@@ -49,6 +49,7 @@ Septiembre 2025
 | Versión | Fecha | Autor | Descripción de modificación |
 | ------- | ----- | ----- | --------------------------- |
 | 1.0     |  19/09     | Andrés Torres      |  Se realizó la primera versión del informe. Capítulos 1 y dos realizados  |
+| 2.0     |  9/10     | Dayro Rios         |  Se realizó la segunda versión del informe, además del despliegue del backend. Capítulos 3 y 4 realizados  |
 
 # **Project Report Collaboration Insights**
 
@@ -71,6 +72,13 @@ A continuación se muestran los gráficos de colaboración de los miembros del e
 
 ![insights](./assets/chapter1/insight-tb1.png)
 
+
+<strong>TP – Desarrollo Inicial del Proyecto (Sprint 1)</strong><br>
+En esta primera fase, el equipo avanzó en la creación del sitio web, el backend y la aplicación móvil, además de actualizar el informe técnico del proyecto. El sitio web se optimizó con un diseño adaptable y mejoras visuales.Backend desplegado y funcional y el mobile también funcional . 
+
+
+![insights-tp](./assets/chapter1/insight-tp.png)
+
 # **Student Outcome**
 
 <p align ="justify">
@@ -83,48 +91,117 @@ del ABET – EAC - Student Outcome 7.</p>
 
 
 <table>
-  <tr>
-    <th>Criterio Específico</th>
-    <th>Acciones Realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  <tr>
-    <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-    <td> Calvo Yalan, Renato Guillermo: <br>TB1: Reforzó los conocimientos asociados a la realización del needfinding para reunir informaición necesaria para los arquetipos del mismo.</td>
-    <td rowspan="5">TB1:El equipo demuestra un compromiso constante con la actualización y fortalecimiento de sus conocimientos, reconociendo la importancia de este proceso para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se refuerzan competencias vinculadas al needfinding para levantar información clave en la construcción de arquetipos, así como la profundización en arquitectura de software y diseño orientado a dominios que permiten crear soluciones escalables y alineadas al negocio. De igual forma, se aplican prácticas de refactorización y herramientas como el User Task Matrix, complementadas con entrevistas, que aseguran la pertinencia y mejora continua de las soluciones. También se incorporan metodologías como Empathy Mapping, event storming, domain message flow, context mapping y User Stories, que fortalecen la comprensión del usuario y la transformación de necesidades en requerimientos claros. Finalmente, se destaca el análisis de entrevistas y el modelado de dominios como medios para generar un entendimiento compartido y garantizar coherencia en el diseño. En conjunto, se evidencia una clara orientación hacia el aprendizaje permanente y la construcción de soluciones efectivas y centradas en el usuario <br>
+  <tr>
+    <th>Criterio Específico</th>
+    <th>Acciones Realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+    <td> Calvo Yalan, Renato Guillermo: <br>TB1: Reforzó los conocimientos asociados a la realización del needfinding para reunir informaición necesaria para los arquetipos del mismo.</td>
+    <td rowspan="5">TB1:El equipo demuestra un compromiso constante con la actualización y fortalecimiento de sus conocimientos, reconociendo la importancia de este proceso para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se refuerzan competencias vinculadas al needfinding para levantar información clave en la construcción de arquetipos, así como la profundización en arquitectura de software y diseño orientado a dominios que permiten crear soluciones escalables y alineadas al negocio. De igual forma, se aplican prácticas de refactorización y herramientas como el User Task Matrix, complementadas con entrevistas, que aseguran la pertinencia y mejora continua de las soluciones. También se incorporan metodologías como Empathy Mapping, event storming, domain message flow, context mapping y User Stories, que fortalecen la comprensión del usuario y la transformación de necesidades en requerimientos claros. Finalmente, se destaca el análisis de entrevistas y el modelado de dominios como medios para generar un entendimiento compartido y garantizar coherencia en el diseño. En conjunto, se evidencia una clara orientación hacia el aprendizaje permanente y la construcción de soluciones efectivas y centradas en el usuario <br>
 </td>
-  </tr>
-  <tr>
-    <td> Torres García, Andrés Alberto: Se enfoca en profundizar en arquitectura de software con énfasis en el nivel táctico de Domain-Driven Design (DDD). Esto le permite fortalecer la base conceptual y práctica para diseñar soluciones escalables, alineadas con la lógica del negocio, contribuyendo de manera estratégica al proyecto.<br>TB1: Reforzó <br></td>
-  </tr>
-  <tr>
-    <td> Quijandria Araneda, Vicente: <br>TB1: Orienta su actualización hacia la práctica aplicada en refactorización y ajuste de landing pages, así como en la utilización de herramientas como el User Task Matrix. Esto, complementado con la realización de entrevistas, le permite no solo mantener sus conocimientos actualizados, sino también validar con usuarios reales la pertinencia de las soluciones, asegurando un desarrollo orientado a la experiencia de usuario y a la mejora continua.</td>
-  </tr>
-  <tr>
-    <td> Navarro Chinga, Antonio Jhair: <br>TB1: Actualiza sus conocimientos mediante el uso de Empathy Mapping, event storming, domain message flow, context mapping y User Stories, fortaleciendo su capacidad para comprender al usuario, modelar dominios de negocio y transformar necesidades en requerimientos claros. Con ello, asegura tanto su desarrollo profesional como la calidad de las soluciones de software en el proyecto.</td>
-  </tr>
-  <tr>
-    <td> Rios Piñan, Dayro Richard: <br>TB1: Actualiza sus competencias en metodologías de descubrimiento y modelado como event storming, domain message flow y context mapping. Estas prácticas le otorgan la capacidad de identificar con claridad los dominios de negocio, mapear interacciones clave y generar un entendimiento compartido que asegura coherencia en el diseño de las soluciones. Además de la realización del análisis de entrevistas. </td>
-  </tr>
-  <tr>
-    <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-    <td>Calvo Yalan, Renato Guillermo: <br>TB1: Reconoce que el aprendizaje continuo es fundamental para fortalecer sus competencias y aportar soluciones innovadoras en el desarrollo de proyectos de software</td>
-    <td rowspan="5">TB1:El equipo en su conjunto reconoce la importancia del aprendizaje permanente como base para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se valora la formación continua como medio para innovar y fortalecer aportes, la actualización en arquitectura y diseño para garantizar calidad, el aprendizaje constante como motor para refactorizar y mejorar soluciones, la formación en metodologías ágiles y centradas en el usuario para aportar eficacia, así como la actualización en prácticas de modelado de dominio como elemento esencial para un desempeño sólido. En conjunto, se evidencia un compromiso claro con la mejora continua y la construcción de soluciones relevantes y efectivas..<br>
+  </tr>
+  <tr>
+    <td> Torres García, Andrés Alberto: <br>TB1: Se enfoca en profundizar en arquitectura de software con énfasis en el nivel táctico de Domain-Driven Design (DDD). Esto le permite fortalecer la base conceptual y práctica para diseñar soluciones escalables, alineadas con la lógica del negocio, contribuyendo de manera estratégica al proyecto.</td>
+  </tr>
+  <tr>
+    <td> Quijandria Araneda, Vicente: <br>TB1: Orienta su actualización hacia la práctica aplicada en refactorización y ajuste de landing pages, así como en la utilización de herramientas como el User Task Matrix. Esto, complementado con la realización de entrevistas, le permite no solo mantener sus conocimientos actualizados, sino también validar con usuarios reales la pertinencia de las soluciones, asegurando un desarrollo orientado a la experiencia de usuario y a la mejora continua.</td>
+  </tr>
+  <tr>
+    <td> Navarro Chinga, Antonio Jhair: <br>TB1: Actualiza sus conocimientos mediante el uso de Empathy Mapping, event storming, domain message flow, context mapping y User Stories, fortaleciendo su capacidad para comprender al usuario, modelar dominios de negocio y transformar necesidades en requerimientos claros. Con ello, asegura tanto su desarrollo profesional como la calidad de las soluciones de software en el proyecto.</td>
+  </tr>
+  <tr>
+    <td> Rios Piñan, Dayro Richard: <br>TB1: Actualiza sus competencias en metodologías de descubrimiento y modelado como event storming, domain message flow y context mapping. Estas prácticas le otorgan la capacidad de identificar con claridad los dominios de negocio, mapear interacciones clave y generar un entendimiento compartido que asegura coherencia en el diseño de las soluciones. Además de la realización del análisis de entrevistas. </td>
+  </tr>
+  <tr>
+    <td rowspan="5">Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
+    <td> Calvo Yalan, Renato Guillermo: <br>TP1: Aplicó y fortaleció sus conocimientos en desarrollo backend, realizando ajustes técnicos necesarios para garantizar la funcionalidad y estabilidad de los servicios del proyecto. Esto le permitió consolidar competencias en arquitectura de software y en la implementación de soluciones robustas.</td>
+    <td rowspan="5">TP1: El equipo evidencia la aplicación práctica de conocimientos actualizados en diferentes áreas del proyecto de software. Se refuerzan competencias técnicas en el desarrollo backend mediante ajustes y optimizaciones que aseguran la funcionalidad de los servicios, así como habilidades de gestión de proyecto a través de la coordinación de fechas de entrega y la resolución de dudas del equipo. Asimismo, se fortalece la capacidad de documentación técnica y la actualización de elementos de presentación como el landing page, garantizando coherencia entre la propuesta visual y los requerimientos del proyecto. En conjunto, se demuestra una actualización integral que abarca tanto aspectos técnicos de implementación como competencias de gestión, documentación y comunicación, consolidando el desarrollo profesional del equipo y el éxito del proyecto.<br>
 </td>
-  </tr>
-  <tr>
-    <td>Torres García, Andrés Alberto: <br>TB1: Identifica la actualización constante en arquitectura de software y diseño táctico como clave para su crecimiento profesional y para garantizar proyectos de calidad.</td>
-  </tr>
-  <tr>
-    <td>Quijandria Araneda, Vicente: <br>TB1:Entiende la importancia de aprender permanentemente para refactorizar y ajustar soluciones, asegurando mejoras continuas y mayor valor para el usuario.</td>
-  </tr>
-  <tr>
-    <td>Navarro Chinga, Antonio Jhair: <br>TB1:Reconoce que la formación continua en metodologías ágiles y centradas en el usuario es esencial para su desarrollo profesional y la eficacia del proyecto.</td>
-  </tr>
-  <tr>
-    <td>Rios Piñan, Dayro Richard: <br>TB1:Valora la actualización constante en prácticas de modelado de dominio como base para un mejor desempeño y para aportar al éxito de los proyectos de software.</td>
-  </tr>
+  </tr>
+  <tr>
+    <td> Torres García, Andrés Alberto: <br>TP1: Profundizó en la implementación backend del proyecto, enfocándose en realizar los ajustes técnicos requeridos para asegurar el correcto funcionamiento de los componentes del sistema. Con ello, fortaleció sus conocimientos en desarrollo de servicios y arquitectura de aplicaciones.</td>
+  </tr>
+  <tr>
+    <td> Quijandria Araneda, Vicente: <br>TP1: Actualiza sus conocimientos mediante la elaboración de documentación técnica del proyecto y la refactorización del landing page, lo que le permite consolidar habilidades tanto en la comunicación escrita de soluciones técnicas como en el desarrollo frontend orientado a la presentación efectiva de la propuesta.</td>
+  </tr>
+  <tr>
+    <td> Navarro Chinga, Antonio Jhair: <br>TP1: Refuerza sus competencias en gestión de proyectos mediante el apoyo en la elaboración del informe técnico y la coordinación de fechas de entrega, asegurando el cumplimiento de los plazos establecidos. Adicionalmente, fortalece sus habilidades de comunicación al resolver dudas del equipo, contribuyendo a la claridad y organización del trabajo colaborativo.</td>
+  </tr>
+  <tr>
+    <td> Rios Piñan, Dayro Richard: <br>TP1: Fortalece sus conocimientos en documentación técnica y gestión de entregas al apoyar en la elaboración del informe y en la definición de las fechas de entrega. Asimismo, desarrolla habilidades de soporte al equipo mediante la resolución de consultas, garantizando la coherencia y el avance continuo del proyecto.</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+    <td>Calvo Yalan, Renato Guillermo: <br>TB1: Reconoce que el aprendizaje continuo es fundamental para fortalecer sus competencias y aportar soluciones innovadoras en el desarrollo de proyectos de software</td>
+    <td rowspan="5">TB1:El equipo en su conjunto reconoce la importancia del aprendizaje permanente como base para el desarrollo profesional y el éxito de los proyectos en soluciones de software. Se valora la formación continua como medio para innovar y fortalecer aportes, la actualización en arquitectura y diseño para garantizar calidad, el aprendizaje constante como motor para refactorizar y mejorar soluciones, la formación en metodologías ágiles y centradas en el usuario para aportar eficacia, así como la actualización en prácticas de modelado de dominio como elemento esencial para un desempeño sólido. En conjunto, se evidencia un compromiso claro con la mejora continua y la construcción de soluciones relevantes y efectivas.<br>
+</td>
+  </tr>
+  <tr>
+    <td>Torres García, Andrés Alberto: <br>TB1: Identifica la actualización constante en arquitectura de software y diseño táctico como clave para su crecimiento profesional y para garantizar proyectos de calidad.</td>
+  </tr>
+  <tr>
+    <td>Quijandria Araneda, Vicente: <br>TB1:Entiende la importancia de aprender permanentemente para refactorizar y ajustar soluciones, asegurando mejoras continuas y mayor valor para el usuario.</td>
+  </tr>
+  <tr>
+    <td>Navarro Chinga, Antonio Jhair: <br>TB1:Reconoce que la formación continua en metodologías ágiles y centradas en el usuario es esencial para su desarrollo profesional y la eficacia del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br>TB1:Valora la actualización constante en prácticas de modelado de dominio como base para un mejor desempeño y para aportar al éxito de los proyectos de software.</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
+    <td>Calvo Yalan, Renato Guillermo: <br>TP1: Identifica que el aprendizaje continuo en tecnologías backend y arquitectura de software es esencial para mantener la calidad técnica de los proyectos y su crecimiento como desarrollador.</td>
+    <td rowspan="5">TP1: El equipo reconoce de manera integral la necesidad del aprendizaje permanente en diversas dimensiones del desarrollo de software. Se valora la actualización constante en tecnologías backend y arquitectura como base para la calidad técnica, la formación continua en documentación y frontend para ampliar el perfil profesional, así como el desarrollo de competencias en gestión de proyectos y trabajo colaborativo como factores clave para el éxito de las entregas. En conjunto, se evidencia una conciencia clara sobre la importancia de la formación continua no solo en aspectos técnicos, sino también en habilidades blandas de coordinación, comunicación y soporte al equipo, consolidando un enfoque integral del desarrollo profesional.<br>
+</td>
+  </tr>
+  <tr>
+    <td>Torres García, Andrés Alberto: <br>TP1: Valora la importancia de actualizarse constantemente en el desarrollo backend y en la resolución de problemas técnicos, reconociendo que esto es clave para su desempeño profesional y para el éxito del proyecto.</td>
+  </tr>
+  <tr>
+    <td>Quijandria Araneda, Vicente: <br>TP1: Reconoce que el aprendizaje permanente en documentación técnica y desarrollo frontend es fundamental para ampliar su perfil profesional y aportar valor integral al proyecto.</td>
+  </tr>
+  <tr>
+    <td>Navarro Chinga, Antonio Jhair: <br>TP1: Identifica la necesidad de formarse continuamente en gestión de proyectos y habilidades de coordinación, comprendiendo que estas competencias son esenciales para asegurar entregas exitosas y trabajo en equipo efectivo.</td>
+  </tr>
+  <tr>
+    <td>Rios Piñan, Dayro Richard: <br>TP1: Reconoce que el aprendizaje permanente en gestión de entregas y habilidades de soporte al equipo es fundamental para su desarrollo profesional y para garantizar la cohesión y el avance efectivo del proyecto.</td>
+  </tr>
 </table>
+
+# Objetivos SMART
+
+Andrés Torres:
+
+En los primeros 12 meses posteriores a mi graduación, desarrollaré y publicaré en GitHub al menos 3 proyectos técnicos orientados a inteligencia artificial aplicada (por ejemplo, un chatbot con procesamiento de lenguaje natural, un sistema de recomendación y una herramienta de análisis de datos educativos). Cada proyecto incluirá documentación técnica, dataset de prueba y un despliegue funcional (API o demo web). Además, participaré en al menos 1 hackathon o reto de IA para fortalecer mi aprendizaje práctico y visibilidad en la comunidad tecnológica.
+
+En un plazo de 24 meses, completaré una certificación en Machine Learning o Data Engineering (por ejemplo, TensorFlow Developer Certificate o Google Cloud Professional Data Engineer) y obtendré un puesto en un equipo de desarrollo orientado a analítica avanzada o IA aplicada. Paralelamente, contribuiré a proyectos open source relacionados con modelos de aprendizaje automático, con el fin de afianzar mi experiencia técnica y fortalecer mi portafolio como especialista en inteligencia artificial.
+
+Dayro Ríos:
+
+En los primeros 9 meses posteriores a mi graduación, desarrollaré y publicaré 2 proyectos profesionales enfocados en automatización de infraestructuras y DevOps (por ejemplo, pipelines CI/CD con Jenkins o GitHub Actions, y un sistema de monitoreo con Prometheus y Grafana). Documentaré los proyectos en GitHub e implementaré entornos de prueba en la nube (AWS o Railway) para demostrar competencias en despliegue continuo y gestión de servicios.
+
+En un plazo de 24 meses, obtendré una certificación en Cloud Computing o DevOps (por ejemplo, AWS Certified DevOps Engineer o Docker Certified Associate) y aseguraré un puesto como DevOps Engineer o Cloud Engineer en una empresa tecnológica. Además, participaré en comunidades técnicas (como DevOps Perú o Google Developer Groups) para compartir experiencias, mantenerse actualizado en herramientas de infraestructura y fomentar mi desarrollo profesional continuo.
+
+Antonio Navarro:
+
+Durante los primeros 12 meses después de mi graduación, desarrollaré y publicaré 3 proyectos de desarrollo backend con foco en arquitecturas escalables y seguras (por ejemplo, microservicios en Spring Boot, APIs REST con Node.js y un servicio con autenticación JWT/OAuth2). Cada proyecto estará documentado en GitHub, incluirá pruebas automatizadas y será desplegado en la nube (Railway o Render).
+
+En un horizonte de 24 meses, habré alcanzado un puesto como Backend Developer o Software Engineer en una empresa nacional o internacional y obtendré una certificación profesional en desarrollo backend o cloud (por ejemplo, Spring Certified Professional Developer o AWS Certified Developer). Además, contribuiré con al menos 2 proyectos colaborativos open source en áreas de backend, fortaleciendo mis competencias técnicas y mi red profesional dentro del ecosistema de ingeniería de software.
+
+Vicente Quijandría:
+
+En los primeros 10 meses tras mi graduación, desarrollaré y publicaré al menos 3 proyectos enfocados en experiencia de usuario (UX/UI) y desarrollo frontend, utilizando frameworks modernos como Vue.js, React o Angular. Cada proyecto incluirá diseño visual, prototipado funcional en Figma y despliegue web, demostrando dominio del ciclo completo de interfaz y usabilidad.
+
+En los 24 meses posteriores, obtendré un puesto como Frontend Developer o UX Engineer y realizaré una certificación en diseño de experiencia de usuario o frameworks modernos (por ejemplo, Google UX Design Certificate o React Developer Certification). Paralelamente, participaré en al menos 2 comunidades de diseño y tecnología (como UX Perú o FrontendCafé), compartiendo proyectos y aprendiendo sobre tendencias de accesibilidad, interacción y diseño centrado en el usuario.
+
+Renato Calvo:
+
+Durante los primeros 12 meses posteriores a mi graduación, desarrollaré 2 aplicaciones móviles multiplataforma (una nativa con Kotlin y otra híbrida con Flutter), publicándolas en Play Store y/o App Store con documentación técnica, métricas básicas y feedback de usuarios. Cada app estará orientada a resolver una necesidad concreta (por ejemplo, gestión educativa, salud o productividad).
+
+En los siguientes 24 meses, obtendré una certificación internacional como desarrollador móvil (por ejemplo, Google Associate Android Developer o Flutter Certified Application Developer) y conseguiré un puesto como Mobile Developer o Software Engineer Mobile en una empresa tecnológica. Además, participaré en comunidades y eventos de desarrollo móvil (como GDG Lima o Flutter Perú) para mantenerme actualizado, fortalecer mi red profesional y seguir creciendo como especialista en desarrollo de aplicaciones móviles.
+
 
 # **Contenido**
 

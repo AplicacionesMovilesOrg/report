@@ -2463,6 +2463,75 @@ Entonces el sistema está en estado de permitir la actualización del reporte y 
 
 <br>
 
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;">Story ID</td>
+    <td style="border: 1px solid black; padding: 8px;">User</td>
+    <td style="border: 1px solid black; padding: 8px;">Priority</td>
+    <td style="border: 1px solid black; padding: 8px;">Epic</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px; text-align: center;">SP-01</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: center;">Equipo de desarollo</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: center;">Medium</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: center;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px;">Title</td>
+    <td colspan="3" style="border: 1px solid black; padding: 8px;">Evaluación de Seguridad y Acceso en MongoDB Atlas</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid black; padding: 8px;">Description</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid black; padding: 8px;">Como equipo de desarrollo, quiero evaluar los mecanismos de seguridad, autenticación y control de acceso en MongoDB Atlas, para garantizar que los datos institucionales de EduSpace estén protegidos ante accesos no autorizados.</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid black; padding: 8px; text-align: center;">Criterios de Aceptación</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="border: 1px solid black; padding: 8px;">
+    Escenario 1: Configuración de Acceso por IP Whitelist
+
+<br>
+Dado que los entornos deben estar restringidos,
+
+<br>
+Cuando se agregan direcciones IP específicas en la whitelist de MongoDB Atlas,
+
+<br>
+Entonces solo esos hosts pueden acceder a la base de datos.
+
+<br>
+Escenario 2: Creación de Roles y Usuarios Limitados
+
+<br>
+Dado que distintos servicios acceden a la base de datos,
+
+<br>
+Cuando se crean usuarios con permisos específicos (readWrite, readOnly),
+
+<br>
+Entonces se valida que cada usuario solo accede a las colecciones permitidas.
+
+<br>
+Escenario 3: Configuración de Encriptación y Auditoría
+
+<br>
+Dado que los datos pueden contener información sensible (como aforos y personal),
+
+<br>
+Cuando se habilita el cifrado en tránsito y reposo,
+
+<br>
+Entonces se documentan las medidas de seguridad recomendadas y los logs de auditoría generados.
+</td>
+  </tr>
+</table>
+
+<br>
+
+<table style="width:100%; border-collapse: collapse;"> <tr> <td style="border: 1px solid black; padding: 8px;">Story ID</td> <td style="border: 1px solid black; padding: 8px;">User</td> <td style="border: 1px solid black; padding: 8px;">Priority</td> <td style="border: 1px solid black; padding: 8px;">Epic</td> </tr> <tr> <td style="border: 1px solid black; padding: 8px; text-align: center;">SP-02</td> <td style="border: 1px solid black; padding: 8px; text-align: center;">Equipo de desarrollo</td> <td style="border: 1px solid black; padding: 8px; text-align: center;">Medium</td> <td style="border: 1px solid black; padding: 8px; text-align: center;"></td> </tr> <tr> <td style="border: 1px solid black; padding: 8px;">Title</td> <td colspan="3" style="border: 1px solid black; padding: 8px;">Evaluación de Migración de Datos SQL a MongoDB</td> </tr> <tr> <td colspan="4" style="border: 1px solid black; padding: 8px;">Description</td> </tr> <tr> <td colspan="4" style="border: 1px solid black; padding: 8px;">Como equipo de desarrollo, quiero evaluar la migración de datos estructurados (aulas, docentes, mantenimiento) desde una base SQL local a MongoDB Atlas, para analizar la compatibilidad de los esquemas y la integridad de la información.</td> </tr> <tr> <td colspan="4" style="border: 1px solid black; padding: 8px; text-align: center;">Criterios de Aceptación</td> </tr> <tr> <td colspan="4" style="border: 1px solid black; padding: 8px;"> Escenario 1: Mapeo de Tablas a Colecciones <br> Dado que los datos provienen de un esquema relacional, <br> Cuando se diseñan los documentos JSON equivalentes, <br> Entonces cada entidad SQL se representa correctamente en MongoDB. <br><br> Escenario 2: Prueba de Migración de Datos <br> Dado que existen datos en una base SQL, <br> Cuando se utiliza una herramienta como mongoimport o Talend, <br> Entonces los registros son migrados con éxito y mantienen su consistencia. <br><br> Escenario 3: Validación de Integridad y Consultas <br> Dado que las relaciones cambian en NoSQL, <br> Cuando se ejecutan consultas anidadas en MongoDB, <br> Entonces se valida que las dependencias se mantienen mediante referencias o documentos embebidos. </td> </tr> </table>
 <br>
 
 **Technical Stories:**
@@ -3843,3 +3912,5 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
+

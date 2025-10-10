@@ -3106,13 +3106,6 @@ En esta sección se presenta el Product Backlog de EduSpace, que contiene las hi
         <td>Como desarrollador, quiero implementar la característica de añadir la información de un reporte a través de un RESTful API PARA que los administradores puedan ver la información del reporte que hizo el docente.</td>
         <td>3</td>
     </tr>
-  <tr>
-        <td>53</td>
-        <td>TS025</td>
-        <td>Añadir información del reporte de avería a través de un RESTful API</td>
-        <td>Como desarrollador, quiero implementar la característica de añadir la información de un reporte a través de un RESTful API PARA que los administradores puedan ver la información del reporte que hizo el docente.</td>
-        <td>3</td>
-    </tr>
 </table>
 
 A continuación, se presenta una captura de pantalla de la elaboración del product backlog de historias de usuario utilizando la herramnienta Trello.
@@ -3919,4 +3912,5 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 
 ![](../assets/chapter2/database-diagram/database-diagram-breakdown-management.png)
+
 

@@ -1,0 +1,5 @@
+Biancardi, A., Colasante, A., D'Adamo, I., Daraio, C., Gastaldi, M., & Uricchio, A. F. (2023). Strategies for developing sustainable communities in higher education institutions. Scientific Reports, 13(1), 20596. https://doi.org/10.1038/s41598-023-48021-8
+
+Mahmoud, A. S., Hassanain, M. A., & Alshibani, A. (2024). Evolving trends and innovations in facilities management within higher education institutions. Buildings, 14(12), 3759. https://doi.org/10.3390/buildings14123759
+
+Pampana, A. K., Jeon, J., Yoon, S., Weidner, T. J., & Hastak, M. (2022). Data-driven analysis for facility management in higher education institution. Buildings, 12(12), 2094. https://doi.org/10.3390/buildings12122094

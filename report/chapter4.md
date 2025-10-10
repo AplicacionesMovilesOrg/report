@@ -292,7 +292,7 @@ Entrevista 1:
 
 Duración: 2 minutos 34 segundos
 
-Link de la entrevista: 
+Link de la entrevista: https://tinyurl.com/4d86ueya
 
 Nombre: Ariana
 
@@ -312,7 +312,7 @@ Entrevista 2:
 
 Duración: 3 minutos 47 segundos
 
-Link de la entrevista: 
+Link de la entrevista: https://tinyurl.com/44nk7k5y
 
 Nombre: Alexander
 
@@ -333,7 +333,7 @@ Entrevista 3:
 
 Duración: 2 minutos 53 segundos
 
-Link de la entrevista:
+Link de la entrevista: https://tinyurl.com/s2sn78kw
 
 Nombre: Rocio
 
@@ -355,7 +355,7 @@ Entrevista 4:
 
 Duración: 2 minutos 39 segundos
 
-Link de la entrevista:
+Link de la entrevista: https://tinyurl.com/5b968sky
 
 Nombre: Stefano Lucarelly
 
@@ -365,19 +365,18 @@ Edad: 20
 
 Distrito: Villa el Salvador
 
-Resumen: 
-
+Resumen: Lucas es auxiliar de una institución educativa privada. Consideró que la landing page era clara, aunque señaló que la interfaz de usuario podría mejorarse, y valoró especialmente los planes presentados.
 
 
 Entrevista 5:
 
 ![ Entrevista 5](../assets/chapter4/validation-interviews/validation-5.png)
 
-[ - ]
+[ 11:53 - 17:50 ]
 
-Duración:
+Duración: 5 minutos 57 segundos
 
-Link de la entrevista:
+Link de la entrevista: https://tinyurl.com/d5rawyv6
 
 Nombre: Mateo Yoshi
 
@@ -393,11 +392,11 @@ Entrevista 6:
 
 ![ Entrevista 6](../assets/chapter4/validation-interviews/validation-6.png)
 
-[ - ]
+[ 17:50 - 20:57 ]
 
-Duración:
+Duración: 3 minutos 7 segundos
 
-Link de la entrevista:
+Link de la entrevista: https://tinyurl.com/2cbzaujv
 
 Nombre: Adrian Isaac
 

@@ -49,6 +49,7 @@ Septiembre 2025
 | Versión | Fecha | Autor | Descripción de modificación |
 | ------- | ----- | ----- | --------------------------- |
 | 1.0     |  19/09     | Andrés Torres      |  Se realizó la primera versión del informe. Capítulos 1 y dos realizados  |
+| 2.0     |  19/09     | Dayro Rios         |  Se realizó la segunda versión del informe, además del despliegue del backend. Capítulos 3 y 4 realizados  |
 
 # **Project Report Collaboration Insights**
 

@@ -328,4 +328,148 @@ Elementos a incluir:
 
 #### 4.3.2. Registro de Entrevistas
 
+**Segmento 1: Administradores de instituciones educativas**
+
+Entrevista 1:
+
+![ Entrevista 1](../assets/chapter4/validation-interviews/validation-1.png)
+
+[ 00:00 - 2:34 ]
+
+Duración: 2 minutos 34 segundos
+
+Link de la entrevista: https://tinyurl.com/4d86ueya
+
+Nombre: Ariana
+
+Apellidos: Yasan Laredo
+
+Edad: 23 años
+
+Distrito: San Juan de Miraflores
+
+Resumen: Ariana, administradora de la institución educativa, tiene a su cargo la coordinación de eventos y la gestión de recursos para las actividades escolares. Consideró que la página de inicio era visual y fácil de comprender, destacando los testimonios y la sección de beneficios como los elementos que más le llamaron la atención.
+
+Entrevista 2:
+
+![ Entrevista 2](../assets/chapter4/validation-interviews/validation-2.png)
+
+[ 2:34 - 6:21 ]
+
+Duración: 3 minutos 47 segundos
+
+Link de la entrevista: https://tinyurl.com/44nk7k5y
+
+Nombre: Alexander
+
+Apellidos: Miranda Vivanco
+
+Edad: 20
+
+Distrito: Villa el Salvador
+
+Resumen: Alexander es un estudiante universitario que también trabaja como asistente administrativo en una institución educativa en Villa El Salvador. Está encargado de coordinar eventos y gestionar recursos para actividades escolares. Encontró que la landing page era clara y atractiva, y valoró especialmente los testimonios y beneficios listados. Sin embargo, sugirió que se incluyan videos dentro de la landing page para tener un mejor sobre la aplicación, además de hacerla más dinámica y atractiva.
+
+
+Entrevista 3:
+
+![ Entrevista 3](../assets/chapter4/validation-interviews/validation-3.png)
+
+[ 6:21 - 9:14 ]
+
+Duración: 2 minutos 53 segundos
+
+Link de la entrevista: https://tinyurl.com/s2sn78kw
+
+Nombre: Rocio
+
+Apellidos: Piñan Saavedra
+
+Edad: 53
+
+Distrito: Villa el Salvador
+
+Resumen: Rocio es una administradora de una institución educativa privada en Villa El Salvador. Ella maneja la gestión de espacios y recursos para eventos escolares. Encontró que la landing page era clara y atractiva, y valoró especialmente los testimonios y beneficios listados. 
+
+**Segmento 2: Docentes y auxiliares**
+
+Entrevista 4: 
+
+![ Entrevista 4](../assets/chapter4/validation-interviews/validation-4.png)
+
+[ 9:14 - 11:53 ]
+
+Duración: 2 minutos 39 segundos
+
+Link de la entrevista: https://tinyurl.com/5b968sky
+
+Nombre: Stefano Lucarelly
+
+Apellidos: Sanchez Heredia
+
+Edad: 20
+
+Distrito: Villa el Salvador
+
+Resumen: Lucas es auxiliar de una institución educativa privada. Consideró que la landing page era clara, aunque señaló que la interfaz de usuario podría mejorarse, y valoró especialmente los planes presentados.
+
+
+Entrevista 5:
+
+![ Entrevista 5](../assets/chapter4/validation-interviews/validation-5.png)
+
+[ 11:53 - 17:50 ]
+
+Duración: 5 minutos 57 segundos
+
+Link de la entrevista: https://tinyurl.com/d5rawyv6
+
+Nombre: Mateo Yoshi
+
+Apellidos: Kiyan, Gardener
+
+Edad: 28
+
+Distrito: San Isidro
+
+Resumen: Mateo es un docente en el insituto privado Le Cordon Bleu. El enseña el curso de Gestion de Inventario. Encontró que la landing page era clara pero que le faltaba mejor UI, y valoró especialmente los planes listados. 
+
+Entrevista 6:
+
+![ Entrevista 6](../assets/chapter4/validation-interviews/validation-6.png)
+
+[ 17:50 - 20:57 ]
+
+Duración: 3 minutos 7 segundos
+
+Link de la entrevista: https://tinyurl.com/2cbzaujv
+
+Nombre: Adrian Isaac
+
+Apellidos: De La Torre, Lorenzo
+
+Edad: 25
+
+Distrito: Lince
+
+Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto personal educativo. Encontró que la landing page era muy buena, le gusto mucho, y valoró especialmente el plan Basico y Medio para instituciones chicas y medianas. 
+
 #### 4.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística se centró en la **landing page de EduSpace Mobile**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.  
+
+| **Heurística de Nielsen** | **Descripción** | **Observaciones en la Landing Page (según entrevistas)** | **Recomendaciones de mejora** |
+|----------------------------|-----------------|----------------------------------------------------------|--------------------------------|
+| **1. Visibilidad del estado del sistema** | El usuario debe saber en todo momento qué está ocurriendo. | La página carga correctamente y muestra contenido sin retrasos notables. No obstante, podría incluir indicadores visuales al desplazarse. | Incorporar animaciones o efectos sutiles al hacer scroll para mejorar la percepción de fluidez. |
+| **2. Correspondencia entre el sistema y el mundo real** | El diseño y lenguaje deben ser familiares para el usuario. | Los usuarios consideraron clara la información y comprendieron fácilmente los planes y beneficios. | Mantener el lenguaje sencillo y cercano al entorno educativo, evitando tecnicismos. |
+| **3. Control y libertad del usuario** | Permitir moverse libremente y deshacer acciones fácilmente. | La navegación es lineal y sin distracciones. Sin embargo, el botón de “Volver arriba” no está presente. | Agregar un botón flotante que permita regresar al inicio de la página. |
+| **4. Consistencia y estándares** | Mantener coherencia visual y de interacción. | Algunos usuarios mencionaron que la UI podría mejorar, especialmente en coherencia visual. | Unificar estilos tipográficos, espaciados y colores para reforzar la identidad visual. |
+| **5. Prevención de errores** | Evitar que el usuario cometa errores. | No se detectaron errores funcionales al interactuar con los elementos visibles. | Verificar que los botones y enlaces mantengan la misma funcionalidad en todas las resoluciones móviles. |
+| **6. Reconocimiento antes que recuerdo** | Mostrar opciones y contenidos visibles sin necesidad de recordar. | Los usuarios destacaron que los **planes** y **beneficios** estaban claramente visibles y organizados. | Mantener la estructura actual, reforzando el uso de íconos o etiquetas que ayuden a la identificación rápida. |
+| **7. Flexibilidad y eficiencia de uso** | Permitir interacciones fluidas y accesibles. | La experiencia es fluida, aunque algunos usuarios sugirieron añadir contenido más dinámico. | Incluir videos breves o animaciones explicativas para mejorar la interacción y el dinamismo visual. |
+| **8. Estética y diseño minimalista** | Evitar el exceso de información y priorizar lo esencial. | La mayoría de usuarios valoró el diseño limpio y la claridad general. | Mantener el enfoque minimalista, pero optimizar la jerarquía visual entre secciones. |
+| **9. Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores** | Los mensajes de error deben ser claros y útiles. | No se observaron errores o mensajes emergentes, ya que se trata de una página informativa. | Añadir mensajes amigables para redirecciones rotas o enlaces inactivos. |
+| **10. Ayuda y documentación** | Ofrecer soporte o información adicional. | Algunos usuarios sugirieron incluir **videos explicativos** sobre la aplicación. | Incorporar un video introductorio y enlaces hacia documentación o contacto para instituciones interesadas. |
+
+**Conclusión:**  
+La landing page de **EduSpace Mobile** fue bien valorada por los entrevistados, destacando su **claridad**, **organización de los planes** y **secciones de beneficios y testimonios**. Las principales oportunidades de mejora se relacionan con la **optimización de la interfaz visual (UI)** y la **incorporación de elementos multimedia** que hagan la experiencia más dinámica e informativa para los nuevos usuarios.

@@ -16,7 +16,7 @@ NRC: 12617
 
 Profesor: Mayta Guillermo, Jorge Luis
 
-“Informe de TB1”
+“Informe de TP”
 
 Startup: Eduspace
 
@@ -49,7 +49,7 @@ Septiembre 2025
 | Versión | Fecha | Autor | Descripción de modificación |
 | ------- | ----- | ----- | --------------------------- |
 | 1.0     |  19/09     | Andrés Torres      |  Se realizó la primera versión del informe. Capítulos 1 y dos realizados  |
-| 2.0     |  19/09     | Dayro Rios         |  Se realizó la segunda versión del informe, además del despliegue del backend. Capítulos 3 y 4 realizados  |
+| 2.0     |  9/10     | Dayro Rios         |  Se realizó la segunda versión del informe, además del despliegue del backend. Capítulos 3 y 4 realizados  |
 
 # **Project Report Collaboration Insights**
 
@@ -73,7 +73,7 @@ A continuación se muestran los gráficos de colaboración de los miembros del e
 ![insights](./assets/chapter1/insight-tb1.png)
 
 
-<strong>TP1 – Desarrollo Inicial del Proyecto (Sprint 1)</strong><br>
+<strong>TP – Desarrollo Inicial del Proyecto (Sprint 1)</strong><br>
 En esta primera fase, el equipo avanzó en la creación del sitio web, el backend y la aplicación móvil, además de actualizar el informe técnico del proyecto. El sitio web se optimizó con un diseño adaptable y mejoras visuales.Backend desplegado y funcional y el mobile también funcional . 
 
 

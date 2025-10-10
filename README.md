@@ -170,6 +170,39 @@ del ABET – EAC - Student Outcome 7.</p>
   </tr>
 </table>
 
+# Objetivos SMART
+
+Andrés Torres:
+
+En los primeros 12 meses posteriores a mi graduación, desarrollaré y publicaré en GitHub al menos 3 proyectos técnicos orientados a inteligencia artificial aplicada (por ejemplo, un chatbot con procesamiento de lenguaje natural, un sistema de recomendación y una herramienta de análisis de datos educativos). Cada proyecto incluirá documentación técnica, dataset de prueba y un despliegue funcional (API o demo web). Además, participaré en al menos 1 hackathon o reto de IA para fortalecer mi aprendizaje práctico y visibilidad en la comunidad tecnológica.
+
+En un plazo de 24 meses, completaré una certificación en Machine Learning o Data Engineering (por ejemplo, TensorFlow Developer Certificate o Google Cloud Professional Data Engineer) y obtendré un puesto en un equipo de desarrollo orientado a analítica avanzada o IA aplicada. Paralelamente, contribuiré a proyectos open source relacionados con modelos de aprendizaje automático, con el fin de afianzar mi experiencia técnica y fortalecer mi portafolio como especialista en inteligencia artificial.
+
+Dayro Ríos:
+
+En los primeros 9 meses posteriores a mi graduación, desarrollaré y publicaré 2 proyectos profesionales enfocados en automatización de infraestructuras y DevOps (por ejemplo, pipelines CI/CD con Jenkins o GitHub Actions, y un sistema de monitoreo con Prometheus y Grafana). Documentaré los proyectos en GitHub e implementaré entornos de prueba en la nube (AWS o Railway) para demostrar competencias en despliegue continuo y gestión de servicios.
+
+En un plazo de 24 meses, obtendré una certificación en Cloud Computing o DevOps (por ejemplo, AWS Certified DevOps Engineer o Docker Certified Associate) y aseguraré un puesto como DevOps Engineer o Cloud Engineer en una empresa tecnológica. Además, participaré en comunidades técnicas (como DevOps Perú o Google Developer Groups) para compartir experiencias, mantenerse actualizado en herramientas de infraestructura y fomentar mi desarrollo profesional continuo.
+
+Antonio Navarro:
+
+Durante los primeros 12 meses después de mi graduación, desarrollaré y publicaré 3 proyectos de desarrollo backend con foco en arquitecturas escalables y seguras (por ejemplo, microservicios en Spring Boot, APIs REST con Node.js y un servicio con autenticación JWT/OAuth2). Cada proyecto estará documentado en GitHub, incluirá pruebas automatizadas y será desplegado en la nube (Railway o Render).
+
+En un horizonte de 24 meses, habré alcanzado un puesto como Backend Developer o Software Engineer en una empresa nacional o internacional y obtendré una certificación profesional en desarrollo backend o cloud (por ejemplo, Spring Certified Professional Developer o AWS Certified Developer). Además, contribuiré con al menos 2 proyectos colaborativos open source en áreas de backend, fortaleciendo mis competencias técnicas y mi red profesional dentro del ecosistema de ingeniería de software.
+
+Vicente Quijandría:
+
+En los primeros 10 meses tras mi graduación, desarrollaré y publicaré al menos 3 proyectos enfocados en experiencia de usuario (UX/UI) y desarrollo frontend, utilizando frameworks modernos como Vue.js, React o Angular. Cada proyecto incluirá diseño visual, prototipado funcional en Figma y despliegue web, demostrando dominio del ciclo completo de interfaz y usabilidad.
+
+En los 24 meses posteriores, obtendré un puesto como Frontend Developer o UX Engineer y realizaré una certificación en diseño de experiencia de usuario o frameworks modernos (por ejemplo, Google UX Design Certificate o React Developer Certification). Paralelamente, participaré en al menos 2 comunidades de diseño y tecnología (como UX Perú o FrontendCafé), compartiendo proyectos y aprendiendo sobre tendencias de accesibilidad, interacción y diseño centrado en el usuario.
+
+Renato Calvo:
+
+Durante los primeros 12 meses posteriores a mi graduación, desarrollaré 2 aplicaciones móviles multiplataforma (una nativa con Kotlin y otra híbrida con Flutter), publicándolas en Play Store y/o App Store con documentación técnica, métricas básicas y feedback de usuarios. Cada app estará orientada a resolver una necesidad concreta (por ejemplo, gestión educativa, salud o productividad).
+
+En los siguientes 24 meses, obtendré una certificación internacional como desarrollador móvil (por ejemplo, Google Associate Android Developer o Flutter Certified Application Developer) y conseguiré un puesto como Mobile Developer o Software Engineer Mobile en una empresa tecnológica. Además, participaré en comunidades y eventos de desarrollo móvil (como GDG Lima o Flutter Perú) para mantenerme actualizado, fortalecer mi red profesional y seguir creciendo como especialista en desarrollo de aplicaciones móviles.
+
+
 # **Contenido**
 
 ## Tabla de Contenidos

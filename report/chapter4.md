@@ -451,6 +451,17 @@ A continuación, se presentan los aportes de los integrantes en cada uno de los 
 **Project Report:**
 ![Insight_report](../assets/chapter4/landing-page-deployment/insights_report.png)
 
+### 4.2.2. Sprint 2
+#### 4.2.2.1. Sprint Planning 2
+#### 4.2.2.2. Sprint Backlog 2
+#### 4.2.2.3. Development Evidence
+#### 4.2.2.4. Testing Suite Evidence
+#### 4.2.2.5. Execution Evidence
+#### 4.2.2.6. Services Documentation Evidence
+#### 4.2.2.7. Deployment Evidence
+#### 4.2.2.8. Team Collaboration Insights
+
+
 ### 4.3. Validation Interviews
 
 En la sección **“Validation Interviews”** de nuestro proyecto, nos concentramos en **refinar la plataforma EduSpace**, la cual está orientada a **mejorar la gestión integral de los espacios educativos** en instituciones con **infraestructuras amplias y complejas**. Esta etapa esencial del desarrollo se centra en **realizar entrevistas estructuradas y conversaciones interactivas** con nuestros principales usuarios: **administradores, docentes y auxiliares**.

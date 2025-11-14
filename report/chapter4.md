@@ -452,13 +452,65 @@ A continuación, se presentan los aportes de los integrantes en cada uno de los 
 ![Insight_report](../assets/chapter4/landing-page-deployment/insights_report.png)
 
 ### 4.2.2. Sprint 2
+
+
 #### 4.2.2.1. Sprint Planning 2
+
+Para este segundo sprint nos enfocaremos en los tasks para la
+elaboración del producto. Nuestro objetivo principal es desarrollar el backend al 100% y lograr la integración completa con el frontend, utilizando datos reales para garantizar una experiencia de usuario fluida y mejorar la usabilidad general de la aplicación. Este objetivo se considerará alcanzado cuando los usuarios puedan utilizar la aplicación con su información real.
+
+
+| Sprint #                            |                   Sprint 2                                                    |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-11-01                                                                                                                                          |
+| **Time**                            | 10:00 PM                                                                                                                                             |
+| **Location**                        | Remote  (Discord / Whatsapp)                                                                                                                     |
+| **Prepared by** | 
+| **Attendees**                       | All members of EduSpace                                                                                        |
+| **Sprint 1 Review Summary**         | The development of our mobile application and the integration with the backend were succesful |
+| **Sprint 1 Retrospective Summary**  | We need to improve the integration of our services, add new features to the mobile application, and migrate our database from MySql to MongoDB |
+| **Sprint Goal & User Stories** |
+| **Sprint 2 Goal**  | Our focus is on complete all the features from our Android Native mobile application, such as add, edit and elete meetings, resources and teachers, also migrate our database to MongoDB. We believe it delivers the most value to our users by providing a seamless and efficient experience when managing educational spaces. This will be confirmed when users can fully utilize all the features of the mobile application with a reliable and scalable database backend. |
+| **Sprint 2 Velocity**  | ... |
+| **Sum of Story points**  | ... |
+
+
 #### 4.2.2.2. Sprint Backlog 2
 #### 4.2.2.3. Development Evidence
 #### 4.2.2.4. Testing Suite Evidence
 #### 4.2.2.5. Execution Evidence
 #### 4.2.2.6. Services Documentation Evidence
-#### 4.2.2.7. Deployment Evidence
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Landing page**
+
+La Landing Page fue desplegada correctamente mediante GitHub Pages, configurando en ramas "features" que luego fueron incorporadas a la rama main como fuente de publicación y verificando su disponibilidad pública a continuación.
+
+Evidencia del despliegue del Landing Page:
+
+![Evidecia_despliegue_landing](../assets/chapter4/landing-page-deployment/landing-page-deployment-4.png)
+
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+**Android mobile application**
+
+La aplicación móvil fue desplegada usando firebase, el cuál nos permite descargar la aplicación en un archivo .apk, de este modo los usuarios pueden instalar la aplicación en sus dispositivos Android.
+
+![Evidecia_despliegue_app_movil](../assets/chapter4/sprint2/software-deployment/mobile_app_deployment.jpg)
+
+Enlace de descarga de la aplicación móvil: 
+
+**Backend**
+
+El backend fue desplegado en Railway. Se migró la base de datos de MySQL a MongoDB Atlas, asegurando una mejor escalabilidad y rendimiento para la aplicación. Se verificó el correcto funcionamiento de las tablas principales y la conexión establecida entre el servicio y la base de datos.
+
+![Evidecia_despliegue_backend_railway](../assets/chapter4/sprint2/software-deployment/backend-railway.png)
+
+Enlace del backend desplegado en Railway: [https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+Repositorio del backend: [https://tinyurl.com/2p8f4f3m](https://tinyurl.com/2p8f4f3m)
+
 #### 4.2.2.8. Team Collaboration Insights
 
 

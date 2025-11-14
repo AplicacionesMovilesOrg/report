@@ -479,6 +479,23 @@ elaboración del producto. Nuestro objetivo principal es desarrollar el backend 
 #### 4.2.2.3. Development Evidence
 #### 4.2.2.4. Testing Suite Evidence
 #### 4.2.2.5. Execution Evidence
+
+Evidencia de ejecución del Landing Page:
+
+![Landing Page Deployed](../assets/chapter4/landing-page-deployment/landingPageMobile.png)
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+Evidencia de Ejecución Web Services:
+
+![Backend Deployed](../assets/chapter4/landing-page-deployment/backend.png)
+Enlace:[https://tinyurl.com/5aadb5bm](https://tinyurl.com/5aadb5bm)
+
+
+Evidencia de Ejecución Aplicación Móvil:
+
+![Mobile App Deployed](../assets/chapter4/sprint2/execution_evidence/mobile_app_execution.jpg)
+Enlace: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
+
 #### 4.2.2.6. Services Documentation Evidence
 
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
@@ -499,7 +516,7 @@ La aplicación móvil fue desplegada usando firebase, el cuál nos permite desca
 
 ![Evidecia_despliegue_app_movil](../assets/chapter4/sprint2/software-deployment/mobile_app_deployment.jpg)
 
-Enlace de descarga de la aplicación móvil: 
+Enlace de descarga de la aplicación móvil: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
 
 **Backend**
 

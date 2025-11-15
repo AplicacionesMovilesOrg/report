@@ -465,7 +465,7 @@ elaboración del producto. Nuestro objetivo principal es desarrollar el backend 
 | **Sprint Planning Background Date** | 2025-11-01                                                                                                                                          |
 | **Time**                            | 10:00 PM                                                                                                                                             |
 | **Location**                        | Remote  (Discord / Whatsapp)                                                                                                                     |
-| **Prepared by** | 
+| **Prepared by** | Andrés Torres
 | **Attendees**                       | All members of EduSpace                                                                                        |
 | **Sprint 1 Review Summary**         | The development of our mobile application and the integration with the backend were succesful |
 | **Sprint 1 Retrospective Summary**  | We need to improve the integration of our services, add new features to the mobile application, and migrate our database from MySql to MongoDB |
@@ -526,6 +526,19 @@ elaboración del producto. Nuestro objetivo principal es desarrollar el backend 
 | 89424a3 | refactor: added username in User class | vquijandria | 2025-11-13 |
 | 1868965 | refactor: added displayName in UserHome class | vquijandria | 2025-11-13 |
 #### 4.2.2.4. Testing Suite Evidence
+
+A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
+
+| Repository                                                     | Branch | Commit Id                                | Commit Message                                                            | Commit Message Body | Committed on (Date) |
+| -------------------------------------------------------------- | ------ | ---------------------------------------- | ------------------------------------------------------------------------- | ------------------- | ------------------- |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 7fd6dbfb92155937fc7d53b990087e6b190e34e7 | feat: add Gherkin scenarios for administrator to want to register classrooms                       | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 734876f73305775e27a4e36b3b8b01feff5e59cf | feat: add Gherkin scenarios for administrator to want to register shared areas | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 15e495999d78cdcaabbb76815f60769f8730d61a | feat: add Gherkin scenarios for administrator to want to register schedules for shared areas   | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | b422ba5594de3279a160729fe61893710c79f028 | feat: add Gherkin scenarios for administrator to want to register schedules for shared areas   | -                   | 14/11/2025          |
+
+Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
+
+
 #### 4.2.2.5. Execution Evidence
 
 Evidencia de ejecución del Landing Page:

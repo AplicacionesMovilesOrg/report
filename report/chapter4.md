@@ -211,6 +211,48 @@ una de las tareas identificadas para el sprint.
 
 | Commit Id | Commit Message                                                                                                                   | Author                       | Committed on |
 | :-------- | :------------------------------------------------------------------------------------------------------------------------------- | :--------------------------- | :----------- |
+| 3831218 | fix: refactor code for consistency and readability by removing unnecessary whitespace and adjusting property accessors | andrest04 | 2025-11-14 |
+| c74fbb1 | fix: cambiado MeetingParticipants a getter/setter y eliminado logging de debug | andrest04 and claude | 2025-11-14 |
+| 21a0b6f | feat: agregado soporte de persistencia para meeting participants | andrest04 and claude | 2025-11-14 |
+| bf481c3 | Merge branch 'develop' into feature/deployment | andrest04 | 2025-11-14 |
+| 28501c7 | added RemoveAsync in the TeacherProfileRepository.cs | vquijandria | 2025-11-13 |
+| a3774ca | feat: added UpdateInformation for the Profile Update | vquijandria | 2025-11-13 |
+| bf5452d | feat: added removeasync task | vquijandria | 2025-11-13 |
+| fb07226 | feat: added update and delete tasks in ITeacherProfileCommandService.cs | vquijandria | 2025-11-13 |
+| 17595bc | feat: added update and delete tasks | vquijandria | 2025-11-13 |
+| b319fb4 | feat: added update and delete controllers | vquijandria | 2025-11-13 |
+| a1ec4ee | feat: added DeleteTeacherProfileCommand.cs | vquijandria | 2025-11-13 |
+| 1994544 | feat: added UpdateTeacherProfileResource.cs | vquijandria | 2025-11-13 |
+| 53ea800 | feat: added UpdateTeacherProfileCommandFromResourceAssembler.cs | vquijandria | 2025-11-13 |
+| 970a139 | feat: added UpdateTeacherProfileCommand.cs | vquijandria | 2025-11-13 |
+| 4bc2048 | Feature/deployment | RenatoCY | 2025-11-09 |
+| 1a36b62 | fix: class room, class room command services, class room repository and profile contrext facade | RenatoCY | 2025-11-09 |
+| 4a34456 | fix: externals services | RenatoCY | 2025-11-09 |
+| 09623c2 | fix: fixed profile context facade,external profile and spaces and resources managemenet facade | RenatoCY | 2025-11-09 |
+| 9f4817d | fix: base repository and resource repository | RenatoCY | 2025-11-09 |
+| 28e902a | fix: repositories | RenatoCY | 2025-11-09 |
+| 447fca | fix:external profile service and extern class room service | RenatoCY | 2025-11-09 |
+| 83e012d | fix: resources aggregate and resources command services | RenatoCY | 2025-11-09 |
+| 08ad859 | fix: shared area command and managment facade | RenatoCY | 2025-11-09 |
+| e177863 | fix: resources controller | RenatoCY | 2025-11-09 |
+| 430747e | Merge pull request #11 from AplicacionesMovilesOrg/develop | andrest04 | 2025-11-14 |
+| dedb9e1 | feat(teachers): refresh teacher list after edit and delete operations | andrest04 | 2025-11-14 |
+| a93d3d8 | feat(teachers): implement edit and delete functionality for teachers | andrest04 | 2025-11-14 |
+| aaebcc3 | Merge pull request #10 from AplicacionesMovilesOrg/refactor/migrate-mysql-to-mongo | andrest04 | 2025-11-14 |
+| 2aef603 | refactor: clean up imports and remove unnecessary logging in MeetingsRepositoryImpl | andrest04 | 2025-11-14 |
+| 38c6ade | Merge pull request #9 from AplicacionesMovilesOrg/feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-14 |
+| 8c9be65 | feat(mobile-fixes-and-enhancements): update data models for teachers, classrooms, users, and shared areas | AntonioNavarro24 | 2025-11-14 |
+| 5365de7 | Merge pull request #8 from AplicacionesMovilesOrg/feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-13 |
+| c290d6e | Merge branch 'refactor/migrate-mysql-to-mongo' into feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-13 |
+| a60485b | feat(mobile-fixes-and-enhancements): enhance UI components and improve meeting creation logic | AntonioNavarro24 | 2025-11-13 |
+| e2a6578 | refactor: fixed an error | vquijandria | 2025-11-13 |
+| 087b697 | refactor: added a validation if the email of he session coincides with one in the db | vquijandria | 2025-11-13 |
+| d2960de | refactor: fixed welcome card not showing the full name of the user that logged on | vquijandria | 2025-11-13 |
+| 8f01279 | refactor: added sessionManager in the HomeViewModel | vquijandria | 2025-11-13 |
+| 7556cef | refactor: added username in the saveSession function | vquijandria | 2025-11-13 |
+| 70ab0b9 | refactor: added USERNAME_KEY for the username in the SessionManager.kt | vquijandria | 2025-11-13 |
+| 89424a3 | refactor: added username in User class | vquijandria | 2025-11-13 |
+| 1868965 | refactor: added displayName in UserHome class | vquijandria | 2025-11-13 |
 | 3598c48   | feat: added conclusions and introduction                                                                                         | Dayro Richard Rios Piñan     | 2025-10-09   |
 | 01a56d6   | feat: added conclusions and introduction                                                                                         | Dayro                        | 2025-10-09   |
 | 7d2fb9d   | docs(readme): add Insights tp                                                                                                    | Renato Guillermo Calvo Yalan | 2025-10-09   |

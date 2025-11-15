@@ -8,3 +8,22 @@ EduSpace se presenta como una propuesta innovadora que responde a los retos que 
 Recomendaciones:
 
 Para potenciar el alcance e impacto de EduSpace, se aconseja llevar a cabo una implementación gradual, comenzando con proyectos piloto que permitan evaluar su funcionamiento y ajustarla a las necesidades particulares de cada institución. Es fundamental complementar este proceso con programas de capacitación que aseguren el uso adecuado de las herramientas por parte del personal administrativo, docente y operativo. Asimismo, se recomienda seguir fortaleciendo las capacidades tecnológicas de la plataforma mediante la incorporación de módulos con inteligencia artificial y analítica de datos que faciliten la anticipación de requerimientos y optimicen la toma de decisiones. Finalmente, se propone establecer alianzas estratégicas con instituciones educativas, organismos públicos y empresas tecnológicas para expandir la solución a nivel nacional e internacional, consolidando a EduSpace como líder en la gestión moderna e inteligente de espacios educativos.
+
+
+Video about the product:
+
+![ Product Video](../assets/conclusiones/about-the-product.png)
+
+Link del video: https://youtu.be/RhQxC7CfcUU
+
+Video App validation: 
+
+![ App Validation Video](../assets/conclusiones/app-validation.png)
+
+Link del video: https://goo.su/VMWlBn
+
+Video about the team:
+
+![ Team Video](../assets/conclusiones/video-about-the-team.png)
+
+Link del video: https://goo.su/qoXD

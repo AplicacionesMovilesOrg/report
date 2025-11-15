@@ -451,6 +451,281 @@ A continuación, se presentan los aportes de los integrantes en cada uno de los 
 **Project Report:**
 ![Insight_report](../assets/chapter4/landing-page-deployment/insights_report.png)
 
+### 4.2.2. Sprint 2
+
+
+#### 4.2.2.1. Sprint Planning 2
+
+Para este segundo sprint nos enfocaremos en los tasks para la
+elaboración del producto. Nuestro objetivo principal es desarrollar el backend al 100% y lograr la integración completa con el frontend, utilizando datos reales para garantizar una experiencia de usuario fluida y mejorar la usabilidad general de la aplicación. Este objetivo se considerará alcanzado cuando los usuarios puedan utilizar la aplicación con su información real.
+
+
+| Sprint #                            |                   Sprint 2                                                    |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background Date** | 2025-11-01                                                                                                                                          |
+| **Time**                            | 10:00 PM                                                                                                                                             |
+| **Location**                        | Remote  (Discord / Whatsapp)                                                                                                                     |
+| **Prepared by** | Andrés Torres
+| **Attendees**                       | All members of EduSpace                                                                                        |
+| **Sprint 1 Review Summary**         | The development of our mobile application and the integration with the backend were succesful |
+| **Sprint 1 Retrospective Summary**  | We need to improve the integration of our services, add new features to the mobile application, and migrate our database from MySql to MongoDB |
+| **Sprint Goal & User Stories** |
+| **Sprint 2 Goal**  | Our focus is on complete all the features from our Android Native mobile application, such as add, edit and elete meetings, resources and teachers, also migrate our database to MongoDB. We believe it delivers the most value to our users by providing a seamless and efficient experience when managing educational spaces. This will be confirmed when users can fully utilize all the features of the mobile application with a reliable and scalable database backend. |
+| **Sprint 2 Velocity**  | 16 |
+| **Sum of Story points**  | 110 |
+
+
+#### 4.2.2.2. Sprint Backlog 2
+
+<table> <thead> <tr> <th># Order</th> <th>User Story ID</th> <th>Título</th> <th>Descripcion</th> <th>Story Points</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>US-08</td> <td>Registro de información personal del docente</td> <td>Como administrador, quiero registrar la información personal del docente, para tener una base de datos actualizada y poder gestionar al personal de manera eficiente.</td> <td>3</td> </tr> <tr> <td>2</td> <td>US-09</td> <td>Registro de información de acceso del docente</td> <td>Como administrador, quiero registrar la información de acceso del docente, para que puedan iniciar sesión en la plataforma web sin problemas.</td> <td>3</td> </tr> <tr> <td>3</td> <td>US-10</td> <td>Registro de salones</td> <td>Como administrador, quiero registrar los salones de la institución, para que puedan ser gestionados y asignados en la plataforma web de manera efectiva.</td> <td>8</td> </tr> <tr> <td>4</td> <td>US-11</td> <td>Registro de espacios compartidos</td> <td>Como administrador, quiero registrar los espacios compartidos, para que puedan ser gestionados y reservados en la plataforma mobile.</td> <td>8</td> </tr> <tr> <td>5</td> <td>US-12</td> <td>Registro de recursos</td> <td>Como administrador, quiero registrar los recursos de los ambientes, para mantener un inventario actualizado y optimizar la gestión de los recursos disponibles.</td> <td>5</td> </tr> <tr> <td>6</td> <td>US-13</td> <td>Registro de horarios de espacios compartidos</td> <td>Como administrador, quiero registrar los horarios en los que un espacio compartido está disponible, para gestionar su uso de manera eficiente y evitar conflictos.</td> <td>8</td> </tr> <tr> <td>7</td> <td>US-14</td> <td>Registro de la hora y lugar de la reunión</td> <td>Como administrador, quiero registrar la hora y lugar de la reunión, para asegurar que todos los participantes tengan la información correcta sobre la reunión.</td> <td>5</td> </tr> <tr> <td>8</td> <td>US-15</td> <td>Registro de invitados de la reunión</td> <td>Como administrador, quiero invitar a docentes a la reunión, para asegurarme de que los participantes necesarios estén presentes y puedan participar de manera efectiva.</td> <td>5</td> </tr> <tr> <td>9</td> <td>US-16</td> <td>Visualización de espacios compartidos</td> <td>Como docente, quiero visualizar los espacios disponibles para poder planificar actividades, reuniones o clases adicionales de manera eficiente.</td> <td>5</td> </tr> <tr> <td>10</td> <td>US-17</td> <td>Reserva de espacios compartidos</td> <td>Como docente, quiero reservar un espacio, para asegurar su disponibilidad y organizar actividades o reuniones de manera efectiva.</td> <td>8</td> </tr> <tr> <td>11</td> <td>US-18</td> <td>Cancelación de reserva de espacios compartidos</td> <td>Como docente, deseo cancelar la reserva que hice de un espacio, para liberar el espacio y permitir que otros lo utilicen.</td> <td>5</td> </tr> <tr> <td>12</td> <td>US-19</td> <td>Registrar docente encargado de un ambiente</td> <td>Como administrador, deseo registrar qué docente está encargado de cada ambiente, para asignar responsabilidades y mejorar la gestión de los espacios.</td> <td>5</td> </tr> <tr> <td>13</td> <td>US-27</td> <td>Registro de reporte de avería</td> <td>Como docente, deseo reportar una avería, para asegurar que sea informada y reparada a la brevedad.</td> <td>3</td> </tr> <tr> <td>14</td> <td>US-06</td> <td>Inicio de sesión como profesor</td> <td>Como profesor, quiero iniciar sesión en la aplicación, para acceder a las funcionalidades específicas para docentes.</td> <td>3</td> </tr> <tr> <td>15</td> <td>US-07</td> <td>Inicio de sesión administrador</td> <td>Como administrador, quiero iniciar sesión en la aplicación, para gestionar la administración de ambientes y recursos.</td> <td>3</td> </tr> <tr> <td>16</td> <td>US-05</td> <td>Registro como Administrador</td> <td>Como administrador, quiero registrarme en la aplicación mobile, para hacer uso de las características disponibles.</td> <td>3</td> </tr> <tr> <td>17</td> <td>US-28</td> <td>Actualizar docente encargado de un ambiente</td> <td>Como administrador, quiero actualizar qué docente está encargado de cada ambiente, para reflejar cambios en la asignación de responsabilidades.</td> <td>3</td> </tr> <tr> <td>18</td> <td>SP-01</td> <td>Evaluación de Seguridad y Acceso en MongoDB Atlas</td> <td>Como equipo de desarrollo, quiero evaluar los mecanismos de seguridad, autenticación y control de acceso en MongoDB Atlas, para garantizar que los datos institucionales de EduSpace estén protegidos ante accesos no autorizados.</td> <td></td> </tr> <tr> <td>19</td> <td>SP-02</td> <td>Evaluación de Migración de Datos SQL a MongoDB</td> <td>Como equipo de desarrollo, quiero evaluar la migración de datos estructurados (aulas, docentes, mantenimiento) desde una base SQL local a MongoDB Atlas, para analizar la compatibilidad de los esquemas y la integridad de la información.</td> <td>2</td> </tr> <tr> <td>20</td> <td>TS003</td> <td>Eliminar docente a través de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de eliminar un docente a través de una API RESTful, para gestionar correctamente la eliminación de registros de docentes según sea necesario.</td> <td>2</td> </tr> <tr> <td>21</td> <td>TS004</td> <td>Eliminar administrador de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de eliminar un administrador a través de una API RESTful, de manera que el sistema pueda gestionar correctamente la eliminación de registros de administradores según sea necesario.</td> <td>2</td> </tr> <tr> <td>22</td> <td>TS006</td> <td>Añadir información de acceso del docente a través de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de añadir la información de acceso del docente a través de un RESTful API PARA que este pueda hacer uso de las características de la aplicación Mobile.</td> <td>3D</td> </tr> <tr> <td>23</td> <td>TS009</td> <td>Añadir información de horarios de los espacios compartidos través de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de añadir la información de los horarios de los espacios compartidos a través de un RESTful API PARA que los usuarios puedan interactuar con su información.</td> <td>5</td> </tr> <tr> <td>24</td> <td>TS016</td> <td>Añadir información del encargado del aula a través de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de añadir al docente encargado del aula a través de un RESTful API PARA que los administradores puedan ver quien está a cargo de un aula específica.</td> <td>5</td> </tr> <tr> <td>25</td> <td>TS017</td> <td>Actualizar información del encargado del aula a través de un RESTful API</td> <td>Como desarrollador, quiero implementar la característica de actualizar al docente encargado del aula a través de un RESTful API PARA que los administradores puedan cambiar al docente encargado del aula ante cualquier eventualidad.</td> <td>3</td> </tr> <tr> <td>26</td> <td>TS024</td> <td>Eliminar reserva a un espacios compartido a través de un RESTful API</td> <td>Como desarrollador, quiero implementar la opción para eliminar una reserva a un espacio compartido a través de una API RESTful, PARA que los docentes puedan reservar el espacio que ya no se usará.</td> <td>2</td> </tr> </tbody> </table>
+
+
+#### 4.2.2.3. Development Evidence
+| Commit Id | Commit Message | Author | Committed on |
+|-----------|----------------|--------|--------------|
+| 3831218 | fix: refactor code for consistency and readability by removing unnecessary whitespace and adjusting property accessors | andrest04 | 2025-11-14 |
+| c74fbb1 | fix: cambiado MeetingParticipants a getter/setter y eliminado logging de debug | andrest04 and claude | 2025-11-14 |
+| 21a0b6f | feat: agregado soporte de persistencia para meeting participants | andrest04 and claude | 2025-11-14 |
+| bf481c3 | Merge branch 'develop' into feature/deployment | andrest04 | 2025-11-14 |
+| 28501c7 | added RemoveAsync in the TeacherProfileRepository.cs | vquijandria | 2025-11-13 |
+| a3774ca | feat: added UpdateInformation for the Profile Update | vquijandria | 2025-11-13 |
+| bf5452d | feat: added removeasync task | vquijandria | 2025-11-13 |
+| fb07226 | feat: added update and delete tasks in ITeacherProfileCommandService.cs | vquijandria | 2025-11-13 |
+| 17595bc | feat: added update and delete tasks | vquijandria | 2025-11-13 |
+| b319fb4 | feat: added update and delete controllers | vquijandria | 2025-11-13 |
+| a1ec4ee | feat: added DeleteTeacherProfileCommand.cs | vquijandria | 2025-11-13 |
+| 1994544 | feat: added UpdateTeacherProfileResource.cs | vquijandria | 2025-11-13 |
+| 53ea800 | feat: added UpdateTeacherProfileCommandFromResourceAssembler.cs | vquijandria | 2025-11-13 |
+| 970a139 | feat: added UpdateTeacherProfileCommand.cs | vquijandria | 2025-11-13 |
+| 4bc2048 | Feature/deployment | RenatoCY | 2025-11-09 |
+| 1a36b62 | fix: class room, class room command services, class room repository and profile contrext facade | RenatoCY | 2025-11-09 |
+| 4a34456 | fix: externals services | RenatoCY | 2025-11-09 |
+| 09623c2 | fix: fixed profile context facade,external profile and spaces and resources managemenet facade | RenatoCY | 2025-11-09 |
+| 9f4817d | fix: base repository and resource repository | RenatoCY | 2025-11-09 |
+| 28e902a | fix: repositories | RenatoCY | 2025-11-09 |
+| 447fca | fix:external profile service and extern class room service | RenatoCY | 2025-11-09 |
+| 83e012d | fix: resources aggregate and resources command services | RenatoCY | 2025-11-09 |
+| 08ad859 | fix: shared area command and managment facade | RenatoCY | 2025-11-09 |
+| e177863 | fix: resources controller | RenatoCY | 2025-11-09 |
+| 430747e | Merge pull request #11 from AplicacionesMovilesOrg/develop | andrest04 | 2025-11-14 |
+| dedb9e1 | feat(teachers): refresh teacher list after edit and delete operations | andrest04 | 2025-11-14 |
+| a93d3d8 | feat(teachers): implement edit and delete functionality for teachers | andrest04 | 2025-11-14 |
+| aaebcc3 | Merge pull request #10 from AplicacionesMovilesOrg/refactor/migrate-mysql-to-mongo | andrest04 | 2025-11-14 |
+| 2aef603 | refactor: clean up imports and remove unnecessary logging in MeetingsRepositoryImpl | andrest04 | 2025-11-14 |
+| 38c6ade | Merge pull request #9 from AplicacionesMovilesOrg/feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-14 |
+| 8c9be65 | feat(mobile-fixes-and-enhancements): update data models for teachers, classrooms, users, and shared areas | AntonioNavarro24 | 2025-11-14 |
+| 5365de7 | Merge pull request #8 from AplicacionesMovilesOrg/feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-13 |
+| c290d6e | Merge branch 'refactor/migrate-mysql-to-mongo' into feature/mobile-fixes-and-enhancements | AntonioNavarro24 | 2025-11-13 |
+| a60485b | feat(mobile-fixes-and-enhancements): enhance UI components and improve meeting creation logic | AntonioNavarro24 | 2025-11-13 |
+| e2a6578 | refactor: fixed an error | vquijandria | 2025-11-13 |
+| 087b697 | refactor: added a validation if the email of he session coincides with one in the db | vquijandria | 2025-11-13 |
+| d2960de | refactor: fixed welcome card not showing the full name of the user that logged on | vquijandria | 2025-11-13 |
+| 8f01279 | refactor: added sessionManager in the HomeViewModel | vquijandria | 2025-11-13 |
+| 7556cef | refactor: added username in the saveSession function | vquijandria | 2025-11-13 |
+| 70ab0b9 | refactor: added USERNAME_KEY for the username in the SessionManager.kt | vquijandria | 2025-11-13 |
+| 89424a3 | refactor: added username in User class | vquijandria | 2025-11-13 |
+| 1868965 | refactor: added displayName in UserHome class | vquijandria | 2025-11-13 |
+#### 4.2.2.4. Testing Suite Evidence
+
+A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
+
+| Repository                                                     | Branch | Commit Id                                | Commit Message                                                            | Commit Message Body | Committed on (Date) |
+| -------------------------------------------------------------- | ------ | ---------------------------------------- | ------------------------------------------------------------------------- | ------------------- | ------------------- |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 7fd6dbfb92155937fc7d53b990087e6b190e34e7 | feat: add Gherkin scenarios for administrator to want to register classrooms                       | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 734876f73305775e27a4e36b3b8b01feff5e59cf | feat: add Gherkin scenarios for administrator to want to register shared areas | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 15e495999d78cdcaabbb76815f60769f8730d61a | feat: add Gherkin scenarios for administrator to want to register schedules for shared areas   | -                   | 14/11/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | b422ba5594de3279a160729fe61893710c79f028 | feat: add Gherkin scenarios for administrator to want to register schedules for shared areas   | -                   | 14/11/2025          |
+
+Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
+
+
+#### 4.2.2.5. Execution Evidence
+
+Evidencia de ejecución del Landing Page:
+
+![Landing Page Deployed](../assets/chapter4/landing-page-deployment/landingPageMobile.png)
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+Evidencia de Ejecución Web Services:
+
+![Backend Deployed](../assets/chapter4/landing-page-deployment/backend.png)
+Enlace:[https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+
+Evidencia de Ejecución Aplicación Móvil:
+
+![Mobile App Deployed](../assets/chapter4/sprint2/execution_evidence/mobile_app_execution.jpg)
+Enlace: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
+
+#### 4.2.2.6. Services Documentation Evidence
+
+Durante el Sprint 2 se desarrolló y documentó completamente la API REST del sistema utilizando **OpenAPI/Swagger** como herramienta principal de especificación.  
+Como parte del alcance, se generó documentación interactiva para todos los servicios incluidos en este Sprint.
+
+A continuación se presenta la tabla consolidada de endpoints documentados, junto con las capturas que evidencian su funcionamiento.
+
+## 1. Authentication
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/authentication/sign-up` | Registra un usuario en el sistema | body: `{ email, password, firstName, lastName }` |
+| POST | `/api/v1/authentication/sign-in` | Inicia sesión y devuelve JWT | body: `{ email, password }` |
+
+---
+
+## 2. Classrooms
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| GET | `/api/v1/classrooms/{id}` | Obtiene un classroom por ID | path: id |
+| PUT | `/api/v1/classrooms/{id}` | Actualiza un classroom | path: id, body |
+| DELETE | `/api/v1/classrooms/{id}` | Elimina un classroom | path: id |
+| POST | `/api/v1/classrooms/teachers/{teacherId}` | Crea classroom asignado a docente | path: teacherId, body |
+| GET | `/api/v1/classrooms/teachers/{teacherId}` | Lista classrooms por docente | path: teacherId |
+| GET | `/api/v1/classrooms` | Lista todos los classrooms | — |
+
+---
+
+## 3. Meeting Participants
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/meetings/{meetingId}/teachers/{teacherId}` | Registra docente como participante de reunión | path: meetingId, teacherId |
+
+---
+
+## 4. Shared Areas
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| GET | `/api/v1/shared-area/{id}` | Obtiene un área compartida por ID | path: id |
+| PUT | `/api/v1/shared-area/{id}` | Actualiza área compartida | path: id, body |
+| DELETE | `/api/v1/shared-area/{id}` | Elimina un área compartida | path: id |
+| POST | `/api/v1/shared-area` | Crea un área compartida | body |
+| GET | `/api/v1/shared-area` | Lista todas las áreas compartidas | — |
+
+---
+
+## 5. Administrator Profiles
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/administrator-profiles` | Crea un perfil administrador | body |
+| GET | `/api/v1/administrator-profiles` | Lista perfiles admin | — |
+| GET | `/api/v1/administrator-profiles/{administratorId}` | Obtiene admin por ID | path |
+
+---
+
+## 6. Classroom Resources
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/classrooms/{classroomId}/resources` | Crea recurso en classroom | path: classroomId, body |
+| GET | `/api/v1/classrooms/{classroomId}/resources` | Lista recursos del aula | path: classroomId |
+| GET | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Recurso por ID | path |
+| PUT | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Actualiza recurso | path, body |
+| DELETE | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Elimina recurso | path |
+
+---
+
+## 7. Meetings
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/administrators/{administratorId}/classrooms/{classroomId}/meetings` | Crea una reunión | path, body |
+| GET | `/api/v1/meetings` | Lista todas las reuniones | — |
+| GET | `/api/v1/meetings/{id}` | Obtiene reunión por ID | path |
+| PUT | `/api/v1/meetings/{id}` | Actualiza reunión | path, body |
+| DELETE | `/api/v1/meetings/{id}` | Elimina reunión | path |
+
+---
+
+## 8. Reports
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/reports` | Crea un reporte | body |
+| GET | `/api/v1/reports` | Obtiene todos los reportes | — |
+| GET | `/api/v1/reports/resources/{resourceId}` | Filtra reportes por recurso | path |
+
+---
+
+## 9. Reservations
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/teachers/{teacherId}/areas/{areaId}/reservations` | Crea una reserva | path: teacherId, areaId, body |
+| GET | `/api/v1/reservations` | Lista reservas |
+| GET | `/api/v1/areas/{areaId}/reservations` | Lista por área | path |
+
+---
+
+## 10. Teachers Profiles
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/teachers-profiles` | Crea perfil docente | body |
+| GET | `/api/v1/teachers-profiles` | Lista perfiles | — |
+| GET | `/api/v1/teachers-profiles/{teacherId}` | Obtiene perfil por ID | path |
+| PUT | `/api/v1/teachers-profiles/{teacherId}` | Actualiza perfil | path, body |
+| DELETE | `/api/v1/teachers-profiles/{teacherId}` | Elimina perfil | path |
+
+Enlace del Swagger:[https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+Enlace del Repositorio: [https://goo.su/1GEkDF](https://goo.su/1GEkDF)
+
+#### 4.2.2.7. Software Deployment Evidence for Sprint Review
+
+**Landing page**
+
+La Landing Page fue desplegada correctamente mediante GitHub Pages, configurando en ramas "features" que luego fueron incorporadas a la rama main como fuente de publicación y verificando su disponibilidad pública a continuación.
+
+Evidencia del despliegue del Landing Page:
+
+![Evidecia_despliegue_landing](../assets/chapter4/landing-page-deployment/landing-page-deployment-4.png)
+
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+**Android mobile application**
+
+La aplicación móvil fue desplegada usando firebase, el cuál nos permite descargar la aplicación en un archivo .apk, de este modo los usuarios pueden instalar la aplicación en sus dispositivos Android.
+
+![Evidecia_despliegue_app_movil](../assets/chapter4/sprint2/software-deployment/mobile_app_deployment.jpg)
+
+Enlace de descarga de la aplicación móvil: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
+
+**Backend**
+
+El backend fue desplegado en Railway. Se migró la base de datos de MySQL a MongoDB Atlas, asegurando una mejor escalabilidad y rendimiento para la aplicación. Se verificó el correcto funcionamiento de las tablas principales y la conexión establecida entre el servicio y la base de datos.
+
+![Evidecia_despliegue_backend_railway](../assets/chapter4/sprint2/software-deployment/backend-railway.png)
+
+Enlace del backend desplegado en Railway: [https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+Repositorio del backend: [https://tinyurl.com/2p8f4f3m](https://tinyurl.com/2p8f4f3m)
+
+#### 4.2.2.8. Team Collaboration Insights
+Durante el Sprint II del proyecto Eduspace, el equipo se enfocó en el desarrollo de la landing page , Web Service y aplicación mobile .  Para ello, se utilizó
+Visual Studio Code , Rider como editor de código y Android Studio además se empleó Git como herramienta de control de versiones. El trabajo se organizó mediante tareas del backlog y se
+gestionó a través de un flujo de trabajo basado en ramas secundarias (feature/), lo que permitió un desarrollo paralelo eficiente.
+
+team collaboration en el backend:
+
+<img width="1256" height="631" alt="image" src="https://github.com/user-attachments/assets/0d358fe1-94a5-4341-8e1d-8ba4fc444c1d" />
+
+<img width="1034" height="774" alt="image" src="https://github.com/user-attachments/assets/9e55d812-3ba9-46be-b4d5-77a2a7427765" />
+
+team collaboration en el landing page: 
+
+<img width="1184" height="769" alt="image" src="https://github.com/user-attachments/assets/dce85507-9e3e-44a8-945f-309ade1b6615" />
+
+team collaboration en el mobile:
+
+<img width="1107" height="580" alt="image" src="https://github.com/user-attachments/assets/722efbfb-8d8b-46ce-8a8f-6ea7140525c9" />
+
+<img width="1115" height="473" alt="image" src="https://github.com/user-attachments/assets/af98593a-1da5-4f3f-9ec6-2ac25286ab11" />
+
+
 ### 4.3. Validation Interviews
 
 En la sección **“Validation Interviews”** de nuestro proyecto, nos concentramos en **refinar la plataforma EduSpace**, la cual está orientada a **mejorar la gestión integral de los espacios educativos** en instituciones con **infraestructuras amplias y complejas**. Esta etapa esencial del desarrollo se centra en **realizar entrevistas estructuradas y conversaciones interactivas** con nuestros principales usuarios: **administradores, docentes y auxiliares**.
@@ -616,9 +891,31 @@ Distrito: Lince
 
 Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto personal educativo. Encontró que la landing page era muy buena, le gusto mucho, y valoró especialmente el plan Basico y Medio para instituciones chicas y medianas.
 
+Entrevista 7:
+
+![ Entrevista 7](../assets/chapter4/validation-interviews/Entrevista_7.png)
+
+[ 0:00 - 6:50 ]
+
+Duración: 6 minutos 50 segundos
+
+Link de la entrevista: [https://tinyurl.com/2cbzaujv](https://goo.su/KH31izs)
+
+Nombre: Melina
+
+Apellidos: Guitierrez
+
+Edad: 39
+
+Distrito: Villa María del Triunfo
+
+Resumen: Melina, una administradora de institución educativa reliza el testeao de nuestra applicación mobile. Encuentra interes por nuestra aplicación mobile, le gustó mucho, y valoró muchos aspectos interesantes para la administración mejor su institución educativa.
+
 #### 4.3.3. Evaluaciones según heurísticas
 
-La evaluación heurística se centró en la **landing page de EduSpace Mobile**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.
+La evaluación heurística se centró en la **landing page de EduSpace Mobile** y **Mobile application**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.
+
+**Landing Page**
 
 | **Heurística de Nielsen**                                                  | **Descripción**                                                   | **Observaciones en la Landing Page (según entrevistas)**                                                                                  | **Recomendaciones de mejora**                                                                                 |
 | -------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -633,5 +930,14 @@ La evaluación heurística se centró en la **landing page de EduSpace Mobile**,
 | **9. Ayuda al usuario a reconocer, diagnosticar y recuperarse de errores** | Los mensajes de error deben ser claros y útiles.                  | No se observaron errores o mensajes emergentes, ya que se trata de una página informativa.                                                | Añadir mensajes amigables para redirecciones rotas o enlaces inactivos.                                       |
 | **10. Ayuda y documentación**                                              | Ofrecer soporte o información adicional.                          | Algunos usuarios sugirieron incluir **videos explicativos** sobre la aplicación.                                                          | Incorporar un video introductorio y enlaces hacia documentación o contacto para instituciones interesadas.    |
 
+**Mobile application**
+
+| **Heurística de Nielsen**                                                  | **Descripción**                                                   | **Observaciones en Mobile Application (según entrevistas)**                                                                                  | **Recomendaciones de mejora**                                                                                 |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **1. Diseño estético y minimalista**                                  | Presentar solo la información necesaria para evitar sobrecargar al usuario.        | Hay algunas pantallas donde siento que hay muchos elementos juntos. Me toma unos segundos entender qué debo presionar. | Simplificar la distribución visual, agrupar contenido por secciones y aumentar espaciados. Destacar el botón principal de cada pantalla para guiar la acción del usuario.               |
+| **2. Ayuda y documentación**                    | Brindar instrucciones claras y accesibles para orientar al usuario, especialmente en su primera interacción.        | Si alguien recién entra, no sabría exactamente cómo empezar. Faltaría una guía corta o pequeños textos explicativos.                                        | Agregar textos guía breves (“tooltip” o subtítulos introductorios), un onboarding simple o mensajes contextuales que indiquen qué hacer primero en cada módulo.                           |
+| **3. Control y libertad del usuario**                                      | Permitir que el usuario navegue libremente, regrese sin problemas y corrija acciones fácilmente.       | En algunos módulos sí veo cómo regresar, pero en otros tengo que regresar directamente a la barra de navegación.                                   | Agregar un botón de “Regresar” consistente en todas las pantallas internas y mantener una navegación uniforme entre módulos para evitar confusión.                                        |
+
 **Conclusión:**  
-La landing page de **EduSpace Mobile** fue bien valorada por los entrevistados, destacando su **claridad**, **organización de los planes** y **secciones de beneficios y testimonios**. Las principales oportunidades de mejora se relacionan con la **optimización de la interfaz visual (UI)** y la **incorporación de elementos multimedia** que hagan la experiencia más dinámica e informativa para los nuevos usuarios.
+
+La validación de la **landing page** y la **aplicación móvil** de *EduSpace* mostró una buena percepción general por parte de los usuarios, destacando la claridad de la información y la organización del contenido. Sin embargo, se identificaron mejoras clave: en la landing page se requiere optimizar la coherencia visual e incorporar elementos más dinámicos, mientras que en la aplicación móvil se detectó sobrecarga visual en algunas pantallas, falta de guías para nuevos usuarios y navegación inconsistente. En conjunto, estos ajustes permitirán mejorar la experiencia, haciéndola más clara, intuitiva y alineada con las heurísticas de Nielsen.

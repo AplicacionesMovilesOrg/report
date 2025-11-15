@@ -811,6 +811,26 @@ Distrito: Lince
 
 Resumen: Adrian es un auxiliar en un colegio. El gestiona recursos y cierto personal educativo. Encontró que la landing page era muy buena, le gusto mucho, y valoró especialmente el plan Basico y Medio para instituciones chicas y medianas.
 
+Entrevista 7:
+
+![ Entrevista 7](../assets/chapter4/validation-interviews/Entrevista_7.png)
+
+[ 0:00 - 6:50 ]
+
+Duración: 6 minutos 50 segundos
+
+Link de la entrevista: [https://tinyurl.com/2cbzaujv](https://goo.su/KH31izs)
+
+Nombre: Melina
+
+Apellidos: Guitierrez
+
+Edad: 39
+
+Distrito: Villa María del Triunfo
+
+Resumen: Melina, una administradora de institución educativa reliza el testeao de nuestra applicación mobile. Encuentra interes por nuestra aplicación mobile, le gustó mucho, y valoró muchos aspectos interesantes para la administración mejor su institución educativa.
+
 #### 4.3.3. Evaluaciones según heurísticas
 
 La evaluación heurística se centró en la **landing page de EduSpace Mobile**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.

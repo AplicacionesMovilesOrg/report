@@ -829,7 +829,7 @@ Edad: 39
 
 Distrito: Villa María del Triunfo
 
-Resumen: Melina, una administradora de institución educativa reliza el testeao de nuestra applicación mobile. Encuentra interes por nuestra aplicación mobile, le gustó mucho, y valoró muchos aspectos interesantes para la administración de su institución.
+Resumen: Melina, una administradora de institución educativa reliza el testeao de nuestra applicación mobile. Encuentra interes por nuestra aplicación mobile, le gustó mucho, y valoró muchos aspectos interesantes para la administración mejor su institución educativa.
 
 #### 4.3.3. Evaluaciones según heurísticas
 

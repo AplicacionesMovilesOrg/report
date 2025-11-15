@@ -941,3 +941,22 @@ La evaluación heurística se centró en la **landing page de EduSpace Mobile** 
 **Conclusión:**  
 
 La validación de la **landing page** y la **aplicación móvil** de *EduSpace* mostró una buena percepción general por parte de los usuarios, destacando la claridad de la información y la organización del contenido. Sin embargo, se identificaron mejoras clave: en la landing page se requiere optimizar la coherencia visual e incorporar elementos más dinámicos, mientras que en la aplicación móvil se detectó sobrecarga visual en algunas pantallas, falta de guías para nuevos usuarios y navegación inconsistente. En conjunto, estos ajustes permitirán mejorar la experiencia, haciéndola más clara, intuitiva y alineada con las heurísticas de Nielsen.
+
+
+Video about the product:
+
+![ Product Video](../assets/conclusiones/video-about-the-product.png)
+
+Link del video: https://youtu.be/RhQxC7CfcUU
+
+Video App validation: 
+
+![ App Validation Video](../assets/conclusiones/app-validation.png)
+
+Link del video: https://goo.su/VMWlBn
+
+Video about the team:
+
+![ Team Video](../assets/conclusiones/video-about-the-team.png)
+
+Link del video: https://goo.su/qoXD

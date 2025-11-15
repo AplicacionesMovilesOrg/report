@@ -498,6 +498,121 @@ Enlace: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
 
 #### 4.2.2.6. Services Documentation Evidence
 
+Durante el Sprint 2 se desarrolló y documentó completamente la API REST del sistema utilizando **OpenAPI/Swagger** como herramienta principal de especificación.  
+Como parte del alcance, se generó documentación interactiva para todos los servicios incluidos en este Sprint.
+
+A continuación se presenta la tabla consolidada de endpoints documentados, junto con las capturas que evidencian su funcionamiento.
+
+## 1. Authentication
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/authentication/sign-up` | Registra un usuario en el sistema | body: `{ email, password, firstName, lastName }` |
+| POST | `/api/v1/authentication/sign-in` | Inicia sesión y devuelve JWT | body: `{ email, password }` |
+
+---
+
+## 2. Classrooms
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| GET | `/api/v1/classrooms/{id}` | Obtiene un classroom por ID | path: id |
+| PUT | `/api/v1/classrooms/{id}` | Actualiza un classroom | path: id, body |
+| DELETE | `/api/v1/classrooms/{id}` | Elimina un classroom | path: id |
+| POST | `/api/v1/classrooms/teachers/{teacherId}` | Crea classroom asignado a docente | path: teacherId, body |
+| GET | `/api/v1/classrooms/teachers/{teacherId}` | Lista classrooms por docente | path: teacherId |
+| GET | `/api/v1/classrooms` | Lista todos los classrooms | — |
+
+---
+
+## 3. Meeting Participants
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/meetings/{meetingId}/teachers/{teacherId}` | Registra docente como participante de reunión | path: meetingId, teacherId |
+
+---
+
+## 4. Shared Areas
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| GET | `/api/v1/shared-area/{id}` | Obtiene un área compartida por ID | path: id |
+| PUT | `/api/v1/shared-area/{id}` | Actualiza área compartida | path: id, body |
+| DELETE | `/api/v1/shared-area/{id}` | Elimina un área compartida | path: id |
+| POST | `/api/v1/shared-area` | Crea un área compartida | body |
+| GET | `/api/v1/shared-area` | Lista todas las áreas compartidas | — |
+
+---
+
+## 5. Administrator Profiles
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/administrator-profiles` | Crea un perfil administrador | body |
+| GET | `/api/v1/administrator-profiles` | Lista perfiles admin | — |
+| GET | `/api/v1/administrator-profiles/{administratorId}` | Obtiene admin por ID | path |
+
+---
+
+## 6. Classroom Resources
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/classrooms/{classroomId}/resources` | Crea recurso en classroom | path: classroomId, body |
+| GET | `/api/v1/classrooms/{classroomId}/resources` | Lista recursos del aula | path: classroomId |
+| GET | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Recurso por ID | path |
+| PUT | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Actualiza recurso | path, body |
+| DELETE | `/api/v1/classrooms/{classroomId}/resources/{resourceId}` | Elimina recurso | path |
+
+---
+
+## 7. Meetings
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/administrators/{administratorId}/classrooms/{classroomId}/meetings` | Crea una reunión | path, body |
+| GET | `/api/v1/meetings` | Lista todas las reuniones | — |
+| GET | `/api/v1/meetings/{id}` | Obtiene reunión por ID | path |
+| PUT | `/api/v1/meetings/{id}` | Actualiza reunión | path, body |
+| DELETE | `/api/v1/meetings/{id}` | Elimina reunión | path |
+
+---
+
+## 8. Reports
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/reports` | Crea un reporte | body |
+| GET | `/api/v1/reports` | Obtiene todos los reportes | — |
+| GET | `/api/v1/reports/resources/{resourceId}` | Filtra reportes por recurso | path |
+
+---
+
+## 9. Reservations
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/teachers/{teacherId}/areas/{areaId}/reservations` | Crea una reserva | path: teacherId, areaId, body |
+| GET | `/api/v1/reservations` | Lista reservas |
+| GET | `/api/v1/areas/{areaId}/reservations` | Lista por área | path |
+
+---
+
+## 10. Teachers Profiles
+
+| Verbo | Endpoint | Descripción | Parámetros |
+|-------|----------|-------------|------------|
+| POST | `/api/v1/teachers-profiles` | Crea perfil docente | body |
+| GET | `/api/v1/teachers-profiles` | Lista perfiles | — |
+| GET | `/api/v1/teachers-profiles/{teacherId}` | Obtiene perfil por ID | path |
+| PUT | `/api/v1/teachers-profiles/{teacherId}` | Actualiza perfil | path, body |
+| DELETE | `/api/v1/teachers-profiles/{teacherId}` | Elimina perfil | path |
+
+Enlace del Swagger:[https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+Enlace del Repositorio: [https://goo.su/1GEkDF](https://goo.su/1GEkDF)
+
 #### 4.2.2.7. Software Deployment Evidence for Sprint Review
 
 **Landing page**

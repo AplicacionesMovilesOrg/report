@@ -725,13 +725,210 @@ team collaboration en el mobile:
 
 <img width="1115" height="473" alt="image" src="https://github.com/user-attachments/assets/af98593a-1da5-4f3f-9ec6-2ac25286ab11" />
 
+### 4.3. Sprint 3
 
-### 4.3. Validation Interviews
+#### 4.3.1. Sprint Planning 3
+
+Para este tercer sprint nos enfocamos en completar las tareas necesarias para el refinamiento final del producto. El trabajo se centró en:
+
+- Realizar **mejoras generales en el módulo del Administrador** dentro de la aplicación Android (Kotlin).
+- Implementar y finalizar las vistas dirigidas a docentes en **Flutter (Android e iOS)**, incluyendo las pantallas de *Home*, *Sidebar* y *Shared Space Reservation*.
+- Mejorar la coherencia visual y la experiencia de usuario en ambas aplicaciones móviles.
+
+Durante este sprint **no se realizaron cambios en el backend**, ya que este fue completado previamente. El enfoque estuvo exclusivamente en las aplicaciones móviles.
+
+| Sprint #                            | Sprint 3 |
+| ----------------------------------- | -------- |
+| **Sprint Planning Background Date** | 2025-11-25 |
+| **Time**                            | 10:00 PM |
+| **Location**                        | Remote (Discord / Whatsapp) |
+| **Prepared by**                     | Vicente Quijandria |
+| **Attendees**                       | All members of EduSpace |
+| **Sprint 2 Review Summary**         | Backend and mobile integration completed; Android-native features stabilized. |
+| **Sprint 2 Retrospective Summary**  | The team identified the need to refine the Administrator module and complete teacher functionalities across Kotlin and Flutter. |
+| **Sprint 3 Goal**                   | Finalize improvements to the Administrator module in Android and complete the new teacher views in Flutter across Android/iOS. |
+| **Sprint 3 Velocity**               | 28 |
+| **Sum of Story Points**             | 28 |
+
+
+#### 4.3.2. Sprint Backlog 3
+
+<table>
+  <thead>
+    <tr>
+      <th># Order</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>US-29</td>
+      <td>Mejoras en el módulo del Administrador (Android)</td>
+      <td>Como administrador, quiero que mi módulo ofrezca una experiencia clara y consistente dentro de la aplicación móvil.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>US-30</td>
+      <td>Coherencia visual general</td>
+      <td>Como usuario, deseo que la aplicación mantenga una presentación visual uniforme y profesional.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>US-31</td>
+      <td>Unificación de estilos entre Kotlin y Flutter</td>
+      <td>Como equipo, queremos que ambas aplicaciones compartan una identidad visual coherente.</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>US-32</td>
+      <td>Vista Home para docentes (Flutter)</td>
+      <td>Como docente, quiero visualizar mi pantalla de inicio con mis funciones principales.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>US-33</td>
+      <td>Sidebar para docentes (Flutter)</td>
+      <td>Como docente, quiero acceder fácilmente a las secciones mediante un menú lateral.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>US-34</td>
+      <td>Reserva de espacios compartidos (Flutter)</td>
+      <td>Como docente, quiero poder visualizar y reservar espacios desde la app.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>US-35</td>
+      <td>Integración visual en ambas apps</td>
+      <td>Como equipo, queremos que Android (Kotlin) y Flutter tengan consistencia visual.</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+
+#### 4.3.3. Development Evidence
+
+A continuación se presentan los commits registrados durante el Sprint 3, organizados por plataforma.
+
+---
+
+### **A. Módulo del Administrador (Android Kotlin)**
+*(No se registraron commits específicos asociados al Administrador, pero se realizaron mejoras generales al módulo dentro de la aplicación Android.)*
+
+---
+
+### **B. Android App (Kotlin)**  
+*(Commits de Andrés Torres – capturas proporcionadas)*
+
+| Commit Id | Commit Message | Author | Committed on |
+|-----------|----------------|--------|--------------|
+| d6785ee | feat(teachers): add TeacherDetailRoute with UI for displaying and editing teacher information | andrest04 | 2025-11-27 |
+| 276326b | feat: integrate custom top app bar with drawer functionality across multiple screens | andrest04 | 2025-11-27 |
+| b994ba3 | feat: enable Gradle configuration cache for improved build performance | andrest04 | 2025-11-27 |
+| 52fbfef | feat: add width modifier to layout in DrawerContent | andrest04 | 2025-11-27 |
+| 14193d4 | feat: implement professional theme system and improve overall UX/UI | andrest04 | 2025-11-27 |
+| 6c738c7 | Merge pull request #12 from AplicacionesMovilesOrg/develop | andrest04 | 2025-12-05 |
+
+---
+
+### **C. Flutter App (Android + iOS)**
+
+| Commit Id | Commit Message | Author | Committed on |
+|-----------|----------------|--------|--------------|
+| bba0e0a | feat: implemented sidebar | vquijandria | 2025-12-03 |
+| b04585e | refactor: changed title appbar in main.dart | vquijandria | 2025-12-03 |
+| a6821ab | feat(sharedSpace): add reservation | RenatoCY | 2025-12-03 |
+| 09f45e7 | feat: add ymal | RenatoCY | 2025-12-03 |
+| 17f6bc6 | feat: implement authentication flow with secure storage and state management | andrest04 | 2025-12-03 |
+| 1e51187 | feat: implement shared area | RenatoCY | 2025-12-03 |
+| 8d2edf5 | refactor: changed sidebar sections to: Home, reservations and breakdown... | vquijandria | 2025-12-03 |
+| d4c150e | merge: resolve conflicts from feature/sharedSpace | andrest04 | 2025-12-05 |
+| 41cb8fb | feat: add custom app icons and assets | andrest04 | 2025-12-05 |
+| 7181a01 | refactor: eliminated translate buttons | vquijandria | 2025-12-05 |
+| 3a9234a | feat: update pubspec.lock with new package versions | andrest04 | 2025-12-05 |
+| f8319e5 | merge: integrate sidebar with authentication system | andrest04 | 2025-12-05 |
+| 6d76fa9 | feat: integrate sidebar with authentication system | andrest04 | 2025-12-05 |
+| d843e90 | feat: refactor SharedAreaService to include token authentication | andrest04 | 2025-12-05 |
+| e3a7468 | refactor: streamline icon and text style definitions in ClassroomCard | andrest04 | 2025-12-05 |
+
+---
+
+#### 4.3.4. Testing Suite Evidence
+
+Durante este sprint no se añadieron pruebas automatizadas, ya que no se trabajó con backend ni servicios.
+
+Las pruebas fueron **exploratorias manuales**, validando:
+
+| Funcionalidad | Tipo de prueba | Resultado |
+|---------------|----------------|----------|
+| Vista Home en Flutter | Manual | ✔️ |
+| Sidebar en Flutter | Manual | ✔️ |
+| Flujo de reserva en Flutter | Manual | ✔️ |
+| Navegación en Android Kotlin | Manual | ✔️ |
+| Mejoras del módulo del Administrador (Android) | Manual | ✔️ |
+| Consistencia visual entre apps | Manual | ✔️ |
+
+
+#### 4.3.5. Execution Evidence
+
+**Aplicación Flutter (Android/iOS)**
+
+![Teacher Home Flutter](../assets/chapter4/sprint3/execution_evidence/teacher_home_flutter.png)
+
+![Teacher Sidebar Flutter](../assets/chapter4/sprint3/execution_evidence/teacher_sidebar_flutter.png)
+
+![Shared Space Reservation Flutter](../assets/chapter4/sprint3/execution_evidence/shared_space_reservation_flutter.png)
+
+**Aplicación Android (Kotlin)**
+
+![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/android_kotlin_updates.png)
+
+**Módulo del Administrador (Android)**
+
+![Admin View Android](../assets/chapter4/sprint3/execution_evidence/admin_view_android.png)
+
+
+#### 4.3.6. Services Documentation Evidence
+
+Durante el Sprint 3 no se realizaron cambios en los servicios ni en la API del sistema.  
+Se mantiene la documentación generada en el Sprint 2.
+
+
+#### 4.3.7. Software Deployment Evidence for Sprint Review
+
+**Aplicación Flutter (Android/iOS):**  
+Se generó un nuevo build (.apk / .ipa) para pruebas internas.
+
+**Aplicación Android Kotlin:**  
+La aplicación fue compilada correctamente con las mejoras del sprint.
+
+**Administrador (Android):**  
+El módulo fue actualizado dentro de la misma aplicación Android.
+
+
+#### 4.3.8. Team Collaboration Insights
+
+Durante este sprint, el equipo trabajó de forma coordinada en las dos aplicaciones móviles del proyecto (Kotlin y Flutter).  
+La colaboración se manejó mediante ramas `feature/` y merges constantes hacia `develop`, permitiendo mantener un flujo ordenado y sincronizado entre plataformas.
+
+
+### 4.4 Validation Interviews
 
 En la sección **“Validation Interviews”** de nuestro proyecto, nos concentramos en **refinar la plataforma EduSpace**, la cual está orientada a **mejorar la gestión integral de los espacios educativos** en instituciones con **infraestructuras amplias y complejas**. Esta etapa esencial del desarrollo se centra en **realizar entrevistas estructuradas y conversaciones interactivas** con nuestros principales usuarios: **administradores, docentes y auxiliares**.
 El propósito de estas entrevistas es **recoger sus percepciones, necesidades y recomendaciones**, garantizando que EduSpace **no solo cumpla con los requerimientos técnicos**, sino que también **se adapte a las dinámicas operativas y expectativas específicas** de cada tipo de usuario.
 
-#### 4.3.1. Diseño de Entrevistas
+#### 4.4.1. Diseño de Entrevistas
 
 En esta sección se establece por cada segmento objetivo los elementos a incluir en la sesión de validación, incluyendo el Landing Page y las aplicaciones. Además se especifica cuáles serán los user flows de las aplicaciones, que formarán parte del proceso de validación.
 
@@ -765,7 +962,7 @@ Elementos a incluir:
 
 - Visualización de planes y precios de la plataforma
 
-#### 4.3.2. Registro de Entrevistas
+#### 4.4.2. Registro de Entrevistas
 
 **Segmento 1: Administradores de instituciones educativas**
 
@@ -911,7 +1108,7 @@ Distrito: Villa María del Triunfo
 
 Resumen: Melina, una administradora de institución educativa reliza el testeao de nuestra applicación mobile. Encuentra interes por nuestra aplicación mobile, le gustó mucho, y valoró muchos aspectos interesantes para la administración mejor su institución educativa.
 
-#### 4.3.3. Evaluaciones según heurísticas
+#### 4.4.3. Evaluaciones según heurísticas
 
 La evaluación heurística se centró en la **landing page de EduSpace Mobile** y **Mobile application**, considerando los comentarios recopilados durante las entrevistas con usuarios. El objetivo fue identificar fortalezas y oportunidades de mejora en la experiencia de navegación inicial, aplicando las **10 heurísticas de usabilidad de Jakob Nielsen**.
 

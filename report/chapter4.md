@@ -861,18 +861,15 @@ A continuación se presentan los commits registrados durante el Sprint 3, organi
 
 #### 4.3.4. Testing Suite Evidence
 
-Durante este sprint no se añadieron pruebas automatizadas, ya que no se trabajó con backend ni servicios.
+A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
 
-Las pruebas fueron **exploratorias manuales**, validando:
+| Repository                                                     | Branch | Commit Id                                | Commit Message                                                            | Commit Message Body | Committed on (Date) |
+| -------------------------------------------------------------- | ------ | ---------------------------------------- | ------------------------------------------------------------------------- | ------------------- | ------------------- |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 33dab6941de36cafef16c2ecee4e60325368f61b | feat: add Gherkin scenarios for teacher home view                       | -                   | 05/12/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | ef174e1553fc116a54f380dc1850bf36174db488 | feat: add Gherkin scenarios for teacher shared space reservation | -                   | 05/12/2025          |
+| AplicacionesMovilesOrg/AplicacionesMovilesOrg-acceptance-tests | main   | 862288587f4ef28a0ea66666bf186d0633788db2 | feat: add Gherkin scenarios for cross-platform visual integration   | -                   | 05/12/2025          |
 
-| Funcionalidad | Tipo de prueba | Resultado |
-|---------------|----------------|----------|
-| Vista Home en Flutter | Manual | ✔️ |
-| Sidebar en Flutter | Manual | ✔️ |
-| Flujo de reserva en Flutter | Manual | ✔️ |
-| Navegación en Android Kotlin | Manual | ✔️ |
-| Mejoras del módulo del Administrador (Android) | Manual | ✔️ |
-| Consistencia visual entre apps | Manual | ✔️ |
+Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 
 
 #### 4.3.5. Execution Evidence

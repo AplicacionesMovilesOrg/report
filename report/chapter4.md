@@ -746,7 +746,7 @@ Durante este sprint **no se realizaron cambios en el backend**, ya que este fue 
 | **Attendees**                       | All members of EduSpace |
 | **Sprint 2 Review Summary**         | Backend and mobile integration completed; Android-native features stabilized. |
 | **Sprint 2 Retrospective Summary**  | The team identified the need to refine the Administrator module and complete teacher functionalities across Kotlin and Flutter. |
-| **Sprint 3 Goal**                   | Finalize improvements to the Administrator module in Android and complete the new teacher views in Flutter across Android/iOS. |
+| **Sprint 3 Goal**                   | Finalize improvements to the Administrator module in Android and complete the new teacher views in Flutter across Android/iOS. Our focus is on developing the flutter app functionalities for teachers and enhancing the overall user experience in both mobile applications. We believe this delivers a more polished product for our users and a better experience. This will be confirmed when we complete the sprint review and receive feedback from stakeholders. |
 | **Sprint 3 Velocity**               | 28 |
 | **Sum of Story Points**             | 28 |
 
@@ -823,12 +823,7 @@ A continuación se presentan los commits registrados durante el Sprint 3, organi
 
 ---
 
-### **A. Módulo del Administrador (Android Kotlin)**
-*(No se registraron commits específicos asociados al Administrador, pero se realizaron mejoras generales al módulo dentro de la aplicación Android.)*
-
----
-
-### **B. Android App (Kotlin)**  
+### **A. Android App (Kotlin)**  
 *(Commits de Andrés Torres – capturas proporcionadas)*
 
 | Commit Id | Commit Message | Author | Committed on |
@@ -842,7 +837,7 @@ A continuación se presentan los commits registrados durante el Sprint 3, organi
 
 ---
 
-### **C. Flutter App (Android + iOS)**
+### **B. Flutter App (Android + iOS)**
 
 | Commit Id | Commit Message | Author | Committed on |
 |-----------|----------------|--------|--------------|
@@ -910,11 +905,33 @@ Se mantiene la documentación generada en el Sprint 2.
 **Aplicación Flutter (Android/iOS):**  
 Se generó un nuevo build (.apk / .ipa) para pruebas internas.
 
-**Aplicación Android Kotlin:**  
-La aplicación fue compilada correctamente con las mejoras del sprint.
+**Landing page**
 
-**Administrador (Android):**  
-El módulo fue actualizado dentro de la misma aplicación Android.
+La Landing Page fue desplegada correctamente mediante GitHub Pages, configurando en ramas "features" que luego fueron incorporadas a la rama main como fuente de publicación y verificando su disponibilidad pública a continuación.
+
+Evidencia del despliegue del Landing Page:
+
+![Evidecia_despliegue_landing](../assets/chapter4/landing-page-deployment/landing-page-deployment-4.png)
+
+Enlace: [https://tinyurl.com/bdftnb7v](https://tinyurl.com/bdftnb7v)
+
+**Android mobile application**
+
+La aplicación móvil fue desplegada usando firebase, el cuál nos permite descargar la aplicación en un archivo .apk, de este modo los usuarios pueden instalar la aplicación en sus dispositivos Android.
+
+![Evidecia_despliegue_app_movil](../assets/chapter4/sprint2/software-deployment/mobile_app_deployment.jpg)
+
+Enlace de descarga de la aplicación móvil: [https://tinyurl.com/3yb63dzw](https://tinyurl.com/3yb63dzw)
+
+**Backend**
+
+El backend fue desplegado en Railway. Se migró la base de datos de MySQL a MongoDB Atlas, asegurando una mejor escalabilidad y rendimiento para la aplicación. Se verificó el correcto funcionamiento de las tablas principales y la conexión establecida entre el servicio y la base de datos.
+
+![Evidecia_despliegue_backend_railway](../assets/chapter4/sprint2/software-deployment/backend-railway.png)
+
+Enlace del backend desplegado en Railway: [https://tinyurl.com/565amdea](https://tinyurl.com/565amdea)
+
+Repositorio del backend: [https://tinyurl.com/2p8f4f3m](https://tinyurl.com/2p8f4f3m)
 
 
 #### 4.3.8. Team Collaboration Insights

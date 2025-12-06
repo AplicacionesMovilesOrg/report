@@ -938,6 +938,12 @@ Repositorio del backend: [https://tinyurl.com/2p8f4f3m](https://tinyurl.com/2p8f
 Durante este sprint, el equipo trabajó de forma coordinada en las dos aplicaciones móviles del proyecto (Kotlin y Flutter).  
 La colaboración se manejó mediante ramas `feature/` y merges constantes hacia `develop`, permitiendo mantener un flujo ordenado y sincronizado entre plataformas.
 
+Backend (mejora de lógica):
+![insights_backend](../assets/chapter4/sprint3/insightback.png)
+
+Multiplataforma - Kotlin (Android) y Flutter (Android e iOS):
+
+![insights_flutter](../assets/chapter4/sprint3/insights3.png)
 
 ### 4.4 Validation Interviews
 
@@ -1108,7 +1114,7 @@ Entrevista 7:
 
 ![ Entrevista 7](../assets/chapter4/validation-interviews/Entrevista_7.png)
 
-[ 0:00 - 6:50 ]
+[ 20:57 - 27:47 ]
 
 Duración: 6 minutos 50 segundos
 

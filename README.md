@@ -82,12 +82,12 @@ En esta primera fase, el equipo avanzó en la creación del sitio web, el backen
 <strong>TB2 – Desarrollo Intermedio del Proyecto (Sprint 2)</strong><br>
 Durante esta etapa, el equipo se centró en la implementación de nuevas funcionalidades y mejoras tanto en el backend como en la aplicación móvil. Se realizaron ajustes en la arquitectura del backend para optimizar el rendimiento y se añadieron características clave a la aplicación móvil para mejorar la experiencia del usuario. Además, se continuó actualizando el informe técnico del proyecto para reflejar los avances realizados.
 
-![insights-tb2](./assets/chapter1/insight-tb2.png)
+![insights-tb2](./assets/chapter4/sprint3/insights-tb2.png)
 
 <strong>TF – Desarrollo Final del Proyecto (Sprint 3)</strong><br>
 En la fase final del proyecto, el equipo se enfocó en consolidar todas las funcionalidades implementadas en el backend y la aplicación móvil. Se realizaron pruebas exhaustivas para garantizar la estabilidad y el rendimiento de ambas plataformas. Además, se llevaron a cabo ajustes finales en la interfaz de usuario para mejorar la usabilidad y se completó la documentación técnica del proyecto.
 
-![insights-tf](./assets/chapter1/insight-tf.png)
+![insights-tf](./assets/chapter4/sprint3/insight-tf.png)
 
 
 # **Student Outcome**

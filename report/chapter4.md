@@ -877,16 +877,23 @@ Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 **Aplicación Flutter (Android/iOS)**
 
 ![Teacher Home Flutter](../assets/chapter4/sprint3/execution_evidence/teacher_home_flutter.png)
+<br>
 
 ![Teacher reports Flutter](../assets/chapter4/sprint3/execution_evidence/reports_flutter.png)
+<br>
 
 ![Shared Space Reservation Flutter](../assets/chapter4/sprint3/execution_evidence/reservations_flutter.png)
+<br>
+
 
 **Aplicación Android (Kotlin)**
 
 ![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/home_admin.png)
+<br>
 
 ![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/shared_spaces_admin.png)
+<br>
+
 
 #### 4.2.3.6. Services Documentation Evidence
 

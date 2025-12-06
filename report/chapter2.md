@@ -3901,13 +3901,13 @@ A continuación, se presenta y detalla la clase identificada en esta capa:
 
 #### 2.6.4.5 Bounded Context Software Architecture Component Level Diagrams
 
-![](../assets/chapter2/c4-models/component-diagram-breakdown.png)
+<img src="../assets/chapter2/c4-models/component-diagram-breakdown.png" alt="component diagram breakdown management" width="200"/>
 
 #### 2.6.4.6. Bounded Context Software Architecture Code Level Diagrams
 
 ##### 2.6.4.6.1. Bounded Context Domain Layer Class Diagrams
 
-![](../assets/chapter2/class-diagram/class-diagram-breakdown-management.png)
+![breakdown amnagement](../assets/chapter2/class-diagram/class-diagram-breakdown-management.png)
 
 ##### 2.6.4.6.2. Bounded Context Database Design Diagram
 

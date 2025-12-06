@@ -32,15 +32,8 @@ Diciembre 2025
 
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div style="page-break-after: always;"></div>
+
 
 # **Registro de Versiones del Informe**
 

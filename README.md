@@ -85,7 +85,7 @@ Durante esta etapa, el equipo se centró en la implementación de nuevas funcion
 <strong>TF – Desarrollo Final del Proyecto (Sprint 3)</strong><br>
 En la fase final del proyecto, el equipo se enfocó en consolidar todas las funcionalidades implementadas en el backend y la aplicación móvil. Se realizaron pruebas exhaustivas para garantizar la estabilidad y el rendimiento de ambas plataformas. Además, se llevaron a cabo ajustes finales en la interfaz de usuario para mejorar la usabilidad y se completó la documentación técnica del proyecto.
 
-![insights-tf](./assets/chapter4/sprint3/insight-tf.png)
+![insights-tf](./assets/chapter4/sprint3/insightstf.png)
 
 
 # **Student Outcome**

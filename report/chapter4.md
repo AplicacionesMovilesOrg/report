@@ -746,7 +746,7 @@ Durante este sprint **no se realizaron cambios en el backend**, ya que este fue 
 | **Attendees**                       | All members of EduSpace |
 | **Sprint 2 Review Summary**         | Backend and mobile integration completed; Android-native features stabilized. |
 | **Sprint 2 Retrospective Summary**  | The team identified the need to refine the Administrator module and complete teacher functionalities across Kotlin and Flutter. |
-| **Sprint 3 Goal**                   | Finalize improvements to the Administrator module in Android and complete the new teacher views in Flutter across Android/iOS. Our focus is on developing the flutter app functionalities for teachers and enhancing the overall user experience in both mobile applications. We believe this delivers a more polished product for our users and a better experience. This will be confirmed when we complete the sprint review and receive feedback from stakeholders. |
+| **Sprint 3 Goal**                   | Our focus is on developing the flutter app functionalities for teachers and enhancing the overall user experience in both mobile applications. We believe this delivers a more polished product for our users and a better experience. This will be confirmed when we complete the sprint review and receive feedback from stakeholders. |
 | **Sprint 3 Velocity**               | 28 |
 | **Sum of Story Points**             | 28 |
 
@@ -878,18 +878,15 @@ Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 
 ![Teacher Home Flutter](../assets/chapter4/sprint3/execution_evidence/teacher_home_flutter.png)
 
-![Teacher Sidebar Flutter](../assets/chapter4/sprint3/execution_evidence/teacher_sidebar_flutter.png)
+![Teacher reports Flutter](../assets/chapter4/sprint3/execution_evidence/reports_flutter.png)
 
-![Shared Space Reservation Flutter](../assets/chapter4/sprint3/execution_evidence/shared_space_reservation_flutter.png)
+![Shared Space Reservation Flutter](../assets/chapter4/sprint3/execution_evidence/reservations_flutter.png)
 
 **Aplicación Android (Kotlin)**
 
-![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/android_kotlin_updates.png)
+![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/home_admin.png)
 
-**Módulo del Administrador (Android)**
-
-![Admin View Android](../assets/chapter4/sprint3/execution_evidence/admin_view_android.png)
-
+![Android Kotlin Updated](../assets/chapter4/sprint3/execution_evidence/shared_spaces_admin.png)
 
 #### 4.2.3.6. Services Documentation Evidence
 
@@ -900,7 +897,12 @@ Se mantiene la documentación generada en el Sprint 2.
 #### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 **Aplicación Flutter (Android/iOS):**  
-Se generó un nuevo build (.apk / .ipa) para pruebas internas.
+
+La aplicación Flutter fue desplegada en Firebase App Distribution. Esto permite a los usuarios descargar la aplicación en sus dispositivos Android e iOS para pruebas y uso.
+
+![Evidecia_despliegue_app_flutter](../assets/chapter4/sprint3/software-deployment/deploy_flutter.png)
+
+Enlace: [https://tinyurl.com/4n388s6m](https://tinyurl.com/4n388s6m)
 
 **Landing page**
 

@@ -725,9 +725,9 @@ team collaboration en el mobile:
 
 <img width="1115" height="473" alt="image" src="https://github.com/user-attachments/assets/af98593a-1da5-4f3f-9ec6-2ac25286ab11" />
 
-### 4.3. Sprint 3
+### 4.2.3. Sprint 3
 
-#### 4.3.1. Sprint Planning 3
+#### 4.2.3.1. Sprint Planning 3
 
 Para este tercer sprint nos enfocamos en completar las tareas necesarias para el refinamiento final del producto. El trabajo se centró en:
 
@@ -751,7 +751,7 @@ Durante este sprint **no se realizaron cambios en el backend**, ya que este fue 
 | **Sum of Story Points**             | 28 |
 
 
-#### 4.3.2. Sprint Backlog 3
+#### 4.2.3.2. Sprint Backlog 3
 
 <table>
   <thead>
@@ -817,7 +817,7 @@ Durante este sprint **no se realizaron cambios en el backend**, ya que este fue 
 </table>
 
 
-#### 4.3.3. Development Evidence
+#### 4.2.3.3. Development Evidence
 
 A continuación se presentan los commits registrados durante el Sprint 3, organizados por plataforma.
 
@@ -859,7 +859,7 @@ A continuación se presentan los commits registrados durante el Sprint 3, organi
 
 ---
 
-#### 4.3.4. Testing Suite Evidence
+#### 4.2.3.4. Testing Suite Evidence
 
 A continuación, se presenta una tabla con información del repositorio de las pruebas, y los commits realizados durante el sprint:
 
@@ -872,7 +872,7 @@ A continuación, se presenta una tabla con información del repositorio de las p
 Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 
 
-#### 4.3.5. Execution Evidence
+#### 4.2.3.5. Execution Evidence
 
 **Aplicación Flutter (Android/iOS)**
 
@@ -891,13 +891,13 @@ Enlace del github: [Github Repository](https://tinyurl.com/2dzts67c)
 ![Admin View Android](../assets/chapter4/sprint3/execution_evidence/admin_view_android.png)
 
 
-#### 4.3.6. Services Documentation Evidence
+#### 4.2.3.6. Services Documentation Evidence
 
 Durante el Sprint 3 no se realizaron cambios en los servicios ni en la API del sistema.  
 Se mantiene la documentación generada en el Sprint 2.
 
 
-#### 4.3.7. Software Deployment Evidence for Sprint Review
+#### 4.2.3.7. Software Deployment Evidence for Sprint Review
 
 **Aplicación Flutter (Android/iOS):**  
 Se generó un nuevo build (.apk / .ipa) para pruebas internas.
@@ -931,7 +931,7 @@ Enlace del backend desplegado en Railway: [https://tinyurl.com/565amdea](https:/
 Repositorio del backend: [https://tinyurl.com/2p8f4f3m](https://tinyurl.com/2p8f4f3m)
 
 
-#### 4.3.8. Team Collaboration Insights
+#### 4.2.3.8. Team Collaboration Insights
 
 Durante este sprint, el equipo trabajó de forma coordinada en las dos aplicaciones móviles del proyecto (Kotlin y Flutter).  
 La colaboración se manejó mediante ramas `feature/` y merges constantes hacia `develop`, permitiendo mantener un flujo ordenado y sincronizado entre plataformas.

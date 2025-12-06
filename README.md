@@ -30,7 +30,7 @@ Producto: Eduspace
 | Renato Guillermo Calvo Yalan | U202217053 |
 | Antonio Jhair Navarro Chinga | U202314101 |
 
-Septiembre 2025
+Diciembre 2025
 
 </div>
 

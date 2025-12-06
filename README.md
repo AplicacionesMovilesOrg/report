@@ -1,34 +1,32 @@
 <p align="center">
-  <img src="./assets/logo-upc.png" alt="Logo de UPC" width="25%">
+  <img src="../assets/logo-upc.png" alt="Logo de UPC" width="25%">
 </p>
 
 <div align="center">
 
 # Universidad Peruana de Ciencias Aplicadas
 
-## Carrera de Ingeniería de Software
+## Ingeniería de Software
 
-Ciclo: 2025 - 02
+Perido: 202520
 
-Curso: Aplicaciones para Dispositivos Móviles
+1ACC0238 | Aplicaciones para Dispositivos Móviles
 
 NRC: 12617
 
-Profesor: Mayta Guillermo, Jorge Luis
+Docente: Mayta Guillermo, Jorge Luis
 
-“Informe de TP”
+“Informe de Trabajo Final”
 
 Startup: Eduspace
 
 Producto: Eduspace
 
-| Integrantes                  | Código     |
-| ---------------------------- | ---------- |
-| Andrés Alberto Torres García | U202220528 |
-| Dayro Richard Rios Piñan     | U202315283 |
-| Vicente Quijandria Araneda   | U201822697 |
-| Renato Guillermo Calvo Yalan | U202217053 |
-| Antonio Jhair Navarro Chinga | U202314101 |
+U202217053 - Calvo Yalan, Renato Guillermo
+U202314101 - Navarro Chinga, Antonio Jhair
+U202315283 - Rios Piñan, Dayro Richard  
+U201822697 - Quijandria Araneda, Vicente  
+U202220528 - Torres García, Andrés Alberto
 
 Diciembre 2025
 
